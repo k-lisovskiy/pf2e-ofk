@@ -14,6 +14,7 @@ targets: "1 creature"
 area: ""
 defense: "basic will"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

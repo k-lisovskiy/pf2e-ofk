@@ -14,6 +14,7 @@ targets: "a handful of dirt or mud"
 area: ""
 defense: ""
 duration: "10 minutes"
+cost: ""
 publication: "Pathfinder Secrets of Magic"
 ---
 

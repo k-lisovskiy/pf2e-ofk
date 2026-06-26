@@ -14,6 +14,7 @@ targets: "1 creature or object"
 area: ""
 defense: ""
 duration: "unlimited"
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

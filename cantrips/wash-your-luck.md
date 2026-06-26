@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: ""
 duration: "1 minute"
+cost: ""
 publication: "Pathfinder Secrets of Magic"
 ---
 

@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

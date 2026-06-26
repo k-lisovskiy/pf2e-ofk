@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: "basic reflex"
 duration: "until the start of your next turn"
+cost: ""
 publication: "Pathfinder Rage of Elements"
 ---
 

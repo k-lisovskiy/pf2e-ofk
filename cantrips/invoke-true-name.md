@@ -14,6 +14,7 @@ targets: "1 creature whose true name you know"
 area: ""
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Secrets of Magic"
 ---
 

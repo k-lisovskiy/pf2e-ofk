@@ -1,13 +1,13 @@
 ---
 type: Index
 title: "PF2e Cantrips"
-description: "Index of all 69 Pathfinder 2e cantrips in this bundle."
+description: "All 69 Pathfinder 2e cantrips."
 timestamp: 2026-06-26T00:00:00Z
 ---
 
-# Cantrips
+# PF2e Cantrips
 
-69 cantrips, sorted alphabetically.
+All 69 Pathfinder 2e cantrips.
 
 - [Acid Splash](/cantrips/acid-splash.md)
 - [Ancient Dust](/cantrips/ancient-dust.md)

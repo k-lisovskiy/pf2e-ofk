@@ -17,22 +17,35 @@ log.md              # change history (OKF reserved)
 cantrips/
   index.md          # listing of every cantrip
   <spell-slug>.md   # one concept per cantrip
+spells/
+  index.md          # roll-up of ranks 1-10
+  rank-1/ ... rank-10/
+    index.md
+    <spell-slug>.md
+focus/
+  index.md
+  <spell-slug>.md
+rituals/
+  index.md
+  <spell-slug>.md
 tools/
   build_okf.py      # producer / validator
 ```
 
-Each cantrip document carries the required OKF `type` field plus recommended
-fields (`title`, `description`, `resource`, `tags`, `timestamp`) and a few
-custom fields useful for agents (`rank`, `actions`, `traditions`, `range`,
-`targets`, `area`, `defense`, `duration`, `publication`). The body holds an
-`# Overview` stat block, the spell's `## Description`, and `## Citations`.
+Each spell document carries the required OKF `type` field (`Cantrip`, `Spell`,
+`Focus Spell`, or `Ritual`) plus recommended fields (`title`, `description`,
+`resource`, `tags`, `timestamp`) and custom fields useful for agents (`rarity`,
+`rank`, `actions`, `traditions`, `range`, `targets`, `area`, `defense`,
+`duration`, `cost`, `publication`; rituals also carry `primary_check`,
+`secondary_casters`, `secondary_checks`). The body holds an `# Overview` stat
+block, the spell's `## Description`, and `## Citations`.
 
 ## Regenerating
 
 The bundle is generated from a sibling checkout of the `pf2e` repo:
 
 ```bash
-python3 tools/build_okf.py --source ../pf2e/packs/pf2e/spells/spells/cantrip
+python3 tools/build_okf.py --source ../pf2e/packs/pf2e/spells
 ```
 
 Validate the bundle:
@@ -43,8 +56,8 @@ python3 tools/build_okf.py --check
 
 ## Scope
 
-Currently covers all **cantrips**. Other spell ranks, focus spells, and rituals
-can be added by extending the producer to additional source directories.
+Covers the full PF2e spell catalogue: **cantrips**, **ranked spells (1-10)**,
+**focus spells**, and **rituals** — 1,796 concepts in total.
 
 ## License
 

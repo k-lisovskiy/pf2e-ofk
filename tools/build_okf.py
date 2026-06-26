@@ -1,14 +1,15 @@
 #!/usr/bin/env python3
-"""Generate an Open Knowledge Format (OKF) bundle from PF2e cantrip JSON.
+"""Generate an Open Knowledge Format (OKF) bundle from PF2e spell JSON.
 
 OKF v0.1 (Google Cloud, 2026-06-12) represents knowledge as a directory tree of
 Markdown files with YAML frontmatter, one file per concept. This producer reads
-the Foundry VTT PF2e cantrip documents and emits a conformant OKF bundle.
+the Foundry VTT PF2e spell documents (cantrips, ranked spells, focus spells and
+rituals) and emits a conformant OKF bundle.
 
 Spec: https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md
 
 Usage:
-    python3 tools/build_okf.py --source ../pf2e/packs/pf2e/spells/spells/cantrip
+    python3 tools/build_okf.py --source ../pf2e/packs/pf2e/spells
     python3 tools/build_okf.py --check        # validate the existing bundle
 """
 
@@ -23,9 +24,21 @@ from pathlib import Path
 
 # Bundle root is the repo root (parent of this tools/ directory).
 ROOT = Path(__file__).resolve().parent.parent
-CANTRIPS_DIR = ROOT / "cantrips"
-DEFAULT_SOURCE = ROOT.parent / "pf2e" / "packs" / "pf2e" / "spells" / "spells" / "cantrip"
+DEFAULT_SOURCE = ROOT.parent / "pf2e" / "packs" / "pf2e" / "spells"
 TIMESTAMP = "2026-06-26T00:00:00Z"
+
+# Spell categories: (concept type, source subdir under --source, bundle output
+# dir, resource-URI prefix, trait that duplicates the type and is dropped from
+# tags). Ranked spells are expanded from spells/rank-1 .. spells/rank-10.
+CATEGORIES = [
+    ("Cantrip", "spells/cantrip", "cantrips", "spells/cantrip", "cantrip"),
+    ("Focus Spell", "focus", "focus", "focus", "focus"),
+    ("Ritual", "rituals", "rituals", "rituals", None),
+]
+for _r in range(1, 11):
+    CATEGORIES.append(
+        ("Spell", f"spells/rank-{_r}", f"spells/rank-{_r}", f"spells/rank-{_r}", "cantrip")
+    )
 
 
 # --------------------------------------------------------------------------- #
@@ -206,7 +219,8 @@ def summarize_defense(defense) -> str:
     return f"basic {stat}".strip() if save.get("basic") else stat
 
 
-def build_concept(slug: str, data: dict) -> str:
+def build_concept(type_name: str, slug: str, data: dict, resource: str,
+                  source_relpath: str, drop_trait: str | None) -> str:
     sys_ = data["system"]
     name = data["name"]
     traits = sys_.get("traits", {})
@@ -220,20 +234,24 @@ def build_concept(slug: str, data: dict) -> str:
     area = summarize_area(sys_.get("area"))
     defense = summarize_defense(sys_.get("defense"))
     duration = (sys_.get("duration") or {}).get("value", "") or ""
+    cost = (sys_.get("cost") or {}).get("value", "") or ""
     publication = (sys_.get("publication") or {}).get("title", "") or ""
+    ritual = sys_.get("ritual") or {}
 
     body_md = html_to_markdown(sys_.get("description", {}).get("value", ""))
-    description = first_sentence(body_md) or f"The {name} cantrip."
+    description = first_sentence(body_md) or f"The {name} {type_name.lower()}."
 
-    # tags hold genuine spell traits only; rarity, traditions, and the "cantrip"
-    # trait (which duplicates type: Cantrip) have their own fields / are dropped.
-    tags = [t for t in trait_values if t != "cantrip"]
+    # tags hold genuine spell traits only; rarity and traditions have their own
+    # fields, and the trait that names the category (e.g. "cantrip"/"focus")
+    # duplicates the type field, so it is dropped.
+    tags = [t for t in trait_values if t != drop_trait]
+    rank_suffix = f" ({type_name.lower()})" if type_name in ("Cantrip", "Focus Spell") else ""
 
     fm = ["---"]
-    fm.append(f"type: Cantrip")
+    fm.append(f"type: {type_name}")
     fm.append(f"title: {yaml_str(name)}")
     fm.append(f"description: {yaml_str(description)}")
-    fm.append(f"resource: {yaml_str(f'pf2e://spells/cantrip/{slug}')}")
+    fm.append(f"resource: {yaml_str(resource)}")
     fm.append(f"tags: {yaml_list(tags)}")
     fm.append(f"timestamp: {TIMESTAMP}")
     fm.append(f"rarity: {yaml_str(rarity)}")
@@ -245,13 +263,31 @@ def build_concept(slug: str, data: dict) -> str:
     fm.append(f"area: {yaml_str(area)}")
     fm.append(f"defense: {yaml_str(defense)}")
     fm.append(f"duration: {yaml_str(duration)}")
+    fm.append(f"cost: {yaml_str(cost)}")
+    if ritual:
+        primary = (ritual.get("primary") or {}).get("check", "") or ""
+        secondary = ritual.get("secondary") or {}
+        fm.append(f"primary_check: {yaml_str(primary)}")
+        fm.append(f"secondary_casters: {yaml_str(str(secondary.get('casters', '')))}")
+        fm.append(f"secondary_checks: {yaml_str(secondary.get('checks', '') or '')}")
     fm.append(f"publication: {yaml_str(publication)}")
     fm.append("---")
 
     overview = ["# Overview", ""]
-    overview.append(f"- **Rank**: {rank} (cantrip)")
+    overview.append(f"- **Rank**: {rank}{rank_suffix}")
     if actions:
         overview.append(f"- **Cast**: {actions}")
+    if ritual:
+        primary = (ritual.get("primary") or {}).get("check", "") or ""
+        secondary = ritual.get("secondary") or {}
+        if primary:
+            overview.append(f"- **Primary Check**: {primary}")
+        if secondary.get("casters"):
+            overview.append(f"- **Secondary Casters**: {secondary['casters']}")
+        if secondary.get("checks"):
+            overview.append(f"- **Secondary Checks**: {secondary['checks']}")
+    if cost:
+        overview.append(f"- **Cost**: {cost}")
     if rng:
         overview.append(f"- **Range**: {rng}")
     if targets:
@@ -271,7 +307,7 @@ def build_concept(slug: str, data: dict) -> str:
         "# Citations",
         "",
         f"[1] {publication}" if publication else "[1] Pathfinder 2e",
-        f"[2] Source: `packs/pf2e/spells/spells/cantrip/{slug}.json` (pf2e system data)",
+        f"[2] Source: `{source_relpath}` (pf2e system data)",
     ]
 
     doc = "\n".join(fm) + "\n\n"
@@ -281,48 +317,89 @@ def build_concept(slug: str, data: dict) -> str:
     return doc
 
 
+def write_index(out_dir: Path, type_name: str, heading: str, description: str,
+                entries: list[tuple[str, str]], written: list) -> None:
+    """Write an index.md listing concept entries (slug, name) for a directory."""
+    rel = out_dir.relative_to(ROOT).as_posix()
+    prefix = "" if rel == "." else f"/{rel}"
+    lines = [
+        "---",
+        "type: Index",
+        f"title: {yaml_str(heading)}",
+        f"description: {yaml_str(description)}",
+        f"timestamp: {TIMESTAMP}",
+        "---",
+        "",
+        f"# {heading}",
+        "",
+        description,
+        "",
+    ]
+    for slug, name in sorted(entries, key=lambda e: e[1].lower()):
+        lines.append(f"- [{name}]({prefix}/{slug}.md)")
+    text = "\n".join(lines) + "\n"
+    (out_dir / "index.md").write_text(text, encoding="utf-8")
+    written.append(((out_dir / "index.md").relative_to(ROOT).as_posix(), text))
+
+
 # --------------------------------------------------------------------------- #
 # Bundle assembly
 # --------------------------------------------------------------------------- #
 
 def generate(source: Path) -> list[tuple[str, str]]:
-    files = sorted(source.glob("*.json"))
-    if not files:
-        sys.exit(f"No JSON spell files found in {source}")
-    concepts = []
-    for path in files:
-        data = json.loads(path.read_text(encoding="utf-8"))
-        slug = path.stem
-        concepts.append((slug, data["name"], build_concept(slug, data)))
+    written: list[tuple[str, str]] = []
+    counts: dict[str, int] = {}
+    rank_entries: dict[int, list[tuple[str, str]]] = {}
 
-    CANTRIPS_DIR.mkdir(parents=True, exist_ok=True)
-    written = []
-    for slug, _name, doc in concepts:
-        out = CANTRIPS_DIR / f"{slug}.md"
-        out.write_text(doc, encoding="utf-8")
-        written.append((str(out.relative_to(ROOT)), doc))
+    for type_name, src_sub, out_sub, uri_prefix, drop_trait in CATEGORIES:
+        src_dir = source / src_sub
+        files = sorted(src_dir.glob("*.json"))
+        if not files:
+            sys.exit(f"No JSON spell files found in {src_dir}")
+        out_dir = ROOT / out_sub
+        out_dir.mkdir(parents=True, exist_ok=True)
+        entries = []
+        for path in files:
+            data = json.loads(path.read_text(encoding="utf-8"))
+            slug = path.stem
+            resource = f"pf2e://{uri_prefix}/{slug}"
+            source_relpath = f"packs/pf2e/spells/{src_sub}/{slug}.json"
+            doc = build_concept(type_name, slug, data, resource, source_relpath, drop_trait)
+            (out_dir / f"{slug}.md").write_text(doc, encoding="utf-8")
+            written.append(((out_dir / f"{slug}.md").relative_to(ROOT).as_posix(), doc))
+            entries.append((slug, data["name"]))
 
-    # cantrips/index.md
-    lines = [
-        "---",
-        "type: Index",
-        'title: "PF2e Cantrips"',
-        f'description: "Index of all {len(concepts)} Pathfinder 2e cantrips in this bundle."',
-        f"timestamp: {TIMESTAMP}",
-        "---",
-        "",
-        "# Cantrips",
-        "",
-        f"{len(concepts)} cantrips, sorted alphabetically.",
-        "",
+        counts[out_sub] = len(entries)
+        # Ranked spells get a per-rank index plus a roll-up spells/index.md.
+        m = re.match(r"spells/rank-(\d+)$", out_sub)
+        if m:
+            rank_entries[int(m.group(1))] = entries
+            write_index(out_dir, type_name, f"Rank {m.group(1)} Spells",
+                        f"All {len(entries)} rank {m.group(1)} spells.", entries, written)
+        else:
+            label = {"cantrips": "Cantrips", "focus": "Focus Spells",
+                     "rituals": "Rituals"}[out_sub]
+            write_index(out_dir, type_name, f"PF2e {label}",
+                        f"All {len(entries)} Pathfinder 2e {label.lower()}.", entries, written)
+
+    # spells/index.md — roll-up of the ranked-spell directories.
+    spells_dir = ROOT / "spells"
+    rank_total = sum(counts[f"spells/rank-{r}"] for r in range(1, 11))
+    rank_lines = [
+        "---", "type: Index", 'title: "PF2e Spells by Rank"',
+        f'description: "All {rank_total} ranked Pathfinder 2e spells, grouped by rank."',
+        f"timestamp: {TIMESTAMP}", "---", "",
+        "# Spells by Rank", "",
+        f"{rank_total} ranked spells across ranks 1-10.", "",
     ]
-    for slug, name, _doc in sorted(concepts, key=lambda c: c[1].lower()):
-        lines.append(f"- [{name}](/cantrips/{slug}.md)")
-    cantrip_index = "\n".join(lines) + "\n"
-    (CANTRIPS_DIR / "index.md").write_text(cantrip_index, encoding="utf-8")
-    written.append(("cantrips/index.md", cantrip_index))
+    for r in range(1, 11):
+        rank_lines.append(f"- [Rank {r}](/spells/rank-{r}/index.md) — {counts[f'spells/rank-{r}']} spells")
+    spells_index = "\n".join(rank_lines) + "\n"
+    (spells_dir / "index.md").write_text(spells_index, encoding="utf-8")
+    written.append(("spells/index.md", spells_index))
 
     # root index.md
+    total = sum(counts.values())
     root_index = (
         "---\n"
         "type: Index\n"
@@ -334,7 +411,11 @@ def generate(source: Path) -> list[tuple[str, str]]:
         "An [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md)"
         " (OKF v0.1) bundle of Pathfinder Second Edition spell data.\n\n"
         "## Contents\n\n"
-        f"- [Cantrips](/cantrips/index.md) — {len(concepts)} cantrips\n"
+        f"- [Cantrips](/cantrips/index.md) — {counts['cantrips']} cantrips\n"
+        f"- [Spells by Rank](/spells/index.md) — {rank_total} ranked spells (ranks 1-10)\n"
+        f"- [Focus Spells](/focus/index.md) — {counts['focus']} focus spells\n"
+        f"- [Rituals](/rituals/index.md) — {counts['rituals']} rituals\n\n"
+        f"**Total: {total} spell concepts.**\n"
     )
     (ROOT / "index.md").write_text(root_index, encoding="utf-8")
     written.append(("index.md", root_index))
@@ -348,12 +429,16 @@ def generate(source: Path) -> list[tuple[str, str]]:
         "---\n\n"
         "# Change Log\n\n"
         f"## {TIMESTAMP[:10]}\n\n"
-        f"- Initial OKF v0.1 bundle: generated {len(concepts)} PF2e cantrip concepts"
-        " from the pf2e system JSON.\n"
+        f"- OKF v0.1 bundle: generated {total} PF2e spell concepts "
+        f"({counts['cantrips']} cantrips, {rank_total} ranked spells, "
+        f"{counts['focus']} focus spells, {counts['rituals']} rituals) "
+        "from the pf2e system JSON.\n"
     )
     (ROOT / "log.md").write_text(log, encoding="utf-8")
     written.append(("log.md", log))
 
+    print(f"  cantrips: {counts['cantrips']}, ranked: {rank_total}, "
+          f"focus: {counts['focus']}, rituals: {counts['rituals']} (total {total})")
     return written
 
 
@@ -363,14 +448,16 @@ def generate(source: Path) -> list[tuple[str, str]]:
 
 def check() -> int:
     # README.md is project documentation, not an OKF concept document.
-    md_files = [f for f in ROOT.glob("*.md") if f.name != "README.md"]
-    md_files += list(CANTRIPS_DIR.glob("*.md"))
+    md_files = [f for f in ROOT.rglob("*.md") if f.name != "README.md"]
     if not md_files:
         print("No bundle files found — run the generator first.")
         return 1
     errors = 0
-    for f in sorted(md_files):
+    concepts = 0
+    for f in md_files:
         text = f.read_text(encoding="utf-8")
+        if f.name != "index.md" and f.name != "log.md":
+            concepts += 1
         if not text.startswith("---\n"):
             print(f"  MISSING frontmatter: {f.relative_to(ROOT)}")
             errors += 1
@@ -384,14 +471,13 @@ def check() -> int:
                 print(f"  LEFTOVER {leftover!r} in {f.relative_to(ROOT)}")
                 errors += 1
     # Verify intra-bundle links resolve.
-    for f in sorted(md_files):
+    for f in md_files:
         for link in re.findall(r"\]\((/[^)]+\.md)\)", f.read_text(encoding="utf-8")):
             target = ROOT / link.lstrip("/")
             if not target.exists():
                 print(f"  BROKEN link {link} in {f.relative_to(ROOT)}")
                 errors += 1
-    concept_count = len(list(CANTRIPS_DIR.glob("*.md"))) - 1  # minus index.md
-    print(f"Checked {len(md_files)} markdown files, {concept_count} cantrip concepts.")
+    print(f"Checked {len(md_files)} markdown files, {concepts} spell concepts.")
     print("OK" if errors == 0 else f"{errors} problem(s) found.")
     return 1 if errors else 0
 
@@ -399,7 +485,7 @@ def check() -> int:
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--source", type=Path, default=DEFAULT_SOURCE,
-                        help="Directory of PF2e cantrip JSON files.")
+                        help="PF2e spells pack directory (packs/pf2e/spells).")
     parser.add_argument("--check", action="store_true",
                         help="Validate the existing bundle instead of generating.")
     args = parser.parse_args()

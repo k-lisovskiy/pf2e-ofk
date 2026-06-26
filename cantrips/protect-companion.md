@@ -14,6 +14,7 @@ targets: "your eidolon, or a creature with the minion trait under your control"
 area: ""
 defense: ""
 duration: "until the start of your next turn"
+cost: ""
 publication: "Pathfinder Secrets of Magic"
 ---
 

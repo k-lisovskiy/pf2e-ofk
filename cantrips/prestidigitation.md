@@ -14,6 +14,7 @@ targets: "1 object (cook, lift, or tidy only)"
 area: ""
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

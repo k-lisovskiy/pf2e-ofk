@@ -14,6 +14,7 @@ targets: "1 creature"
 area: ""
 defense: "basic fortitude"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

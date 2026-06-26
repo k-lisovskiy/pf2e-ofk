@@ -14,6 +14,7 @@ targets: ""
 area: "10-foot line"
 defense: "basic reflex"
 duration: "1 minute"
+cost: ""
 publication: "Pathfinder Player Core 2"
 ---
 

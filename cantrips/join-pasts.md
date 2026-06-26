@@ -14,6 +14,7 @@ targets: "2 willing creatures"
 area: ""
 defense: ""
 duration: "1 round"
+cost: ""
 publication: "Pathfinder #147: Tomorrow Must Burn"
 ---
 

@@ -14,6 +14,7 @@ targets: "1 living creature"
 area: ""
 defense: "basic fortitude"
 duration: ""
+cost: ""
 publication: "Pathfinder #186: Ghost King's Rage"
 ---
 

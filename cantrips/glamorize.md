@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: ""
 duration: "1 hour"
+cost: ""
 publication: "Pathfinder Lost Omens Divine Mysteries"
 ---
 

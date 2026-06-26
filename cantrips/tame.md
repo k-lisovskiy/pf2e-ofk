@@ -14,6 +14,7 @@ targets: "1 non-hostile domesticated animal"
 area: ""
 defense: "will"
 duration: "1 minute"
+cost: ""
 publication: "Pathfinder Secrets of Magic"
 ---
 

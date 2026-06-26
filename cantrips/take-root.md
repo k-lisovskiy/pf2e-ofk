@@ -14,6 +14,7 @@ targets: "1 willing creature"
 area: ""
 defense: ""
 duration: "1 round"
+cost: ""
 publication: "Pathfinder Rage of Elements"
 ---
 

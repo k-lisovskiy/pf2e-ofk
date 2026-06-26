@@ -14,6 +14,7 @@ targets: "1 object"
 area: ""
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Treasure Vault (Remastered)"
 ---
 

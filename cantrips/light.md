@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: ""
 duration: "until your next daily preparations"
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

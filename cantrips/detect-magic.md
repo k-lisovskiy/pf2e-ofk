@@ -14,6 +14,7 @@ targets: ""
 area: "30-foot emanation"
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

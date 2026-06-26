@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: ""
 duration: "until the end of your next turn"
+cost: ""
 publication: "Pathfinder Rage of Elements"
 ---
 

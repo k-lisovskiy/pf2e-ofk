@@ -14,6 +14,7 @@ targets: ""
 area: "15-foot cone"
 defense: "basic fortitude"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core 2"
 ---
 

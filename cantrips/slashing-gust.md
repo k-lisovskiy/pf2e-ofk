@@ -14,6 +14,7 @@ targets: "1 or 2 creatures"
 area: ""
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Rage of Elements"
 ---
 

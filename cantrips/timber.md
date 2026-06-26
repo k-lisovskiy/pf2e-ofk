@@ -14,6 +14,7 @@ targets: ""
 area: "15-foot line"
 defense: "basic reflex"
 duration: ""
+cost: ""
 publication: "Pathfinder Rage of Elements"
 ---
 

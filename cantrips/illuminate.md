@@ -14,6 +14,7 @@ targets: ""
 area: "30-foot emanation"
 defense: "reflex"
 duration: ""
+cost: ""
 publication: "Pathfinder Rage of Elements"
 ---
 

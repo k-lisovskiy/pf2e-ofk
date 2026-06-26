@@ -14,6 +14,7 @@ targets: ""
 area: "5-foot emanation"
 defense: "fortitude"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core 2"
 ---
 

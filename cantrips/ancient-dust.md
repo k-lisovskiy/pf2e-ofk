@@ -14,6 +14,7 @@ targets: ""
 area: "15-foot cone"
 defense: "fortitude"
 duration: ""
+cost: ""
 publication: "Pathfinder #186: Ghost King's Rage"
 ---
 

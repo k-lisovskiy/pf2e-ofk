@@ -14,6 +14,7 @@ targets: ""
 area: "5-foot burst"
 defense: "basic reflex"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

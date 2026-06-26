@@ -14,6 +14,7 @@ targets: ""
 area: ""
 defense: ""
 duration: "10 minutes"
+cost: ""
 publication: "Pathfinder #181: Zombie Feast"
 ---
 

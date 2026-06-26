@@ -14,6 +14,7 @@ targets: "1 or 2 creatures"
 area: ""
 defense: "basic reflex"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

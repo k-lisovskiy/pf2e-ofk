@@ -12,3 +12,8 @@ An [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-cata
 ## Contents
 
 - [Cantrips](/cantrips/index.md) — 69 cantrips
+- [Spells by Rank](/spells/index.md) — 1069 ranked spells (ranks 1-10)
+- [Focus Spells](/focus/index.md) — 508 focus spells
+- [Rituals](/rituals/index.md) — 150 rituals
+
+**Total: 1796 spell concepts.**

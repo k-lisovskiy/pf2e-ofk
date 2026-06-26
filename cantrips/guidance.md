@@ -14,6 +14,7 @@ targets: "1 creature"
 area: ""
 defense: ""
 duration: "until the start of your next turn"
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

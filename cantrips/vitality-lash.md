@@ -14,6 +14,7 @@ targets: "1 creature that is undead or otherwise has void healing"
 area: ""
 defense: "basic fortitude"
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

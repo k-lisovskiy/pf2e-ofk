@@ -14,6 +14,7 @@ targets: "1 ally and 1 enemy"
 area: ""
 defense: ""
 duration: "1 minute"
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 

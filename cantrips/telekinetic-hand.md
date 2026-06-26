@@ -14,6 +14,7 @@ targets: "1 unattended object of light Bulk or less"
 area: ""
 defense: ""
 duration: ""
+cost: ""
 publication: "Pathfinder Player Core"
 ---
 
