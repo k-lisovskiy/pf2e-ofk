@@ -3,8 +3,9 @@ type: Cantrip
 title: "Read the Air"
 description: "You take a deep breath as you survey a social situation, showing courtesy to all around you as your intuition swiftly picks up clues about social contexts and unspoken assumptions of behavior."
 resource: "pf2e://spells/cantrip/read-the-air"
-tags: ["common", "divine", "occult", "cantrip", "concentrate", "manipulate"]
+tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "occult"]

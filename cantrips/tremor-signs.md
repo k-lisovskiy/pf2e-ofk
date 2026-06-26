@@ -3,8 +3,9 @@ type: Cantrip
 title: "Tremor Signs"
 description: "You send a series of tremors, no longer than a short sentence of speech, toward your target."
 resource: "pf2e://spells/cantrip/tremor-signs"
-tags: ["common", "arcane", "divine", "occult", "primal", "cantrip", "earth", "manipulate", "subtle"]
+tags: ["earth", "manipulate", "subtle"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "divine", "occult", "primal"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Frostbite"
 description: "An orb of biting cold coalesces around your target, freezing its body."
 resource: "pf2e://spells/cantrip/frostbite"
-tags: ["common", "arcane", "primal", "cantrip", "cold", "concentrate", "manipulate"]
+tags: ["cold", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

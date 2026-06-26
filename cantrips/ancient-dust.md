@@ -3,8 +3,9 @@ type: Cantrip
 title: "Ancient Dust"
 description: "You cough up a cloud of gray soil, echoing the dust in the graves of Kemnebi's many victims."
 resource: "pf2e://spells/cantrip/ancient-dust"
-tags: ["uncommon", "arcane", "divine", "cantrip", "concentrate", "manipulate", "void"]
+tags: ["concentrate", "manipulate", "void"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine"]

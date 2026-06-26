@@ -3,8 +3,9 @@ type: Cantrip
 title: "Haunting Hymn"
 description: "You echo a jarring hymn that only creatures in the area can hear."
 resource: "pf2e://spells/cantrip/haunting-hymn"
-tags: ["common", "divine", "occult", "auditory", "cantrip", "concentrate", "manipulate", "sonic"]
+tags: ["auditory", "concentrate", "manipulate", "sonic"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "occult"]

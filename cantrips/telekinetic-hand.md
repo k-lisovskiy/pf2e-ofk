@@ -3,8 +3,9 @@ type: Cantrip
 title: "Telekinetic Hand"
 description: "You create a floating, magical hand, either invisible or ghostlike, that grasps the target object and levitates it slowly up to 20 feet in any direction."
 resource: "pf2e://spells/cantrip/telekinetic-hand"
-tags: ["common", "arcane", "occult", "cantrip", "concentrate", "manipulate"]
+tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "occult"]

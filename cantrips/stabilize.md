@@ -3,8 +3,9 @@ type: Cantrip
 title: "Stabilize"
 description: "Life energy shuts death's door."
 resource: "pf2e://spells/cantrip/stabilize"
-tags: ["common", "divine", "primal", "cantrip", "concentrate", "healing", "manipulate", "vitality"]
+tags: ["concentrate", "healing", "manipulate", "vitality"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "primal"]

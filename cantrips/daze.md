@@ -3,8 +3,9 @@ type: Cantrip
 title: "Daze"
 description: "You push into the target's mind and daze it with a mental jolt."
 resource: "pf2e://spells/cantrip/daze"
-tags: ["common", "arcane", "divine", "occult", "cantrip", "concentrate", "manipulate", "mental", "nonlethal"]
+tags: ["concentrate", "manipulate", "mental", "nonlethal"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult"]

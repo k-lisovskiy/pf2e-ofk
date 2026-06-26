@@ -3,8 +3,9 @@ type: Cantrip
 title: "Vitality Lash"
 description: "You demolish the target's corrupted essence with energy from Creation's Forge."
 resource: "pf2e://spells/cantrip/vitality-lash"
-tags: ["common", "divine", "primal", "cantrip", "concentrate", "manipulate", "vitality"]
+tags: ["concentrate", "manipulate", "vitality"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "primal"]

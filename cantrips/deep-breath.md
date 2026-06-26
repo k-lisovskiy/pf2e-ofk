@@ -3,8 +3,9 @@ type: Cantrip
 title: "Deep Breath"
 description: "You take an incredibly deep breath and can hold it for the spell's duration."
 resource: "pf2e://spells/cantrip/deep-breath"
-tags: ["common", "arcane", "primal", "air", "cantrip", "manipulate"]
+tags: ["air", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "primal"]

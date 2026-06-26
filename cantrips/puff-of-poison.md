@@ -3,8 +3,9 @@ type: Cantrip
 title: "Puff of Poison"
 description: "You exhale a shimmering cloud of toxic breath at an enemy's face."
 resource: "pf2e://spells/cantrip/puff-of-poison"
-tags: ["common", "arcane", "primal", "cantrip", "concentrate", "manipulate", "poison"]
+tags: ["concentrate", "manipulate", "poison"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

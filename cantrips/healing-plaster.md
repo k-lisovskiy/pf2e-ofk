@@ -3,8 +3,9 @@ type: Cantrip
 title: "Healing Plaster"
 description: "You purify some dirt or mud into a pliable, claylike plaster that can aid in clotting and healing."
 resource: "pf2e://spells/cantrip/healing-plaster"
-tags: ["common", "primal", "cantrip", "earth", "manipulate"]
+tags: ["earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["primal"]

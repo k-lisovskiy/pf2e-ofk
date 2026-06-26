@@ -3,8 +3,9 @@ type: Cantrip
 title: "Ignition"
 description: "You snap your fingers and point at a target, which begins to smolder."
 resource: "pf2e://spells/cantrip/ignition"
-tags: ["common", "arcane", "primal", "attack", "cantrip", "concentrate", "fire", "manipulate"]
+tags: ["attack", "concentrate", "fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

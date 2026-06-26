@@ -3,8 +3,9 @@ type: Cantrip
 title: "Torturous Trauma"
 description: "With this spell born of Kemnebi's sadistic love of torture, you batter a creature's internal organs, leaving no external signs of the immense pain you delivered."
 resource: "pf2e://spells/cantrip/torturous-trauma"
-tags: ["uncommon", "arcane", "divine", "cantrip", "concentrate", "manipulate", "nonlethal"]
+tags: ["concentrate", "manipulate", "nonlethal"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine"]

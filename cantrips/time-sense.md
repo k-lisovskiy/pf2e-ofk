@@ -3,8 +3,9 @@ type: Cantrip
 title: "Time Sense"
 description: "When you Cast the Spell, you gain a perfect sense of time."
 resource: "pf2e://spells/cantrip/time-sense"
-tags: ["common", "arcane", "occult", "cantrip", "concentrate"]
+tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "occult"]

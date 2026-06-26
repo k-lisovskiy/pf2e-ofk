@@ -3,8 +3,9 @@ type: Cantrip
 title: "Frost's Touch"
 description: "Your gelid shard drinks down nearby heat in a futile attempt to sate itself and achieve a level of frigid cold unheard of in the Universe."
 resource: "pf2e://spells/cantrip/frosts-touch"
-tags: ["rare", "arcane", "cantrip", "cold", "concentrate"]
+tags: ["cold", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "rare"
 rank: 1
 actions: "1"
 traditions: ["arcane"]

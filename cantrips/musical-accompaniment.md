@@ -3,8 +3,9 @@ type: Cantrip
 title: "Musical Accompaniment"
 description: "You're surrounded by orchestral music that shifts and changes to match your behavior."
 resource: "pf2e://spells/cantrip/musical-accompaniment"
-tags: ["common", "arcane", "occult", "auditory", "cantrip", "concentrate", "illusion", "manipulate"]
+tags: ["auditory", "concentrate", "illusion", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "occult"]

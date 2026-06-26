@@ -3,8 +3,9 @@ type: Cantrip
 title: "Ghost Sound"
 description: "You create an auditory illusion of simple sounds that has a maximum volume equal to four normal humans shouting."
 resource: "pf2e://spells/cantrip/ghost-sound"
-tags: ["common", "arcane", "occult", "auditory", "cantrip", "concentrate", "illusion", "manipulate"]
+tags: ["auditory", "concentrate", "illusion", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "occult"]

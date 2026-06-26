@@ -3,8 +3,9 @@ type: Cantrip
 title: "Detect Metal"
 description: "You attune yourself to magnetic fields, becoming aware of the presence or absence of metallic objects, veins, and deposits within the area."
 resource: "pf2e://spells/cantrip/detect-metal"
-tags: ["common", "arcane", "divine", "occult", "primal", "cantrip", "concentrate", "detection", "manipulate", "metal"]
+tags: ["concentrate", "detection", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult", "primal"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Summon Instrument"
 description: "You materialize a Musical Instrument (Handheld) in your grasp."
 resource: "pf2e://spells/cantrip/summon-instrument"
-tags: ["common", "arcane", "divine", "occult", "cantrip", "concentrate", "manipulate"]
+tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "3"
 traditions: ["arcane", "divine", "occult"]

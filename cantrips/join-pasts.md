@@ -3,8 +3,9 @@ type: Cantrip
 title: "Join Pasts"
 description: "With touches to the targets' foreheads, you bring them into mental communion."
 resource: "pf2e://spells/cantrip/join-pasts"
-tags: ["uncommon", "occult", "cantrip", "manipulate", "mental"]
+tags: ["manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "1"
 traditions: ["occult"]

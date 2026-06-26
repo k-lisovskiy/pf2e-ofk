@@ -3,8 +3,9 @@ type: Cantrip
 title: "Read Aura"
 description: "You focus on the target object, opening your mind to perceive magical auras."
 resource: "pf2e://spells/cantrip/read-aura"
-tags: ["common", "arcane", "divine", "occult", "primal", "cantrip", "concentrate", "detection", "manipulate"]
+tags: ["concentrate", "detection", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1 minute"
 traditions: ["arcane", "divine", "occult", "primal"]

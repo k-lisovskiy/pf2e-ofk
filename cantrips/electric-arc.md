@@ -3,8 +3,9 @@ type: Cantrip
 title: "Electric Arc"
 description: "An arc of lightning leaps from one target to another."
 resource: "pf2e://spells/cantrip/electric-arc"
-tags: ["common", "arcane", "primal", "cantrip", "concentrate", "electricity", "manipulate"]
+tags: ["concentrate", "electricity", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

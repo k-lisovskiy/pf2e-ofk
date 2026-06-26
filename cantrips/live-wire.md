@@ -3,8 +3,9 @@ type: Cantrip
 title: "Live Wire"
 description: "You conjure up a length of sharp copper filament humming with electrical current that strikes out at your foe."
 resource: "pf2e://spells/cantrip/live-wire"
-tags: ["common", "arcane", "primal", "attack", "cantrip", "concentrate", "electricity", "manipulate", "metal"]
+tags: ["attack", "concentrate", "electricity", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

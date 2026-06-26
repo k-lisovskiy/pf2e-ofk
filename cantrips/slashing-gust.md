@@ -3,8 +3,9 @@ type: Cantrip
 title: "Slashing Gust"
 description: "You slash your hand through the air, channeling miniature ripples of air from each finger to slice your enemy."
 resource: "pf2e://spells/cantrip/slashing-gust"
-tags: ["common", "arcane", "primal", "air", "attack", "cantrip", "concentrate", "manipulate"]
+tags: ["air", "attack", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

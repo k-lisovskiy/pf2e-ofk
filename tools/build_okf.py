@@ -225,7 +225,9 @@ def build_concept(slug: str, data: dict) -> str:
     body_md = html_to_markdown(sys_.get("description", {}).get("value", ""))
     description = first_sentence(body_md) or f"The {name} cantrip."
 
-    tags = [rarity] + list(traditions) + list(trait_values)
+    # tags hold genuine spell traits only; rarity, traditions, and the "cantrip"
+    # trait (which duplicates type: Cantrip) have their own fields / are dropped.
+    tags = [t for t in trait_values if t != "cantrip"]
 
     fm = ["---"]
     fm.append(f"type: Cantrip")
@@ -234,6 +236,7 @@ def build_concept(slug: str, data: dict) -> str:
     fm.append(f"resource: {yaml_str(f'pf2e://spells/cantrip/{slug}')}")
     fm.append(f"tags: {yaml_list(tags)}")
     fm.append(f"timestamp: {TIMESTAMP}")
+    fm.append(f"rarity: {yaml_str(rarity)}")
     fm.append(f"rank: {rank}")
     fm.append(f"actions: {yaml_str(actions)}")
     fm.append(f"traditions: {yaml_list(list(traditions))}")

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Caustic Blast"
 description: "You fling a large glob of acid that immediately detonates, spraying nearby creatures."
 resource: "pf2e://spells/cantrip/caustic-blast"
-tags: ["common", "arcane", "primal", "acid", "cantrip", "concentrate", "manipulate"]
+tags: ["acid", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

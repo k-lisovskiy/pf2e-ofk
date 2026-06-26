@@ -3,8 +3,9 @@ type: Cantrip
 title: "Rousing Splash"
 description: "You cause a splash of cold water to descend on an ally's head, granting some temporary vigor."
 resource: "pf2e://spells/cantrip/rousing-splash"
-tags: ["common", "divine", "primal", "cantrip", "concentrate", "manipulate", "water"]
+tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "primal"]

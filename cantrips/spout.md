@@ -3,8 +3,9 @@ type: Cantrip
 title: "Spout"
 description: "Water blasts upward, coming out of the ground, rising from a pool, or even manifesting from thin air."
 resource: "pf2e://spells/cantrip/spout"
-tags: ["common", "arcane", "primal", "cantrip", "concentrate", "manipulate", "water"]
+tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

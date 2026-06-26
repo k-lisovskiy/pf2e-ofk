@@ -3,8 +3,9 @@ type: Cantrip
 title: "Tangle Vine"
 description: "A vine appears from thin air, flicking from your hand and lashing itself to the target."
 resource: "pf2e://spells/cantrip/tangle-vine"
-tags: ["common", "arcane", "primal", "attack", "cantrip", "concentrate", "manipulate", "plant", "wood"]
+tags: ["attack", "concentrate", "manipulate", "plant", "wood"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Wash Your Luck"
 description: "Some practitioners argue this spell literally washes your fortunes of all influences, malign or benign, while others claim it simply cleanses your mind of obsessions about luck and destiny."
 resource: "pf2e://spells/cantrip/wash-your-luck"
-tags: ["common", "divine", "occult", "cantrip", "concentrate", "fortune", "manipulate"]
+tags: ["concentrate", "fortune", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "occult"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Message"
 description: "You mouth words quietly, but instead of coming out of your mouth, they're transferred directly to the ears of the target."
 resource: "pf2e://spells/cantrip/message"
-tags: ["common", "arcane", "divine", "occult", "auditory", "cantrip", "concentrate", "illusion", "linguistic", "mental", "subtle"]
+tags: ["auditory", "concentrate", "illusion", "linguistic", "mental", "subtle"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "divine", "occult"]

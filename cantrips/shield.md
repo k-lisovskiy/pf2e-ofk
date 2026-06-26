@@ -3,8 +3,9 @@ type: Cantrip
 title: "Shield"
 description: "You raise a magical shield of force."
 resource: "pf2e://spells/cantrip/shield"
-tags: ["common", "arcane", "divine", "occult", "cantrip", "concentrate", "force"]
+tags: ["concentrate", "force"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "divine", "occult"]

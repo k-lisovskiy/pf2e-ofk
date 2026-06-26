@@ -3,8 +3,9 @@ type: Cantrip
 title: "Know the Way"
 description: "In your mind's eye, you magically reorient yourself."
 resource: "pf2e://spells/cantrip/know-the-way"
-tags: ["common", "divine", "occult", "primal", "cantrip", "concentrate", "detection", "manipulate"]
+tags: ["concentrate", "detection", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine", "occult", "primal"]

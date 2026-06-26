@@ -3,8 +3,9 @@ type: Cantrip
 title: "Guidance"
 description: "You ask for the guidance of supernatural entities, granting the target a +1 status bonus to one attack roll, Perception check, saving throw, or skill check the target attempts before the duration e..."
 resource: "pf2e://spells/cantrip/guidance"
-tags: ["common", "divine", "occult", "primal", "cantrip", "concentrate"]
+tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["divine", "occult", "primal"]

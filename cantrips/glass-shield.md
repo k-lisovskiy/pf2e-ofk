@@ -3,8 +3,9 @@ type: Cantrip
 title: "Glass Shield"
 description: "You summon a layer of clear glass to keep you from harm."
 resource: "pf2e://spells/cantrip/glass-shield"
-tags: ["common", "arcane", "primal", "cantrip", "concentrate", "earth"]
+tags: ["concentrate", "earth"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "primal"]

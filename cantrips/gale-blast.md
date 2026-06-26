@@ -3,8 +3,9 @@ type: Cantrip
 title: "Gale Blast"
 description: "Wind flows from your outstretched hands and whirls around you in a 5foot emanation."
 resource: "pf2e://spells/cantrip/gale-blast"
-tags: ["common", "arcane", "primal", "air", "cantrip", "concentrate", "manipulate"]
+tags: ["air", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

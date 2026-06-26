@@ -3,8 +3,9 @@ type: Cantrip
 title: "Tame"
 description: "As you make comforting sounds and gestures, you approach the target in a friendly manner combining caution and confidence."
 resource: "pf2e://spells/cantrip/tame"
-tags: ["common", "occult", "primal", "auditory", "cantrip", "concentrate", "manipulate", "mental"]
+tags: ["auditory", "concentrate", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["occult", "primal"]

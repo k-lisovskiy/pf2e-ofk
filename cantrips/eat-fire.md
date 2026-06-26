@@ -3,8 +3,9 @@ type: Cantrip
 title: "Eat Fire"
 description: "Trigger You would take fire damage."
 resource: "pf2e://spells/cantrip/eat-fire"
-tags: ["common", "arcane", "occult", "primal", "cantrip", "fire", "manipulate"]
+tags: ["fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "reaction"
 traditions: ["arcane", "occult", "primal"]

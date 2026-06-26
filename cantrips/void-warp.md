@@ -3,8 +3,9 @@ type: Cantrip
 title: "Void Warp"
 description: "You call upon the Void to harm life force."
 resource: "pf2e://spells/cantrip/void-warp"
-tags: ["common", "arcane", "divine", "occult", "cantrip", "concentrate", "manipulate", "void"]
+tags: ["concentrate", "manipulate", "void"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult"]

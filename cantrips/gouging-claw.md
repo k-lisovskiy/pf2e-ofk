@@ -3,8 +3,9 @@ type: Cantrip
 title: "Gouging Claw"
 description: "You temporarily morph your limb into a clawed appendage."
 resource: "pf2e://spells/cantrip/gouging-claw"
-tags: ["common", "arcane", "primal", "attack", "cantrip", "concentrate", "manipulate", "morph"]
+tags: ["attack", "concentrate", "manipulate", "morph"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

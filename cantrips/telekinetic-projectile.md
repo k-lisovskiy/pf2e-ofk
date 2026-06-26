@@ -3,8 +3,9 @@ type: Cantrip
 title: "Telekinetic Projectile"
 description: "You hurl a loose, unattended object that is within range and that has 1 Bulk or less at the target."
 resource: "pf2e://spells/cantrip/telekinetic-projectile"
-tags: ["common", "arcane", "occult", "attack", "cantrip", "concentrate", "manipulate"]
+tags: ["attack", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "occult"]

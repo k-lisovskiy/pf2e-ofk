@@ -3,8 +3,9 @@ type: Cantrip
 title: "Ray of Frost"
 description: "You blast an icy ray."
 resource: "pf2e://spells/cantrip/ray-of-frost"
-tags: ["common", "arcane", "primal", "attack", "cantrip", "cold", "concentrate", "manipulate"]
+tags: ["attack", "cold", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

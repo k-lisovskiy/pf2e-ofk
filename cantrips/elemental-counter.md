@@ -3,8 +3,9 @@ type: Cantrip
 title: "Elemental Counter"
 description: "Trigger You or a creature within 60 feet rolls a saving throw against a spell with the earth, fire, metal, plant, water, or wood trait, or are targeted by a spell attack with such a trait."
 resource: "pf2e://spells/cantrip/elemental-counter"
-tags: ["uncommon", "arcane", "primal", "cantrip", "concentrate"]
+tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "reaction"
 traditions: ["arcane", "primal"]

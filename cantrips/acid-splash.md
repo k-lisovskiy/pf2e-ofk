@@ -3,8 +3,9 @@ type: Cantrip
 title: "Acid Splash"
 description: "You splash a glob of acid that splatters your target and nearby creatures."
 resource: "pf2e://spells/cantrip/acid-splash"
-tags: ["common", "arcane", "primal", "acid", "attack", "cantrip", "concentrate", "manipulate"]
+tags: ["acid", "attack", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

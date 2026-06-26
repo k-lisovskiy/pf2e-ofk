@@ -3,8 +3,9 @@ type: Cantrip
 title: "Figment"
 description: "You create a simple illusory sound or vision."
 resource: "pf2e://spells/cantrip/figment"
-tags: ["common", "arcane", "occult", "cantrip", "concentrate", "illusion", "manipulate", "subtle"]
+tags: ["concentrate", "illusion", "manipulate", "subtle"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "occult"]

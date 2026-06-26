@@ -3,8 +3,9 @@ type: Cantrip
 title: "Scatter Scree"
 description: "A jumble of rocks cascades into the area."
 resource: "pf2e://spells/cantrip/scatter-scree"
-tags: ["common", "arcane", "primal", "cantrip", "concentrate", "earth", "manipulate"]
+tags: ["concentrate", "earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

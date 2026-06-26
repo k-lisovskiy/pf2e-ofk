@@ -3,8 +3,9 @@ type: Cantrip
 title: "Timber"
 description: "You create a small dead tree in your space that falls over on anyone in its path, then immediately decomposes."
 resource: "pf2e://spells/cantrip/timber"
-tags: ["common", "arcane", "primal", "cantrip", "concentrate", "manipulate", "wood"]
+tags: ["concentrate", "manipulate", "wood"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Inside Ropes"
 description: "You pull a large handful of guts from your midsection."
 resource: "pf2e://spells/cantrip/inside-ropes"
-tags: ["uncommon", "divine", "occult", "primal", "cantrip", "manipulate"]
+tags: ["manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "1"
 traditions: ["divine", "occult", "primal"]

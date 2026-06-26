@@ -3,8 +3,9 @@ type: Cantrip
 title: "Bramble Bush"
 description: "In a sudden burst of growth, you cause a thorned bush to sprout from the ground, lash around, and wither."
 resource: "pf2e://spells/cantrip/bramble-bush"
-tags: ["uncommon", "arcane", "primal", "cantrip", "concentrate", "manipulate", "plant", "wood"]
+tags: ["concentrate", "manipulate", "plant", "wood"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "2"
 traditions: ["arcane", "primal"]

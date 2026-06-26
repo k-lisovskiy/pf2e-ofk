@@ -3,8 +3,9 @@ type: Cantrip
 title: "Protect Companion"
 description: "You extend your aura, as a magical shield that protects your eidolon or minion."
 resource: "pf2e://spells/cantrip/protect-companion"
-tags: ["common", "arcane", "divine", "occult", "primal", "cantrip", "concentrate"]
+tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "divine", "occult", "primal"]

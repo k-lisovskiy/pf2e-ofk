@@ -3,8 +3,9 @@ type: Cantrip
 title: "Needle Darts"
 description: "You shape three needles out of a piece of metal in your possession and send them flying in a tight group toward one target."
 resource: "pf2e://spells/cantrip/needle-darts"
-tags: ["common", "arcane", "divine", "occult", "primal", "attack", "cantrip", "concentrate", "manipulate", "metal"]
+tags: ["attack", "concentrate", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult", "primal"]

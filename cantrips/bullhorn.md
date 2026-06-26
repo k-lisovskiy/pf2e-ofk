@@ -3,8 +3,9 @@ type: Cantrip
 title: "Bullhorn"
 description: "You amplify your voice, loud enough for you to be heard easily at a great distance."
 resource: "pf2e://spells/cantrip/bullhorn"
-tags: ["common", "arcane", "divine", "occult", "auditory", "cantrip", "concentrate", "illusion", "manipulate"]
+tags: ["auditory", "concentrate", "illusion", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult"]

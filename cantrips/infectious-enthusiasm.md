@@ -3,8 +3,9 @@ type: Cantrip
 title: "Infectious Enthusiasm"
 description: "With enchanted gusto, you encourage yourself to get things done and share your motivation with your allies."
 resource: "pf2e://spells/cantrip/infectious-enthusiasm"
-tags: ["common", "arcane", "occult", "cantrip", "concentrate", "emotion", "manipulate", "mental"]
+tags: ["concentrate", "emotion", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "occult"]

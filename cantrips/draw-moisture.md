@@ -3,8 +3,9 @@ type: Cantrip
 title: "Draw Moisture"
 description: "You draw water out of an object, possibly to clean up spills or quickly dry a soaked book or shirt."
 resource: "pf2e://spells/cantrip/draw-moisture"
-tags: ["common", "arcane", "divine", "primal", "cantrip", "concentrate", "manipulate", "water"]
+tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "primal"]

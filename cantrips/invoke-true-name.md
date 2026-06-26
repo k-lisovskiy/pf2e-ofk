@@ -3,8 +3,9 @@ type: Cantrip
 title: "Invoke True Name"
 description: "You speak the true name of a creature to more surely affect it with your magic."
 resource: "pf2e://spells/cantrip/invoke-true-name"
-tags: ["rare", "arcane", "divine", "occult", "primal", "cantrip", "concentrate", "true-name"]
+tags: ["concentrate", "true-name"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "rare"
 rank: 1
 actions: "1"
 traditions: ["arcane", "divine", "occult", "primal"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Divine Lance"
 description: "You unleash a beam of divine energy."
 resource: "pf2e://spells/cantrip/divine-lance"
-tags: ["common", "divine", "attack", "cantrip", "concentrate", "manipulate", "sanctified", "spirit"]
+tags: ["attack", "concentrate", "manipulate", "sanctified", "spirit"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["divine"]

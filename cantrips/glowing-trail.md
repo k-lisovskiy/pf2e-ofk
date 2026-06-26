@@ -3,8 +3,9 @@ type: Cantrip
 title: "Glowing Trail"
 description: "Your movements leave a vague glowing path behind you, like a misty echo of your presence."
 resource: "pf2e://spells/cantrip/glowing-trail"
-tags: ["uncommon", "arcane", "divine", "occult", "primal", "cantrip", "concentrate", "manipulate"]
+tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "uncommon"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult", "primal"]

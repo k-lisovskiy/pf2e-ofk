@@ -3,8 +3,9 @@ type: Cantrip
 title: "Take Root"
 description: "Roots sprout from the flesh of the target and coil across the floor or around objects, reinforcing their stance or grip."
 resource: "pf2e://spells/cantrip/take-root"
-tags: ["common", "arcane", "primal", "cantrip", "manipulate", "plant", "wood"]
+tags: ["manipulate", "plant", "wood"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "1"
 traditions: ["arcane", "primal"]

@@ -3,8 +3,9 @@ type: Cantrip
 title: "Approximate"
 description: "Area 1 cubic foot Your magic quickly flows over an area to help you count and catalog."
 resource: "pf2e://spells/cantrip/approximate"
-tags: ["common", "arcane", "divine", "occult", "primal", "cantrip", "concentrate", "detection", "manipulate"]
+tags: ["concentrate", "detection", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult", "primal"]

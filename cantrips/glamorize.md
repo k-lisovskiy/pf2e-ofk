@@ -3,8 +3,9 @@ type: Cantrip
 title: "Glamorize"
 description: "Using simple magical gestures, you alter a minor detail of your appearance (add or remove highlights to your hair color, apply or remove cosmetics, add polish or accessories to your nails, etc.) or..."
 resource: "pf2e://spells/cantrip/glamorize"
-tags: ["common", "arcane", "divine", "occult", "primal", "cantrip", "concentrate", "manipulate"]
+tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
 rank: 1
 actions: "2"
 traditions: ["arcane", "divine", "occult", "primal"]
