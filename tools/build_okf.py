@@ -27,17 +27,22 @@ ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SOURCE = ROOT.parent / "pf2e" / "packs" / "pf2e" / "spells"
 TIMESTAMP = "2026-06-26T00:00:00Z"
 
-# Spell categories: (concept type, source subdir under --source, bundle output
-# dir, resource-URI prefix, trait that duplicates the type and is dropped from
-# tags). Ranked spells are expanded from spells/rank-1 .. spells/rank-10.
+# The whole rules bundle lives under rules/ so it can grow beyond spells
+# (feats, equipment, bestiary, ...). Spells are nested at rules/spells/.
+RULES_DIR = "rules"
+SPELLS_OUT = f"{RULES_DIR}/spells"
+
+# Spell categories: (concept type, source subdir under --source, output leaf
+# under rules/spells/, resource-URI leaf, trait that duplicates the type and is
+# dropped from tags). Ranked spells expand from spells/rank-1 .. spells/rank-10.
 CATEGORIES = [
-    ("Cantrip", "spells/cantrip", "cantrips", "spells/cantrip", "cantrip"),
+    ("Cantrip", "spells/cantrip", "cantrips", "cantrip", "cantrip"),
     ("Focus Spell", "focus", "focus", "focus", "focus"),
     ("Ritual", "rituals", "rituals", "rituals", None),
 ]
 for _r in range(1, 11):
     CATEGORIES.append(
-        ("Spell", f"spells/rank-{_r}", f"spells/rank-{_r}", f"spells/rank-{_r}", "cantrip")
+        ("Spell", f"spells/rank-{_r}", f"rank-{_r}", f"rank-{_r}", "cantrip")
     )
 
 
@@ -349,73 +354,90 @@ def write_index(out_dir: Path, type_name: str, heading: str, description: str,
 def generate(source: Path) -> list[tuple[str, str]]:
     written: list[tuple[str, str]] = []
     counts: dict[str, int] = {}
-    rank_entries: dict[int, list[tuple[str, str]]] = {}
 
-    for type_name, src_sub, out_sub, uri_prefix, drop_trait in CATEGORIES:
+    for type_name, src_sub, out_leaf, uri_leaf, drop_trait in CATEGORIES:
         src_dir = source / src_sub
         files = sorted(src_dir.glob("*.json"))
         if not files:
             sys.exit(f"No JSON spell files found in {src_dir}")
-        out_dir = ROOT / out_sub
+        out_dir = ROOT / SPELLS_OUT / out_leaf
         out_dir.mkdir(parents=True, exist_ok=True)
         entries = []
         for path in files:
             data = json.loads(path.read_text(encoding="utf-8"))
             slug = path.stem
-            resource = f"pf2e://{uri_prefix}/{slug}"
+            resource = f"pf2e://spells/{uri_leaf}/{slug}"
             source_relpath = f"packs/pf2e/spells/{src_sub}/{slug}.json"
             doc = build_concept(type_name, slug, data, resource, source_relpath, drop_trait)
             (out_dir / f"{slug}.md").write_text(doc, encoding="utf-8")
             written.append(((out_dir / f"{slug}.md").relative_to(ROOT).as_posix(), doc))
             entries.append((slug, data["name"]))
 
-        counts[out_sub] = len(entries)
-        # Ranked spells get a per-rank index plus a roll-up spells/index.md.
-        m = re.match(r"spells/rank-(\d+)$", out_sub)
+        counts[out_leaf] = len(entries)
+        m = re.match(r"rank-(\d+)$", out_leaf)
         if m:
-            rank_entries[int(m.group(1))] = entries
             write_index(out_dir, type_name, f"Rank {m.group(1)} Spells",
                         f"All {len(entries)} rank {m.group(1)} spells.", entries, written)
         else:
             label = {"cantrips": "Cantrips", "focus": "Focus Spells",
-                     "rituals": "Rituals"}[out_sub]
+                     "rituals": "Rituals"}[out_leaf]
             write_index(out_dir, type_name, f"PF2e {label}",
                         f"All {len(entries)} Pathfinder 2e {label.lower()}.", entries, written)
 
-    # spells/index.md — roll-up of the ranked-spell directories.
-    spells_dir = ROOT / "spells"
-    rank_total = sum(counts[f"spells/rank-{r}"] for r in range(1, 11))
-    rank_lines = [
-        "---", "type: Index", 'title: "PF2e Spells by Rank"',
-        f'description: "All {rank_total} ranked Pathfinder 2e spells, grouped by rank."',
+    rank_total = sum(counts[f"rank-{r}"] for r in range(1, 11))
+    spells_total = sum(counts.values())
+
+    # rules/spells/index.md — all spell categories.
+    spells_lines = [
+        "---", "type: Index", 'title: "PF2e Spells"',
+        f'description: "All {spells_total} Pathfinder 2e spells: cantrips, ranks 1-10, focus spells, and rituals."',
         f"timestamp: {TIMESTAMP}", "---", "",
-        "# Spells by Rank", "",
-        f"{rank_total} ranked spells across ranks 1-10.", "",
+        "# Spells", "",
+        f"{spells_total} spell concepts.", "",
+        f"- [Cantrips](/{SPELLS_OUT}/cantrips/index.md) — {counts['cantrips']} cantrips",
+        f"- [Focus Spells](/{SPELLS_OUT}/focus/index.md) — {counts['focus']} focus spells",
+        f"- [Rituals](/{SPELLS_OUT}/rituals/index.md) — {counts['rituals']} rituals",
+        "",
+        f"## Ranked spells (ranks 1-10) — {rank_total} spells",
+        "",
     ]
     for r in range(1, 11):
-        rank_lines.append(f"- [Rank {r}](/spells/rank-{r}/index.md) — {counts[f'spells/rank-{r}']} spells")
-    spells_index = "\n".join(rank_lines) + "\n"
-    (spells_dir / "index.md").write_text(spells_index, encoding="utf-8")
-    written.append(("spells/index.md", spells_index))
+        spells_lines.append(f"- [Rank {r}](/{SPELLS_OUT}/rank-{r}/index.md) — {counts[f'rank-{r}']} spells")
+    spells_index = "\n".join(spells_lines) + "\n"
+    (ROOT / SPELLS_OUT / "index.md").write_text(spells_index, encoding="utf-8")
+    written.append((f"{SPELLS_OUT}/index.md", spells_index))
 
-    # root index.md
-    total = sum(counts.values())
+    # rules/index.md — the rules bundle index (room for future categories).
+    rules_index = (
+        "---\n"
+        "type: Index\n"
+        'title: "PF2e Rules"\n'
+        'description: "Pathfinder 2e rules content, organized by category."\n'
+        f"timestamp: {TIMESTAMP}\n"
+        "---\n\n"
+        "# PF2e Rules\n\n"
+        "Pathfinder Second Edition rules content. New categories (feats, "
+        "equipment, bestiary, conditions, ...) can be added alongside spells.\n\n"
+        "## Categories\n\n"
+        f"- [Spells](/{SPELLS_OUT}/index.md) — {spells_total} spell concepts\n"
+    )
+    (ROOT / RULES_DIR / "index.md").write_text(rules_index, encoding="utf-8")
+    written.append((f"{RULES_DIR}/index.md", rules_index))
+
+    # root index.md — bundle entry point.
     root_index = (
         "---\n"
         "type: Index\n"
-        'title: "PF2e Spell Knowledge Bundle"\n'
-        'description: "Open Knowledge Format bundle of Pathfinder 2e spells."\n'
+        'title: "PF2e OKF Knowledge Bundle"\n'
+        'description: "Open Knowledge Format bundle of Pathfinder 2e rules."\n'
         f"timestamp: {TIMESTAMP}\n"
         "---\n\n"
-        "# PF2e Spell Knowledge Bundle\n\n"
+        "# PF2e OKF Knowledge Bundle\n\n"
         "An [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/okf/SPEC.md)"
-        " (OKF v0.1) bundle of Pathfinder Second Edition spell data.\n\n"
+        " (OKF v0.1) bundle of Pathfinder Second Edition rules.\n\n"
         "## Contents\n\n"
-        f"- [Cantrips](/cantrips/index.md) — {counts['cantrips']} cantrips\n"
-        f"- [Spells by Rank](/spells/index.md) — {rank_total} ranked spells (ranks 1-10)\n"
-        f"- [Focus Spells](/focus/index.md) — {counts['focus']} focus spells\n"
-        f"- [Rituals](/rituals/index.md) — {counts['rituals']} rituals\n\n"
-        f"**Total: {total} spell concepts.**\n"
+        f"- [Rules](/{RULES_DIR}/index.md) — [Spells](/{SPELLS_OUT}/index.md) "
+        f"({spells_total} concepts); more categories to come\n"
     )
     (ROOT / "index.md").write_text(root_index, encoding="utf-8")
     written.append(("index.md", root_index))
@@ -429,7 +451,10 @@ def generate(source: Path) -> list[tuple[str, str]]:
         "---\n\n"
         "# Change Log\n\n"
         f"## {TIMESTAMP[:10]}\n\n"
-        f"- OKF v0.1 bundle: generated {total} PF2e spell concepts "
+        f"- Reorganized the bundle under `rules/`; spells now live at "
+        f"`rules/spells/` (cantrips, ranks 1-10, focus, rituals) to make room "
+        "for future rules categories.\n"
+        f"- OKF v0.1 bundle: {spells_total} PF2e spell concepts "
         f"({counts['cantrips']} cantrips, {rank_total} ranked spells, "
         f"{counts['focus']} focus spells, {counts['rituals']} rituals) "
         "from the pf2e system JSON.\n"
@@ -438,7 +463,7 @@ def generate(source: Path) -> list[tuple[str, str]]:
     written.append(("log.md", log))
 
     print(f"  cantrips: {counts['cantrips']}, ranked: {rank_total}, "
-          f"focus: {counts['focus']}, rituals: {counts['rituals']} (total {total})")
+          f"focus: {counts['focus']}, rituals: {counts['rituals']} (total {spells_total})")
     return written
 
 

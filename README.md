@@ -11,25 +11,30 @@ alike with no SDK or runtime.
 
 ## Layout
 
+The whole bundle lives under `rules/` so it can grow beyond spells (feats,
+equipment, bestiary, conditions, ...). Spells are nested at `rules/spells/`.
+
 ```
-index.md            # bundle entry point (OKF reserved)
-log.md              # change history (OKF reserved)
-cantrips/
-  index.md          # listing of every cantrip
-  <spell-slug>.md   # one concept per cantrip
-spells/
-  index.md          # roll-up of ranks 1-10
-  rank-1/ ... rank-10/
-    index.md
-    <spell-slug>.md
-focus/
-  index.md
-  <spell-slug>.md
-rituals/
-  index.md
-  <spell-slug>.md
+index.md              # bundle entry point (OKF reserved)
+log.md                # change history (OKF reserved)
+rules/
+  index.md            # rules index (categories)
+  spells/
+    index.md          # all spell categories
+    cantrips/
+      index.md
+      <spell-slug>.md
+    rank-1/ ... rank-10/
+      index.md
+      <spell-slug>.md
+    focus/
+      index.md
+      <spell-slug>.md
+    rituals/
+      index.md
+      <spell-slug>.md
 tools/
-  build_okf.py      # producer / validator
+  build_okf.py        # producer / validator
 ```
 
 Each spell document carries the required OKF `type` field (`Cantrip`, `Spell`,
