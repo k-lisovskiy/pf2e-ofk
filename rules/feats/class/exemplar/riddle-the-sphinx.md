@@ -34,7 +34,7 @@ publication: "Pathfinder #217: Death Sails a Wine-Dark Sea"
 
 You've learned the secrets of the sphinx's riddles and empowered your ikon with them. You can voice these mysteries, forcing others to overcome them as you did.
 
-**Transcendence—Tangle in Riddle** 1 (auditory, mental, transcendence)
+**Transcendence—Tangle in Riddle** 1 action (auditory, mental, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.cGCQkCz14sF238gE inline
 

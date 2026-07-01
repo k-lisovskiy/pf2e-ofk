@@ -50,9 +50,9 @@ You also gain specific abilities based on the type of plant you choose:
 
 - Speed 30 feet
 
-- **Melee** 1 branch (reach 15 feet), **Damage** 2d10 bludgeoning;
+- **Melee** 1 action branch (reach 15 feet), **Damage** 2d10 bludgeoning;
 
-- **Melee** 1 foot, **Damage** 2d8 bludgeoning;
+- **Melee** 1 action foot, **Damage** 2d8 bludgeoning;
 
 - you can speak in this form
 
@@ -60,7 +60,7 @@ You also gain specific abilities based on the type of plant you choose:
 
 - Speed 15 feet; resistance 10 to acid;
 
-- **Melee** 1 leaf (reach 10 feet), **Damage** 2d8 piercing, and you can spend an action after a hit to Grab the target.
+- **Melee** 1 action leaf (reach 10 feet), **Damage** 2d8 piercing, and you can spend an action after a hit to Grab the target.
 
 ---
 

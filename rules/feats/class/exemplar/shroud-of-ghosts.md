@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 Your ikon is connected to the world of the spirits, allowing you to partially fade into their realm. The imbued ikon gains the following ability.
 
-**Transcendence—Skirt the Underworld** 2 (concentrate, illusion, incapacitation, transcendence)
+**Transcendence—Skirt the Underworld** 2 actions (concentrate, illusion, incapacitation, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.exuTl8tvVlewxVGJ inline
 

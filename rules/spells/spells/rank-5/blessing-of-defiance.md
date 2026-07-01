@@ -35,11 +35,11 @@ Spell Effect: Blessing of Defiance
 
 ---
 
-1 **(somatic)** The spell targets you or one willing ally within range.
+1 action **(somatic)** The spell targets you or one willing ally within range.
 
-2 **(verbal)** The spell targets you or one willing ally within range. If you choose Fortitude, the target gains resistance 15 to poison. If you choose Reflex, the target gains a +15-foot status bonus to its Speeds. If you choose Will, the target gains resistance 15 to mental damage.
+2 actions **(verbal)** The spell targets you or one willing ally within range. If you choose Fortitude, the target gains resistance 15 to poison. If you choose Reflex, the target gains a +15-foot status bonus to its Speeds. If you choose Will, the target gains resistance 15 to mental damage.
 
-3 **(verbal)** The spell targets you and all willing allies within 30 feet.
+3 actions **(verbal)** The spell targets you and all willing allies within 30 feet.
 
 # Citations
 

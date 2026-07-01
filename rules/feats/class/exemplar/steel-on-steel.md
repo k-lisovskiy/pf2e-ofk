@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 The ring of divinely empowered steel assails your enemies.
 
-**Transcendence—Ringing Challenge** 2 (sonic, spirit, transcendence)
+**Transcendence—Ringing Challenge** 2 actions (sonic, spirit, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.mBqZ2IahMT9Jvo7k inline
 

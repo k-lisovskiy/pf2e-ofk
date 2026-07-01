@@ -30,9 +30,9 @@ publication: "Pathfinder Player Core"
 
 You heal an animal's wounds, restoring 1d8 Hit Points to the target. The number of actions spent Casting this Spell determines its effect.
 
-1 The spell has a range of touch.
+1 action The spell has a range of touch.
 
-2 (concentrate) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.
+2 actions (concentrate) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.
 
 ---
 

@@ -36,7 +36,7 @@ Your weapon has the might of legends, capable of shooting or striking any light 
 
 **Immanence** (darkness) on a successful critical hit with the weapon, the weapon casts 2nd-rank Darkness centered on the target of the attack.
 
-**Transcendence—Break the Sun's Legs** 2 (cold, concentrate, darkness, transcendence)
+**Transcendence—Break the Sun's Legs** 2 actions (cold, concentrate, darkness, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.Y9XUwC8ihxZCfndG inline
 

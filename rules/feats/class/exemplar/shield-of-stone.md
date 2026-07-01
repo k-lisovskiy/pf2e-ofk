@@ -34,7 +34,7 @@ publication: "Pathfinder #217: Death Sails a Wine-Dark Sea"
 
 You stole a gorgon's gaze and trapped it in your ikon. You've learned how to brandish it for your advantage, subduing the rage of the trapped gaze by turning it on your enemies.
 
-**Transcendence—Brandish the Gorgon's Gaze** 1 (earth, transcendence, visual)
+**Transcendence—Brandish the Gorgon's Gaze** 1 action (earth, transcendence, visual)
 
 Compendium.pf2e.actionspf2e.Item.5VbPhxZYfagIqE1z inline
 

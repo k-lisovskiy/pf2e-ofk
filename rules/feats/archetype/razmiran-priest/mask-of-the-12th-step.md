@@ -33,7 +33,7 @@ You have reached the 12th Step and been instructed in greater secrets of Razmir'
 
 ---
 
-**Activate—Call Upon Razmir's Mercy** 2 (concentrate, manipulate, occult)
+**Activate—Call Upon Razmir's Mercy** 2 actions (concentrate, manipulate, occult)
 
 **Frequency** three times per day
 

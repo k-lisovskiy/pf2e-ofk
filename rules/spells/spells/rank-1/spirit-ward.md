@@ -32,11 +32,11 @@ publication: "Pathfinder Lost Omens Shining Kingdoms"
 
 You draw on nearby spiritual energy or on echoes of the spirits you've invoked throughout your life to temporarily ward living flesh against dangerous spirits. You grant the target a +1 status bonus to saving throws against spells and effects caused by creatures that have the spirit trait and haunts. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.
 
-1 The spell has a range of touch.
+1 action The spell has a range of touch.
 
-2 (concentrate) The spell has a range of 30 feet. If you target a living creature, the bonus increases to +2.
+2 actions (concentrate) The spell has a range of 30 feet. If you target a living creature, the bonus increases to +2.
 
-3 (concentrate) You create a ward in a 30-foot type:emanation. This targets you and all your allies in the burst.
+3 actions (concentrate) You create a ward in a 30-foot type:emanation. This targets you and all your allies in the burst.
 
 Spell Effect: Spirit Ward
 

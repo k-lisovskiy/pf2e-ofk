@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 Reddish ash stains your ikon, impossible to clean off. Every time you exhale, a tinge of red and a scent of spiced smoke float upon your breath. The imbued ikon gains the following ability.
 
-**Transcendence—Mark the Center** 1 (transcendence)
+**Transcendence—Mark the Center** 1 action (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.jD8RW5PdLI6snlsO inline
 

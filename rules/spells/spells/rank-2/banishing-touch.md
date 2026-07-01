@@ -31,11 +31,11 @@ publication: "Pathfinder War of Immortals"
 
 Your touch projects a surge of magic that launches your target safely away. Make a melee spell attack at mythic proficiency against your target's AC. If you hit, you deal 1d6 bludgeoning damage, and you launch the target into the air and away from you; the target takes falling damage as normal. The number of actions you spend while Casting the Spell determines the damage dealt by your touch and how far the target is launched.
 
-1 The target is launched 10 feet into the air and knocked back 10 feet.
+1 action The target is launched 10 feet into the air and knocked back 10 feet.
 
-2 Your touch deals 2d6 bludgeoning damage instead. The target is launched 20 feet into the air and pushed back 10 feet.
+2 actions Your touch deals 2d6 bludgeoning damage instead. The target is launched 20 feet into the air and pushed back 10 feet.
 
-3 Your touch deals 2d6 bludgeoning damage instead. The target is launched 30 feet into the air and pushed back 20 feet.
+3 actions Your touch deals 2d6 bludgeoning damage instead. The target is launched 30 feet into the air and pushed back 20 feet.
 
 ---
 

@@ -36,7 +36,7 @@ You can command your weapon to shrink or grow, for convenience or power. Even wh
 
 **Immanence** Your ikon gains the reach trait. If it already had the reach trait, it instead increases your reach by an additional 10 feet, instead of the usual additional 5 feet.
 
-**Transcendence—Topple the Pillar of Heaven** 2 (transcendence)
+**Transcendence—Topple the Pillar of Heaven** 2 actions (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.Ypwa9HIw7uXdt25D inline
 

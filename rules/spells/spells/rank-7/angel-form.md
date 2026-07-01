@@ -42,21 +42,21 @@ You also gain specific abilities based on the type of angel you choose:
 
 - **Balisse** Speed 30 feet, fly 40 feet; Perception modifier of +26 to detect lies and illusions unless your own modifier is higher
 
-- **Melee** 1 scimitar (fire, forceful, holy, magical, sweep), **Damage** 2d6+12 slashing plus 2d6 fire.
+- **Melee** 1 action scimitar (fire, forceful, holy, magical, sweep), **Damage** 2d6+12 slashing plus 2d6 fire.
 
 - **Choral** Speed 30 feet, fly 40 feet; +1 status bonus to AC and saves against sonic and auditory
 
-- **Melee** 1 fist (agile), **Damage** 2d6+12 bludgeoning plus 1d6 spirit;
-- **Ranged** 1 piercing hymn (range 90 feet), **Damage** 1d6+12 sonic plus 1d6 spirit, and Deafened for 1 round on a critical hit.
+- **Melee** 1 action fist (agile), **Damage** 2d6+12 bludgeoning plus 1d6 spirit;
+- **Ranged** 1 action piercing hymn (range 90 feet), **Damage** 1d6+12 sonic plus 1d6 spirit, and Deafened for 1 round on a critical hit.
 
 - **Kuribu** Speed 25 feet, fly 40 feet; resistance 10 to electricity and fire
 
-- **Melee** 1 fist (agile, holy, magical), **Damage** 3d4+12 bludgeoning.
-- **Ranged** 1 composite shortbow (deadly 2d10, holy, magical, propulsive, range increment 60 feet) **Damage** 3d6+12 piercing
+- **Melee** 1 action fist (agile, holy, magical), **Damage** 3d4+12 bludgeoning.
+- **Ranged** 1 action composite shortbow (deadly 2d10, holy, magical, propulsive, range increment 60 feet) **Damage** 3d6+12 piercing
 
 - **Tennin** Speed 30 feet, fly 60 feet; can Step into difficult terrain and use land and fly Speeds to Step;
 
-- **Melee** 1 fist (agile, holy, magical, nonlethal), **Damage** 1d6+12 bludgeoning plus 1d6 cold and 1d6 spirit.
+- **Melee** 1 action fist (agile, holy, magical, nonlethal), **Damage** 1d6+12 bludgeoning plus 1d6 cold and 1d6 spirit.
 
 Spell Effect: Angel Form
 

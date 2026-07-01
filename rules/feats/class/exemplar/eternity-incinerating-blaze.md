@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 The blaze of your divine spark is hot enough that it burns in not just the present, but the past and future as well. Whenever you score a critical hit with the imbued ikon, the target becomes Doomed 1 or increases its doomed condition by 1. If the target's maximum dying value is reduced to 0 by this ability, it immediately dies in a flash of spiritual fire that reduces its body to ash. This effect applies even when the ikon is not empowered. The ikon also gains the following transcendence ability.
 
-**Transcendence—Burn out of Time** 2 (spirit, transcendence, void)
+**Transcendence—Burn out of Time** 2 actions (spirit, transcendence, void)
 
 Compendium.pf2e.actionspf2e.Item.ZhVJ7EUTJngrIO2Z inline
 

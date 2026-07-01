@@ -44,8 +44,8 @@ You gain the following statistics and abilities, regardless of your type of spir
 - Darkvision.
 - An unarmed melee attack of the same type as your spirit guide (either claws or jaws), which is the only attack you can Strike with. You're trained with this attack. Your attack modifier is +29 or your normal unarmed attack modifier, whichever is higher. You use the listed statistics for the unarmed attack type:
 
-- **Claws** (agile, backstabber, finesse) 1, **Damage** 3d6+5 slashing plus 1d6 force;
-- **Jaws** (forceful) 1 **Damage** 3d10+5 piercing plus 1d6 force.
+- **Claws** (agile, backstabber, finesse) 1 action, **Damage** 3d6+5 slashing plus 1d6 force;
+- **Jaws** (forceful) 1 action **Damage** 3d10+5 piercing plus 1d6 force.
 
 # Citations
 

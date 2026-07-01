@@ -34,7 +34,7 @@ You summon an invisible divine draconic spirit to watch over your target. When t
 
 ---
 
-**Dragon's Protection** R (concentrate, sanctified, spirit)
+**Dragon's Protection** reaction (concentrate, sanctified, spirit)
 
 Compendium.pf2e.actionspf2e.Item.Zt9bo3FYLQihmpAz inline
 

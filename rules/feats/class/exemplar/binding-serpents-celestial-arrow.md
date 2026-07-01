@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 As you prepare to shoot your weapon, you invoke divine serpents that bind your enemies. The imbued ikon gains the following ability.
 
-**Transcendence—Coiling Serpents** 2 (transcendence)
+**Transcendence—Coiling Serpents** 2 actions (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.mbOa48mQCqj86lVw inline
 

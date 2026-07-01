@@ -46,9 +46,9 @@ You gain specific abilities based on the incarnation you choose:
 
 - Speed 40 feet, climb 40 feet;
 
-- **Melee** 1 vines (reach 30 feet, versatile P), **Damage** 6d8+12 bludgeoning;
+- **Melee** 1 action vines (reach 30 feet, versatile P), **Damage** 6d8+12 bludgeoning;
 
-- **Ranged** 1 thorns (range 100 feet), **Damage** 6d6+6 piercing;
+- **Ranged** 1 action thorns (range 100 feet), **Damage** 6d6+6 piercing;
 
 - **Green Caress** (aura, primal) 60 feet. Enemies other than plants must succeed at a fortitude save against your spell DC or become Clumsy 1 for 1 round (Clumsy 2 on a critical failure).
 
@@ -56,15 +56,15 @@ You gain specific abilities based on the incarnation you choose:
 
 - Speed 50 feet; resistance 5 to physical damage;
 
-- **Melee** 1 jaws (reach 30 feet), **Damage** 6d10+10 piercing;
+- **Melee** 1 action jaws (reach 30 feet), **Damage** 6d10+10 piercing;
 
-- **Melee** 1 claws (agile, reach 30 feet), **Damage** 6d8+8 slashing;
+- **Melee** 1 action claws (agile, reach 30 feet), **Damage** 6d8+8 slashing;
 
-- **Melee** 1 foot (agile, reach 15 feet), **Damage** 6d6+10 bludgeoning;
+- **Melee** 1 action foot (agile, reach 15 feet), **Damage** 6d6+10 bludgeoning;
 
 - **Unstoppable** You are immune to being Immobilized and ignore difficult terrain and greater difficult terrain;
 
-- **Trample** 3 You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a reflex save save against your spell DC.
+- **Trample** 3 actions You move up to double your Speed and move through the spaces of Huge or smaller creatures, trampling each creature whose space you enter. A trampled creature takes foot damage with a reflex save save against your spell DC.
 
 Spell Effect: Nature Incarnate
 

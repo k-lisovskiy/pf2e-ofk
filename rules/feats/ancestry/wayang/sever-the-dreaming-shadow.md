@@ -31,7 +31,7 @@ publication: "Pathfinder Lost Omens Tian Xia Character Guide"
 
 As you whisper to your pusaka, it attempts to cut away an enemy's shadow, leaving them in an eternal sleep. Your pusaka gains the following Activation.
 
-**Activate—Cut the Shadow** 2 (concentrate, manipulate, mental)
+**Activate—Cut the Shadow** 2 actions (concentrate, manipulate, mental)
 
 **Frequency** once per day
 

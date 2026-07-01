@@ -36,7 +36,7 @@ You consume and ingest fire, making it less harmful to you. You gain resistance 
 
 Spell Effect: Eat Fire
 
-**Belch Smoke** 1 You exhale what remains of the smoke, ending the spell and creating a smoke cloud in a 5-foot burst within 20 feet. All creatures within the smoke cloud are Concealed, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dispersed by a strong wind.
+**Belch Smoke** 1 action You exhale what remains of the smoke, ending the spell and creating a smoke cloud in a 5-foot burst within 20 feet. All creatures within the smoke cloud are Concealed, and all other creatures are concealed to them. The smoke lasts for 1 minute or until dispersed by a strong wind.
 
 ---
 

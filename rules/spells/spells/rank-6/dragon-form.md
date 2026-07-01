@@ -44,15 +44,15 @@ You gain the following statistics and abilities regardless of which battle form 
 
 - The following unarmed melee attacks, which are the only attacks you can Strike with. You're trained with them. Your attack modifier is +22, and your damage bonus is +6. These attacks are Strength based (for the purpose of the enfeebled condition, for example). If your unarmed attack modifier is higher, you can use it instead. See below for more on these attacks.
 
-- **Melee** 1 jaws, **Damage** 2d12 piercing plus 2d6 damage of the same damage type as your Dragon Breath (see below);
+- **Melee** 1 action jaws, **Damage** 2d12 piercing plus 2d6 damage of the same damage type as your Dragon Breath (see below);
 
-- **Melee** 1 claw (agile), **Damage** 3d10 slashing;
+- **Melee** 1 action claw (agile), **Damage** 3d10 slashing;
 
-- **Melee** 1 tail (reach 10 feet), **Damage** 3d10 bludgeoning.
+- **Melee** 1 action tail (reach 10 feet), **Damage** 3d10 bludgeoning.
 
 - Athletics modifier of +23, unless your own is higher.
 
-- **Dragon Breath** 2 You exhale deadly magical energy in an area, dealing 10d6 damage to each creature in the area with a basic save against your spell DC. The shape, damage type, and save type match that of your chosen dragon's breath. If the chosen dragon's breath can deal more than one type of damage, choose one when you cast *dragon form*. The shape is a 30-foot cone or a 100-foot line. Once activated, Dragon Breath can't be used again for 1d4 rounds. Dragon Breath has the tradition trait matching the type of dragon and the damage trait matching the type of damage it deals, if applicable.
+- **Dragon Breath** 2 actions You exhale deadly magical energy in an area, dealing 10d6 damage to each creature in the area with a basic save against your spell DC. The shape, damage type, and save type match that of your chosen dragon's breath. If the chosen dragon's breath can deal more than one type of damage, choose one when you cast *dragon form*. The shape is a 30-foot cone or a 100-foot line. Once activated, Dragon Breath can't be used again for 1d4 rounds. Dragon Breath has the tradition trait matching the type of dragon and the damage trait matching the type of damage it deals, if applicable.
 
 - **Tradition Resistance** If the dragon's magical tradition matches that of your dragon form spell, you gain the listed ability. **Arcane** resistance 5 against magic; **divine** resistance 10 to spirit, vitality, and void; **occult** resistance 10 to mental; **primal** resistance 5 to physical damage.
 

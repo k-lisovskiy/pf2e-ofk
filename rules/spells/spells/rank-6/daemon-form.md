@@ -45,26 +45,26 @@ You also gain specific abilities based on the type of Daemon you choose:
 - **Lacridaemon** Speed 25 feet, fly 40 feet resistance 10 to cold
 
 - **Size** Medium
-- **Melee** 1 jaws (magical, unholy), **Damage** 1d8+12 piercing plus 1d6 cold and 1d4 poison
-- **Melee** 1 claw (agile, magical, unholy), **Damage** 1d6+12 slashing plus 1d6 cold.
+- **Melee** 1 action jaws (magical, unholy), **Damage** 1d8+12 piercing plus 1d6 cold and 1d4 poison
+- **Melee** 1 action claw (agile, magical, unholy), **Damage** 1d6+12 slashing plus 1d6 cold.
 
 - **Leukodaemon** Speed 25 feet, fly 40 feet +2 status bonus to saves against diseases
 
 - **Size** Large
-- **Melee** 1 jaws (magical, reach 10 feet, unholy), **Damage** 2d10+12 piercing
-- **Melee** 1 claw (agile, magical, reach 10 feet, unholy), **Damage** 2d6+12 slashing;
-- **Ranged** 1 composite longbow (deadly 1d10, magical, propulsive, range increment 100 feet, unholy, volley), **Damage** 2d8+12 piercing.
+- **Melee** 1 action jaws (magical, reach 10 feet, unholy), **Damage** 2d10+12 piercing
+- **Melee** 1 action claw (agile, magical, reach 10 feet, unholy), **Damage** 2d6+12 slashing;
+- **Ranged** 1 action composite longbow (deadly 1d10, magical, propulsive, range increment 100 feet, unholy, volley), **Damage** 2d8+12 piercing.
 
 - **Meladaemon** Speed 25 feet, fly 40 feet
 
 - **Size** Large
-- **Melee** 1 jaws (magical, reach 10 feet, unholy), **Damage** 2d10+12 piercing
-- **Melee** 1 claw (agile, magical, reach 10 feet, unholy, void), **Damage** 1d6+12 slashing plus 1d6 void, and you can spend an action after a hit to attempt to Grab the target.
+- **Melee** 1 action jaws (magical, reach 10 feet, unholy), **Damage** 2d10+12 piercing
+- **Melee** 1 action claw (agile, magical, reach 10 feet, unholy, void), **Damage** 1d6+12 slashing plus 1d6 void, and you can spend an action after a hit to attempt to Grab the target.
 
 - **Venedaemon** Speed 25 feet sense magical items and active spells within 60 feet as an imprecise sense
 
 - **Size** Medium
-- **Melee** 1 tentacle (agile, magical, reach 10 feet, unholy), **Damage** 2d6+12 bludgeoning.
+- **Melee** 1 action tentacle (agile, magical, reach 10 feet, unholy), **Damage** 2d6+12 bludgeoning.
 
 Spell Effect: Daemon Form
 

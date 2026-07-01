@@ -33,11 +33,11 @@ Witnessing the might of the kaiju King Mogaru, Alru, and Toraloa up close awoke 
 
 **Kaiju** Speed 40 feet; physical resistance 5;
 
-**Melee** 1 jaws (reach 20 feet), **Damage** 3d12+20 piercing;
+**Melee** 1 action jaws (reach 20 feet), **Damage** 3d12+20 piercing;
 
-**Melee** 1 claws (agile, reach 20 feet), **Damage** 3d8+20 slashing;
+**Melee** 1 action claws (agile, reach 20 feet), **Damage** 3d8+20 slashing;
 
-**Breath Weapon** 2 (evocation, primal) Each creature in a 60-foot cone takes 15d6 @item.flags.system.rulesSelections.damageType]|options:area-damage damage (of your chosen damage type), with a reflex save save against your spell DC. Once activated, your breath weapon can't be used again for [[/r 1d4 #Recharge Breath Weapon]]{1d4 rounds}.
+**Breath Weapon** 2 actions (evocation, primal) Each creature in a 60-foot cone takes 15d6 @item.flags.system.rulesSelections.damageType]|options:area-damage damage (of your chosen damage type), with a reflex save save against your spell DC. Once activated, your breath weapon can't be used again for [[/r 1d4 #Recharge Breath Weapon]]{1d4 rounds}.
 
 # Citations
 

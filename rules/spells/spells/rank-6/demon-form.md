@@ -42,24 +42,24 @@ You also gain specific abilities based on the type of demon you choose:
 
 - **Abrikandilu** Speed 25 feet;
 
-- **Melee** 1 jaws (magical, unholy), **Damage** 2d6+12 piercing, and clumsy 1 for 1 minute on a critical hit;
-- **Melee** 1 claw (agile, magic, unholy), **Damage** 2d6+12 slashing;
-- **Ranged**1 hurled debris (range increment 20 feet, unholy), Damage 2d6+6 bludgeoning.
+- **Melee** 1 action jaws (magical, unholy), **Damage** 2d6+12 piercing, and clumsy 1 for 1 minute on a critical hit;
+- **Melee** 1 action claw (agile, magic, unholy), **Damage** 2d6+12 slashing;
+- **Ranged**1 action hurled debris (range increment 20 feet, unholy), Damage 2d6+6 bludgeoning.
 
 - **Brimorak** Speed 30 feet;
 
-- **Melee** 1 flaming sword (magical, unholy), **Damage** 2d8+10 slashing plus 1d6 fire;
-- **Melee** 1 hoof (agile, unholy), **Damage** 2d4+10 bludgeoning plus 1d6 fire.
+- **Melee** 1 action flaming sword (magical, unholy), **Damage** 2d8+10 slashing plus 1d6 fire;
+- **Melee** 1 action hoof (agile, unholy), **Damage** 2d4+10 bludgeoning plus 1d6 fire.
 
 - **Kithangian** Speed 30 feet;
 
-- **Melee** 1 pincer (magical, reach 10 feet, unholy), **Damage** 1d12+12 slashing, and you can spend an action after a hit to attempt to Grab the target
-- **Melee** 1 stinger (agile, magical, reach 10 feet, unholy), **Damage** 1d8+12 piercing; all melee Strikes deal 2d6 additional precision damage to animals.
+- **Melee** 1 action pincer (magical, reach 10 feet, unholy), **Damage** 1d12+12 slashing, and you can spend an action after a hit to attempt to Grab the target
+- **Melee** 1 action stinger (agile, magical, reach 10 feet, unholy), **Damage** 1d8+12 piercing; all melee Strikes deal 2d6 additional precision damage to animals.
 
 - **Vloriak** Speed 25 feet; resistance 10 to acid;
 
-- **Melee** 1 claw (unholy), Damage 2d6+12 piercing plus 1d6 spirit;
-- **Melee** 1 tongue (agile, reach 10 feet, unholy), Damage 1d6+12 acid plus 1d6 spirit.
+- **Melee** 1 action claw (unholy), Damage 2d6+12 piercing plus 1d6 spirit;
+- **Melee** 1 action tongue (agile, reach 10 feet, unholy), Damage 1d6+12 acid plus 1d6 spirit.
 
 Spell Effect: Demon Form
 

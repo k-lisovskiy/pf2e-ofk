@@ -31,7 +31,7 @@ publication: "Pathfinder Lost Omens Tian Xia Character Guide"
 
 The spirit within your pusaka resonates with other magical items in your possession. Your pusaka gains the following activation.
 
-**Activate—Replenish Heirloom** f (concentrate)
+**Activate—Replenish Heirloom** free action (concentrate)
 
 **Frequency** once per day
 

@@ -31,9 +31,9 @@ publication: "Pathfinder #176: Lost Mammoth Valley"
 
 You reach out a hand and seize a creature's skeleton from afar, harming their body and potentially wrenching them by the bones to move them against their will. The number of actions you spend when Casting this Spell determines the spell's effects. Regardless of the number of actions spent to Cast this Spell, the target must attempt a Fortitude save.
 
-2 (somatic, verbal) You clench your fist, painfully compressing the target's bones and dealing 3d8 bludgeoning damage.
+2 actions (somatic, verbal) You clench your fist, painfully compressing the target's bones and dealing 3d8 bludgeoning damage.
 
-3 (material, somatic, verbal) As the 2-action version, plus you pull the target's body by their bones, moving them around like an awkward marionette. This movement follows the rules for forced movement.
+3 actions (material, somatic, verbal) As the 2-action version, plus you pull the target's body by their bones, moving them around like an awkward marionette. This movement follows the rules for forced movement.
 
 ---
 

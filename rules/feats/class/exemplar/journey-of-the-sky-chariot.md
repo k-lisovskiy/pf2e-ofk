@@ -36,7 +36,7 @@ Small wings, flaming wheels, or another signifier of flight sprout from your iko
 
 **Immanence** Your ikon keeps you hovering even without conscious effort. You can remain in the air at the end of this turn, even if you didn't use a Fly action.
 
-**Transcendence—Race the Skies** 1 (concentrate, transcendence)
+**Transcendence—Race the Skies** 1 action (concentrate, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.MrTULCUsE9naPxXg inline
 

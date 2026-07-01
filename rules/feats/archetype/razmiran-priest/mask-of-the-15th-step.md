@@ -33,7 +33,7 @@ You have ascended to the 15th Step and stand among the greatest of Razmir's prie
 
 ---
 
-**Activate—Call Upon Razmir's Wrath** 2 (concentrate, manipulate, occult)
+**Activate—Call Upon Razmir's Wrath** 2 actions (concentrate, manipulate, occult)
 
 **Frequency** once per day
 

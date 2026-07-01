@@ -32,11 +32,11 @@ publication: "Pathfinder Player Core"
 
 You channel void energy to harm the living or heal the undead. If the target is a living creature, you deal 1d8 void damage to it, and it gets a basic Fortitude save. If the target is a willing undead creature, you restore that amount of Hit Points. The number of actions you spend when Casting this Spell determines its targets, range, area, and other parameters.
 
-1 The spell has a range of touch.
+1 action The spell has a range of touch.
 
-2 (concentrate) The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.
+2 actions (concentrate) The spell has a range of 30 feet. If you're healing an undead creature, increase the Hit Points restored by 8.
 
-3 (concentrate) You disperse void energy in a 30-foot emanation. This targets all living and undead creatures in the area.
+3 actions (concentrate) You disperse void energy in a 30-foot emanation. This targets all living and undead creatures in the area.
 
 ---
 

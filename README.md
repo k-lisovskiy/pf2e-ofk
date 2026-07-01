@@ -44,6 +44,13 @@ rules/
     miscellaneous/
       index.md        # aftermath, deviant, reincarnated, variant-rules
       <subcategory>/{index.md, <slug>.md}
+  ancestries/{index.md, <slug>.md}            # curated — see below
+  heritages/<ancestry>/{index.md, <slug>.md}  # curated
+  backgrounds/{index.md, <slug>.md}           # curated
+  class-features/<class>/{index.md, <slug>.md}       # curated
+  ancestry-features/<ancestry>/{index.md, <slug>.md} # curated
+  familiar-abilities/{index.md, <slug>.md}    # curated
+  equipment/{index.md, <slug>.md}             # curated
 tools/
   build_okf.py        # producer / validator
 ```
@@ -52,10 +59,26 @@ Every concept document carries the required OKF `type` field plus recommended
 fields (`title`, `description`, `resource`, `tags`, `timestamp`). Spells add
 `rarity`, `rank`, `actions`, `traditions`, `range`, `targets`, `area`,
 `defense`, `duration`, `cost`, `publication` (rituals also `primary_check`,
-`secondary_casters`, `secondary_checks`). Feats add `rarity`, `level`,
-`category`/`subcategory`, `action_type`/`actions`, `frequency`,
+`secondary_casters`, `secondary_checks`). Feats (and the feat-shaped class
+features / ancestry features / familiar abilities below) add `rarity`,
+`level`, `category`/`subcategory`, `action_type`/`actions`, `frequency`,
 `prerequisites`, `only_level_1`, `max_takable`, `self_effect`, `publication`.
-The body holds an `# Overview` stat block, `## Description`, and `## Citations`.
+Ancestries/heritages/backgrounds add boosts/flaws/languages/trained-skills
+fields; equipment adds `price`, `bulk`, `usage`, plus type-specific fields
+(`damage`/`weapon_group` for weapons, `ac_bonus`/`dex_cap` for armor). The
+body holds an `# Overview` stat block, `## Description`, and `## Citations`.
+
+### Curated domains (not full catalogs)
+
+`ancestries/`, `heritages/`, `backgrounds/`, `class-features/`,
+`ancestry-features/`, `familiar-abilities/`, and `equipment/` are **not**
+full catalogs — they contain only the specific items a particular character
+build references (currently: a Catfolk Wizard), added via an explicit
+manifest in `tools/build_okf.py` (`CHARACTER_REFS_MANIFEST`), not a directory
+scan. Every index.md in these domains states "N of TOTAL documented" so
+nothing implies false completeness. Extend `CHARACTER_REFS_MANIFEST` to add
+more characters' items, or build out a full-catalog generator for any of
+these domains the same way spells/feats were built.
 
 ## Regenerating
 
@@ -63,11 +86,13 @@ The bundle is generated from a sibling checkout of the `pf2e` repo:
 
 ```bash
 python3 tools/build_okf.py --spells-source ../pf2e/packs/pf2e/spells \
-                            --feats-source ../pf2e/packs/pf2e/feats
+                            --feats-source ../pf2e/packs/pf2e/feats \
+                            --character-refs --packs-root ../pf2e/packs/pf2e
 ```
 
-Use `--skip-spells` or `--skip-feats` to regenerate only one domain. Validate
-the bundle:
+Use `--skip-spells` / `--skip-feats` to regenerate only one domain.
+`--character-refs` is opt-in (omit it to regenerate just spells + feats).
+Validate the bundle:
 
 ```bash
 python3 tools/build_okf.py --check
@@ -78,8 +103,11 @@ python3 tools/build_okf.py --check
 - **Spells**: cantrips, ranked spells (1-10), focus spells, and rituals — 1,796 concepts.
 - **Feats**: ancestry, archetype, class, general, skill, mythic, and
   miscellaneous feats — 5,987 concepts.
+- **Character references** (curated, not full catalogs): 1 ancestry, 1
+  heritage, 1 background, 11 class features, 1 ancestry feature, 6 familiar
+  abilities, 13 equipment items — 34 concepts.
 
-**7,783 concepts in total.**
+**7,817 concepts in total.**
 
 ## License
 

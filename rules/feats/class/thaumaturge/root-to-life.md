@@ -1,7 +1,7 @@
 ---
 type: Class Feat
 title: "Root to Life"
-description: "1 or 2 Marigold, spider lily, pennyroyal-many primal traditions connect flowers and plants with the boundary between life and death, and you can leverage this association to keep an ally on this si..."
+description: "1 action or 2 actions Marigold, spider lily, pennyroyal-many primal traditions connect flowers and plants with the boundary between life and death, and you can leverage this association to keep an..."
 resource: "pf2e://feats/class/thaumaturge/root-to-life"
 tags: ["esoterica", "manipulate", "primal", "thaumaturge"]
 timestamp: 2026-06-26T00:00:00Z
@@ -28,7 +28,7 @@ publication: "Pathfinder Dark Archive (Remastered)"
 
 ## Description
 
-1 or 2
+1 action or 2 actions
 
 ---
 

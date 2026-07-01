@@ -30,7 +30,7 @@ publication: "Pathfinder Guns & Gears"
 
 You know how to set explosives to cause the maximum possible damage to buildings and other structures. You become trained in Engineering Lore or become an expert in it if you were already trained. You gain the Set Explosives action.
 
-**Set Explosives** 2 (concentrate)
+**Set Explosives** 2 actions (concentrate)
 
 Compendium.pf2e.actionspf2e.Item.vvYsE7OiSSCXhPdr inline
 

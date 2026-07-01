@@ -28,7 +28,72 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DEFAULT_SPELLS_SOURCE = ROOT.parent / "pf2e" / "packs" / "pf2e" / "spells"
 DEFAULT_FEATS_SOURCE = ROOT.parent / "pf2e" / "packs" / "pf2e" / "feats"
+DEFAULT_PACKS_ROOT = ROOT.parent / "pf2e" / "packs" / "pf2e"
 TIMESTAMP = "2026-06-26T00:00:00Z"
+
+# Real (non-metadata) document counts per pack directory, used only to label
+# character-refs coverage honestly as "N of TOTAL" rather than implying a
+# full catalog exists.
+DOMAIN_TOTALS = {
+    "ancestries": 50, "heritages": 322, "backgrounds": 495,
+    "class-features": 841, "ancestry-features": 55,
+    "familiar-abilities": 111, "equipment": 5645,
+}
+
+# Curated, character-specific manifest — NOT a directory scan. Each entry is
+# (source path relative to --packs-root, output slug[, group slug for
+# grouped domains]). Extend this list to cover more characters/items; it
+# deliberately does not attempt full-catalog coverage of these domains.
+CHARACTER_REFS_MANIFEST = {
+    "ancestries": [
+        ("ancestries/catfolk.json", "catfolk"),
+    ],
+    "heritages": [
+        ("heritages/catfolk/sharp-eared-catfolk.json", "catfolk", "sharp-eared-catfolk"),
+    ],
+    "backgrounds": [
+        ("backgrounds/magical-merchant.json", "magical-merchant"),
+    ],
+    "class-features": [
+        ("class-features/arcane-school.json", "wizard", "arcane-school"),
+        ("class-features/school-of-the-reclamation.json", "wizard", "school-of-the-reclamation"),
+        ("class-features/arcane-thesis.json", "wizard", "arcane-thesis"),
+        ("class-features/improved-familiar-attunement.json", "wizard", "improved-familiar-attunement"),
+        ("class-features/arcane-bond.json", "wizard", "arcane-bond"),
+        ("class-features/wizard-spellcasting.json", "wizard", "wizard-spellcasting"),
+        ("class-features/reflex-expertise.json", "wizard", "reflex-expertise"),
+        ("class-features/expert-spellcaster.json", "wizard", "expert-spellcaster"),
+        ("class-features/magical-fortitude.json", "wizard", "magical-fortitude"),
+        ("class-features/perception-expertise.json", "wizard", "perception-expertise"),
+        ("class-features/weapon-expertise.json", "wizard", "weapon-expertise"),
+    ],
+    "ancestry-features": [
+        ("ancestry-features/catfolk/land-on-your-feet.json", "catfolk", "land-on-your-feet"),
+    ],
+    "familiar-abilities": [
+        ("familiar-abilities/dragon.json", "dragon"),
+        ("familiar-abilities/flier.json", "flier"),
+        ("familiar-abilities/ambassador.json", "ambassador"),
+        ("familiar-abilities/restorative-familiar.json", "restorative-familiar"),
+        ("familiar-abilities/spell-delivery.json", "spell-delivery"),
+        ("familiar-abilities/touch-telepathy.json", "touch-telepathy"),
+    ],
+    "equipment": [
+        ("equipment/staff-of-the-tempest-greater.json", "staff-of-the-tempest-greater"),
+        ("equipment/spotless-spats.json", "spotless-spats"),
+        ("equipment/familiar-tattoo.json", "familiar-tattoo"),
+        ("equipment/spellbook-blank.json", "spellbook-blank"),
+        ("equipment/glasses-of-sociability.json", "glasses-of-sociability"),
+        ("equipment/cloak-of-repute.json", "cloak-of-repute"),
+        ("equipment/ventriloquists-ring.json", "ventriloquists-ring"),
+        ("equipment/mages-hat-greater.json", "mages-hat-greater"),
+        ("equipment/healing-potion-lesser.json", "healing-potion-lesser"),
+        ("equipment/healing-potion-moderate.json", "healing-potion-moderate"),
+        ("equipment/healing-potion-greater.json", "healing-potion-greater"),
+        ("equipment/explorers-clothing.json", "explorers-clothing"),
+        ("equipment/staff.json", "staff"),
+    ],
+}
 
 # The whole rules bundle lives under rules/ so it can grow beyond spells
 # (feats, equipment, bestiary, ...). Each domain is nested at rules/<domain>/.
@@ -195,8 +260,26 @@ def convert_tables(text: str) -> str:
     return re.sub(r"<table[^>]*>.*?</table>", repl, text, flags=re.I | re.S)
 
 
+_ACTION_GLYPHS = {
+    "1": "1 action", "a": "1 action",
+    "2": "2 actions", "d": "2 actions",
+    "3": "3 actions", "t": "3 actions",
+    "f": "free action",
+    "r": "reaction",
+}
+
+
+def convert_action_glyphs(text: str) -> str:
+    """Foundry renders action costs as a single mnemonic letter/digit inside
+    a custom icon font; translate it to plain words (e.g. 'a' -> '1 action')."""
+    def repl(match: re.Match) -> str:
+        return _ACTION_GLYPHS.get(match.group(1).strip().lower(), match.group(1))
+    return re.sub(r'<span class="action-glyph"[^>]*>([^<]+)</span>', repl, text, flags=re.I)
+
+
 def html_to_markdown(text: str) -> str:
     text = convert_tables(text)
+    text = convert_action_glyphs(text)
     text = clean_inline(text)
     text = re.sub(r"<hr\s*/?>", "\n\n---\n\n", text, flags=re.I)
     text = re.sub(r"<br\s*/?>", "\n", text, flags=re.I)
@@ -216,7 +299,7 @@ def html_to_markdown(text: str) -> str:
 
 
 _CALLOUT_LABELS = {"requirements", "requirement", "trigger", "frequency", "cost",
-                   "special", "prerequisite", "prerequisites"}
+                   "special", "prerequisite", "prerequisites", "activate"}
 
 
 def _strip_leading_callouts(markdown: str) -> str:
@@ -482,7 +565,7 @@ def build_feat_concept(type_name: str, category: str, subcategory: str, data: di
 
     overview = ["# Overview", ""]
     overview.append(f"- **Level**: {level}")
-    cat_line = category.capitalize()
+    cat_line = category.replace("-", " ").title()
     if subcategory:
         cat_line += f" ({subcategory})"
     overview.append(f"- **Category**: {cat_line}")
@@ -507,6 +590,313 @@ def build_feat_concept(type_name: str, category: str, subcategory: str, data: di
     citations = [
         "# Citations",
         "",
+        f"[1] {publication}" if publication else "[1] Pathfinder 2e",
+        f"[2] Source: `{source_relpath}` (pf2e system data)",
+    ]
+
+    doc = "\n".join(fm) + "\n\n"
+    doc += "\n".join(overview) + "\n\n"
+    doc += "## Description\n\n" + body_md + "\n\n"
+    doc += "\n".join(citations) + "\n"
+    return doc
+
+
+# --------------------------------------------------------------------------- #
+# Ancestry / heritage / background -> concept document
+# --------------------------------------------------------------------------- #
+
+def _boost_label(values: list[str]) -> str:
+    """A single ability boost slot: a fixed ability, a slash-joined partial
+    choice (e.g. 'INT/WIS'), or 'Free' when every ability is listed."""
+    if len(values) == 1:
+        return values[0].upper()
+    if len(values) >= 6:
+        return "Free"
+    return "/".join(v.upper() for v in values)
+
+
+def _linked_items(items: dict) -> list[str]:
+    """Render an ancestry/background 'items' UUID-grant map as plain names."""
+    out = []
+    for entry in (items or {}).values():
+        name = entry.get("name", "")
+        level = entry.get("level")
+        out.append(f"{name} (level {level})" if level not in (None, "") else name)
+    return out
+
+
+def build_ancestry_concept(data: dict, resource: str, source_relpath: str) -> str:
+    sys_ = data["system"]
+    name = data["name"]
+    traits = sys_.get("traits", {})
+    rarity = traits.get("rarity", "common")
+    trait_values = traits.get("value", []) or []
+    boosts = [_boost_label(b.get("value", [])) for b in (sys_.get("boosts") or {}).values()]
+    flaws = [_boost_label(f.get("value", [])) for f in (sys_.get("flaws") or {}).values()]
+    hp = sys_.get("hp", 0)
+    speed = sys_.get("speed", 0)
+    size = sys_.get("size", "") or ""
+    vision = sys_.get("vision", "") or ""
+    reach = sys_.get("reach")
+    hands = sys_.get("hands")
+    languages = (sys_.get("languages") or {}).get("value", []) or []
+    bonus_languages = (sys_.get("additionalLanguages") or {}).get("value", []) or []
+    linked = _linked_items(sys_.get("items"))
+    publication = (sys_.get("publication") or {}).get("title", "") or ""
+
+    body_md = html_to_markdown(sys_.get("description", {}).get("value", ""))
+    description = first_sentence(body_md) or f"The {name} ancestry."
+
+    fm = ["---"]
+    fm.append("type: Ancestry")
+    fm.append(f"title: {yaml_str(name)}")
+    fm.append(f"description: {yaml_str(description)}")
+    fm.append(f"resource: {yaml_str(resource)}")
+    fm.append(f"tags: {yaml_list(list(trait_values))}")
+    fm.append(f"timestamp: {TIMESTAMP}")
+    fm.append(f"rarity: {yaml_str(rarity)}")
+    fm.append(f"hp: {hp}")
+    fm.append(f"speed: {speed}")
+    fm.append(f"size: {yaml_str(size)}")
+    fm.append(f"vision: {yaml_str(vision)}")
+    fm.append(f"boosts: {yaml_list(boosts)}")
+    fm.append(f"flaws: {yaml_list(flaws)}")
+    fm.append(f"languages: {yaml_list(list(languages))}")
+    fm.append(f"publication: {yaml_str(publication)}")
+    fm.append("---")
+
+    overview = ["# Overview", ""]
+    overview.append(f"- **HP**: {hp}")
+    overview.append(f"- **Speed**: {speed} feet")
+    if size:
+        overview.append(f"- **Size**: {size}")
+    if vision:
+        overview.append(f"- **Vision**: {vision}")
+    if reach not in (None, 5):
+        overview.append(f"- **Reach**: {reach} feet")
+    if hands not in (None, 2):
+        overview.append(f"- **Hands**: {hands}")
+    if boosts:
+        overview.append(f"- **Boosts**: {', '.join(boosts)}")
+    if flaws:
+        overview.append(f"- **Flaws**: {', '.join(flaws)}")
+    if languages:
+        overview.append(f"- **Languages**: {', '.join(languages)}")
+    if bonus_languages:
+        overview.append(f"- **Bonus Language Options**: {', '.join(bonus_languages)}")
+    if linked:
+        overview.append(f"- **Granted Features**: {', '.join(linked)}")
+    if trait_values:
+        overview.append(f"- **Traits**: {', '.join(trait_values)}")
+
+    citations = [
+        "# Citations", "",
+        f"[1] {publication}" if publication else "[1] Pathfinder 2e",
+        f"[2] Source: `{source_relpath}` (pf2e system data)",
+    ]
+
+    doc = "\n".join(fm) + "\n\n"
+    doc += "\n".join(overview) + "\n\n"
+    doc += "## Description\n\n" + body_md + "\n\n"
+    doc += "\n".join(citations) + "\n"
+    return doc
+
+
+def build_heritage_concept(data: dict, resource: str, source_relpath: str) -> str:
+    sys_ = data["system"]
+    name = data["name"]
+    traits = sys_.get("traits", {})
+    rarity = traits.get("rarity", "common")
+    trait_values = traits.get("value", []) or []
+    ancestry_name = (sys_.get("ancestry") or {}).get("name", "") or ""
+    publication = (sys_.get("publication") or {}).get("title", "") or ""
+
+    body_md = html_to_markdown(sys_.get("description", {}).get("value", ""))
+    description = first_sentence(body_md) or f"The {name} heritage."
+
+    fm = ["---"]
+    fm.append("type: Heritage")
+    fm.append(f"title: {yaml_str(name)}")
+    fm.append(f"description: {yaml_str(description)}")
+    fm.append(f"resource: {yaml_str(resource)}")
+    fm.append(f"tags: {yaml_list(list(trait_values))}")
+    fm.append(f"timestamp: {TIMESTAMP}")
+    fm.append(f"rarity: {yaml_str(rarity)}")
+    fm.append(f"ancestry: {yaml_str(ancestry_name)}")
+    fm.append(f"publication: {yaml_str(publication)}")
+    fm.append("---")
+
+    overview = ["# Overview", ""]
+    if ancestry_name:
+        overview.append(f"- **Ancestry**: {ancestry_name}")
+    if trait_values:
+        overview.append(f"- **Traits**: {', '.join(trait_values)}")
+
+    citations = [
+        "# Citations", "",
+        f"[1] {publication}" if publication else "[1] Pathfinder 2e",
+        f"[2] Source: `{source_relpath}` (pf2e system data)",
+    ]
+
+    doc = "\n".join(fm) + "\n\n"
+    doc += "\n".join(overview) + "\n\n"
+    doc += "## Description\n\n" + body_md + "\n\n"
+    doc += "\n".join(citations) + "\n"
+    return doc
+
+
+def build_background_concept(data: dict, resource: str, source_relpath: str) -> str:
+    sys_ = data["system"]
+    name = data["name"]
+    traits = sys_.get("traits", {})
+    rarity = traits.get("rarity", "common")
+    trait_values = traits.get("value", []) or []
+    boosts = [_boost_label(b.get("value", [])) for b in (sys_.get("boosts") or {}).values()]
+    trained = (sys_.get("trainedSkills") or {})
+    trained_skills = [s.capitalize() for s in (trained.get("value") or [])]
+    trained_lores = trained.get("lore") or []
+    linked = _linked_items(sys_.get("items"))
+    publication = (sys_.get("publication") or {}).get("title", "") or ""
+
+    body_md = html_to_markdown(sys_.get("description", {}).get("value", ""))
+    description = first_sentence(body_md) or f"The {name} background."
+
+    fm = ["---"]
+    fm.append("type: Background")
+    fm.append(f"title: {yaml_str(name)}")
+    fm.append(f"description: {yaml_str(description)}")
+    fm.append(f"resource: {yaml_str(resource)}")
+    fm.append(f"tags: {yaml_list(list(trait_values))}")
+    fm.append(f"timestamp: {TIMESTAMP}")
+    fm.append(f"rarity: {yaml_str(rarity)}")
+    fm.append(f"boosts: {yaml_list(boosts)}")
+    fm.append(f"trained_skills: {yaml_list(trained_skills)}")
+    fm.append(f"trained_lores: {yaml_list(list(trained_lores))}")
+    fm.append(f"publication: {yaml_str(publication)}")
+    fm.append("---")
+
+    overview = ["# Overview", ""]
+    if boosts:
+        overview.append(f"- **Boosts**: {', '.join(boosts)}")
+    if trained_skills:
+        overview.append(f"- **Trained Skills**: {', '.join(trained_skills)}")
+    if trained_lores:
+        overview.append(f"- **Trained Lores**: {', '.join(trained_lores)}")
+    if linked:
+        overview.append(f"- **Granted Feats**: {', '.join(linked)}")
+    if trait_values:
+        overview.append(f"- **Traits**: {', '.join(trait_values)}")
+
+    citations = [
+        "# Citations", "",
+        f"[1] {publication}" if publication else "[1] Pathfinder 2e",
+        f"[2] Source: `{source_relpath}` (pf2e system data)",
+    ]
+
+    doc = "\n".join(fm) + "\n\n"
+    doc += "\n".join(overview) + "\n\n"
+    doc += "## Description\n\n" + body_md + "\n\n"
+    doc += "\n".join(citations) + "\n"
+    return doc
+
+
+# --------------------------------------------------------------------------- #
+# Equipment -> concept document
+# --------------------------------------------------------------------------- #
+
+def format_price(price) -> str:
+    order = ["pp", "gp", "sp", "cp"]
+    value = (price or {}).get("value") or {}
+    parts = [f"{value[d]} {d}" for d in order if value.get(d)]
+    return ", ".join(parts)
+
+
+def build_equipment_concept(data: dict, resource: str, source_relpath: str) -> str:
+    sys_ = data["system"]
+    name = data["name"]
+    item_type = data.get("type", "equipment")
+    type_name = item_type.capitalize()
+    traits = sys_.get("traits", {})
+    rarity = traits.get("rarity", "common")
+    trait_values = traits.get("value", []) or []
+    level = sys_.get("level", {}).get("value", 0)
+    price = format_price(sys_.get("price"))
+    bulk = sys_.get("bulk", {}).get("value", 0)
+    usage = (sys_.get("usage") or {}).get("value", "") or ""
+    category = sys_.get("category", "") or ""
+    publication = (sys_.get("publication") or {}).get("title", "") or ""
+
+    extra_fm = []
+    extra_overview = []
+    if item_type == "weapon":
+        dmg = sys_.get("damage") or {}
+        dice, die, dtype = dmg.get("dice", 1), dmg.get("die", ""), dmg.get("damageType", "")
+        group = sys_.get("group", "") or ""
+        extra_fm.append(f"damage: {yaml_str(f'{dice}{die}'.strip())}")
+        extra_fm.append(f"damage_type: {yaml_str(dtype)}")
+        extra_fm.append(f"weapon_group: {yaml_str(group)}")
+        if die:
+            extra_overview.append(f"- **Damage**: {dice}{die} {dtype}".strip())
+        if group:
+            extra_overview.append(f"- **Weapon Group**: {group}")
+    elif item_type == "armor":
+        ac = sys_.get("acBonus", 0)
+        dex_cap = sys_.get("dexCap")
+        check_penalty = sys_.get("checkPenalty", 0)
+        group = sys_.get("group", "") or ""
+        extra_fm.append(f"ac_bonus: {ac}")
+        extra_fm.append(f"dex_cap: {dex_cap if dex_cap is not None else ''}")
+        extra_fm.append(f"armor_group: {yaml_str(group)}")
+        extra_overview.append(f"- **AC Bonus**: +{ac}")
+        if dex_cap is not None:
+            extra_overview.append(f"- **Dex Cap**: +{dex_cap}")
+        if check_penalty:
+            extra_overview.append(f"- **Check Penalty**: {check_penalty}")
+        if group:
+            extra_overview.append(f"- **Armor Group**: {group}")
+    elif item_type == "consumable":
+        dmg = sys_.get("damage") or {}
+        formula = dmg.get("formula", "") or ""
+        kind = dmg.get("kind", "") or ""
+        if formula:
+            extra_fm.append(f"heal_formula: {yaml_str(formula)}")
+            extra_overview.append(f"- **{'Heals' if kind == 'healing' else 'Effect'}**: {formula}")
+
+    body_md = html_to_markdown(sys_.get("description", {}).get("value", ""))
+    description = first_sentence(body_md) or f"The {name} item."
+
+    fm = ["---"]
+    fm.append(f"type: {type_name}")
+    fm.append(f"title: {yaml_str(name)}")
+    fm.append(f"description: {yaml_str(description)}")
+    fm.append(f"resource: {yaml_str(resource)}")
+    fm.append(f"tags: {yaml_list(list(trait_values))}")
+    fm.append(f"timestamp: {TIMESTAMP}")
+    fm.append(f"rarity: {yaml_str(rarity)}")
+    fm.append(f"level: {level}")
+    fm.append(f"price: {yaml_str(price)}")
+    fm.append(f"bulk: {bulk}")
+    fm.append(f"usage: {yaml_str(usage)}")
+    fm.append(f"category: {yaml_str(category)}")
+    fm.extend(extra_fm)
+    fm.append(f"publication: {yaml_str(publication)}")
+    fm.append("---")
+
+    overview = ["# Overview", ""]
+    overview.append(f"- **Level**: {level}")
+    if price:
+        overview.append(f"- **Price**: {price}")
+    overview.append(f"- **Bulk**: {bulk}")
+    if usage:
+        overview.append(f"- **Usage**: {usage}")
+    if category:
+        overview.append(f"- **Category**: {category}")
+    overview.extend(extra_overview)
+    if trait_values:
+        overview.append(f"- **Traits**: {', '.join(trait_values)}")
+
+    citations = [
+        "# Citations", "",
         f"[1] {publication}" if publication else "[1] Pathfinder 2e",
         f"[2] Source: `{source_relpath}` (pf2e system data)",
     ]
@@ -708,21 +1098,127 @@ def generate_feats(source: Path) -> tuple[list[tuple[str, str]], dict[str, int]]
     return written, counts
 
 
+def _domain_label(domain: str) -> str:
+    return domain.replace("-", " ")
+
+
+def generate_character_refs(packs_root: Path) -> tuple[list[tuple[str, str]], dict[str, int]]:
+    """Curated, character-driven addition — NOT a full-catalog scan of these
+    domains. Builds exactly the items in CHARACTER_REFS_MANIFEST; every index
+    honestly states "N of TOTAL documented" rather than implying completeness."""
+    written: list[tuple[str, str]] = []
+    counts: dict[str, int] = {}
+
+    def load(relpath: str) -> dict:
+        return json.loads((packs_root / relpath).read_text(encoding="utf-8"))
+
+    def src_relpath(relpath: str) -> str:
+        return f"packs/pf2e/{relpath}"
+
+    def flat_domain(domain: str, builder) -> None:
+        out_dir = ROOT / RULES_DIR / domain
+        out_dir.mkdir(parents=True, exist_ok=True)
+        entries = []
+        for relpath, slug in CHARACTER_REFS_MANIFEST[domain]:
+            data = load(relpath)
+            resource = f"pf2e://{domain}/{slug}"
+            doc = builder(data, resource, src_relpath(relpath))
+            (out_dir / f"{slug}.md").write_text(doc, encoding="utf-8")
+            written.append(((out_dir / f"{slug}.md").relative_to(ROOT).as_posix(), doc))
+            entries.append((slug, data["name"]))
+        counts[domain] = len(entries)
+        label = _domain_label(domain)
+        write_index(out_dir, "Index", f"PF2e {label.title()}",
+                    f"{len(entries)} of {DOMAIN_TOTALS[domain]} Pathfinder 2e {label} documented "
+                    "(curated for a specific character build, not a full catalog).",
+                    entries, written)
+
+    def grouped_domain(domain: str, type_name: str, builder) -> None:
+        out_dir = ROOT / RULES_DIR / domain
+        out_dir.mkdir(parents=True, exist_ok=True)
+        groups: dict[str, list[tuple[str, str]]] = {}
+        for relpath, group_slug, slug in CHARACTER_REFS_MANIFEST[domain]:
+            data = load(relpath)
+            resource = f"pf2e://{domain}/{group_slug}/{slug}"
+            doc = builder(group_slug, data, resource, src_relpath(relpath))
+            group_dir = out_dir / group_slug
+            group_dir.mkdir(parents=True, exist_ok=True)
+            (group_dir / f"{slug}.md").write_text(doc, encoding="utf-8")
+            written.append(((group_dir / f"{slug}.md").relative_to(ROOT).as_posix(), doc))
+            groups.setdefault(group_slug, []).append((slug, data["name"]))
+
+        label = _domain_label(domain)
+        group_counts = []
+        for group_slug, entries in groups.items():
+            group_dir = out_dir / group_slug
+            group_title = group_slug.replace("-", " ").title()
+            write_index(group_dir, type_name, f"{group_title} — {label.title()}",
+                        f"{len(entries)} {label} for {group_title} "
+                        "(curated for a specific character build, not a full catalog).",
+                        entries, written)
+            group_counts.append((group_slug, len(entries)))
+        total_here = sum(c for _s, c in group_counts)
+        counts[domain] = total_here
+
+        lines = [
+            "---", "type: Index", f'title: "PF2e {label.title()}"',
+            f'description: "{total_here} of {DOMAIN_TOTALS[domain]} Pathfinder 2e {label} '
+            'documented (curated for a specific character build, not a full catalog)."',
+            f"timestamp: {TIMESTAMP}", "---", "",
+            f"# {label.title()}", "",
+            f"{total_here} of {DOMAIN_TOTALS[domain]} documented.", "",
+        ]
+        for group_slug, count in sorted(group_counts):
+            group_title = group_slug.replace("-", " ").title()
+            lines.append(f"- [{group_title}](/{RULES_DIR}/{domain}/{group_slug}/index.md) — {count}")
+        text = "\n".join(lines) + "\n"
+        (out_dir / "index.md").write_text(text, encoding="utf-8")
+        written.append((f"{RULES_DIR}/{domain}/index.md", text))
+
+    flat_domain("ancestries", build_ancestry_concept)
+    flat_domain("backgrounds", build_background_concept)
+    flat_domain("familiar-abilities", lambda data, resource, srcpath: build_feat_concept(
+        "Familiar Ability", "familiar-ability", "", data, resource, srcpath))
+    flat_domain("equipment", build_equipment_concept)
+
+    grouped_domain("heritages", "Heritage", lambda group, data, resource, srcpath:
+                   build_heritage_concept(data, resource, srcpath))
+    grouped_domain("class-features", "Class Feature", lambda group, data, resource, srcpath:
+                   build_feat_concept("Class Feature", "class-feature", group, data, resource, srcpath))
+    grouped_domain("ancestry-features", "Ancestry Feature", lambda group, data, resource, srcpath:
+                   build_feat_concept("Ancestry Feature", "ancestry-feature", group, data, resource, srcpath))
+
+    counts["total"] = sum(counts.values())
+    print("  character-refs: " + ", ".join(f"{d}={counts[d]}" for d in CHARACTER_REFS_MANIFEST) +
+          f" (total {counts['total']})")
+    return written, counts
+
+
 def finalize(spell_counts: dict[str, int] | None,
-            feat_counts: dict[str, int] | None) -> list[tuple[str, str]]:
+            feat_counts: dict[str, int] | None,
+            character_counts: dict[str, int] | None = None) -> list[tuple[str, str]]:
     """Write the shared root/rules index files and log.md from both domains'
     counts, so either can be regenerated independently and re-finalized."""
     written: list[tuple[str, str]] = []
 
     spells_total = sum(spell_counts.values()) if spell_counts else 0
     feats_total = feat_counts["total"] if feat_counts else 0
-    grand_total = spells_total + feats_total
+    character_total = character_counts["total"] if character_counts else 0
+    grand_total = spells_total + feats_total + character_total
 
     categories_lines = []
     if spell_counts:
         categories_lines.append(f"- [Spells](/{SPELLS_OUT}/index.md) — {spells_total} spell concepts")
     if feat_counts:
         categories_lines.append(f"- [Feats](/{FEATS_OUT}/index.md) — {feats_total} feat concepts")
+    if character_counts:
+        for domain in CHARACTER_REFS_MANIFEST:
+            n, total = character_counts[domain], DOMAIN_TOTALS[domain]
+            label = _domain_label(domain).title()
+            categories_lines.append(
+                f"- [{label}](/{RULES_DIR}/{domain}/index.md) — {n} of {total} "
+                f"{label.lower()} (curated for a specific character build, not a full catalog)"
+            )
 
     rules_index = (
         "---\n"
@@ -732,8 +1228,10 @@ def finalize(spell_counts: dict[str, int] | None,
         f"timestamp: {TIMESTAMP}\n"
         "---\n\n"
         "# PF2e Rules\n\n"
-        "Pathfinder Second Edition rules content. New categories (equipment, "
-        "bestiary, conditions, ...) can be added alongside spells and feats.\n\n"
+        "Pathfinder Second Edition rules content. New categories (bestiary, "
+        "conditions, ...) can be added alongside spells and feats. Some "
+        "categories below are curated (only specific items a character "
+        "references) rather than full catalogs — each says so explicitly.\n\n"
         "## Categories\n\n"
         + "\n".join(categories_lines) + "\n"
     )
@@ -745,6 +1243,8 @@ def finalize(spell_counts: dict[str, int] | None,
         contents_parts.append(f"[Spells](/{SPELLS_OUT}/index.md) ({spells_total})")
     if feat_counts:
         contents_parts.append(f"[Feats](/{FEATS_OUT}/index.md) ({feats_total})")
+    if character_counts:
+        contents_parts.append(f"curated character references ({character_total})")
     root_index = (
         "---\n"
         "type: Index\n"
@@ -781,11 +1281,21 @@ def finalize(spell_counts: dict[str, int] | None,
             f"concepts: {breakdown}), grouped by ancestry/archetype/class/subcategory "
             "where the source data has one."
         )
+    if character_counts:
+        breakdown = ", ".join(f"{character_counts[d]} {_domain_label(d)}" for d in CHARACTER_REFS_MANIFEST)
+        log_lines.append(
+            f"- Added {character_total} curated character-reference concepts "
+            f"({breakdown}) covering ancestry, heritage, background, class "
+            "features, ancestry features, familiar abilities, and equipment "
+            "for a specific character build — not full catalogs of these "
+            "domains; see each category's index.md for exact coverage."
+        )
     log = "\n".join(log_lines) + "\n"
     (ROOT / "log.md").write_text(log, encoding="utf-8")
     written.append(("log.md", log))
 
-    print(f"  finalize: spells={spells_total}, feats={feats_total}, total={grand_total}")
+    print(f"  finalize: spells={spells_total}, feats={feats_total}, "
+          f"character-refs={character_total}, total={grand_total}")
     return written
 
 
@@ -835,10 +1345,18 @@ def main() -> int:
                         help="PF2e spells pack directory (packs/pf2e/spells).")
     parser.add_argument("--feats-source", type=Path, default=DEFAULT_FEATS_SOURCE,
                         help="PF2e feats pack directory (packs/pf2e/feats).")
+    parser.add_argument("--packs-root", type=Path, default=DEFAULT_PACKS_ROOT,
+                        help="PF2e packs directory (packs/pf2e), for --character-refs.")
     parser.add_argument("--skip-spells", action="store_true",
                         help="Don't regenerate the spells domain.")
     parser.add_argument("--skip-feats", action="store_true",
                         help="Don't regenerate the feats domain.")
+    parser.add_argument("--character-refs", action="store_true",
+                        help="Also (re)generate the curated character-reference domains "
+                             "(ancestries, heritages, backgrounds, class features, "
+                             "ancestry features, familiar abilities, equipment). Opt-in: "
+                             "not part of the default run, since it's a hand-picked list "
+                             "of items, not a full catalog.")
     parser.add_argument("--check", action="store_true",
                         help="Validate the existing bundle instead of generating.")
     args = parser.parse_args()
@@ -848,13 +1366,17 @@ def main() -> int:
     written: list[tuple[str, str]] = []
     spell_counts = None
     feat_counts = None
+    character_counts = None
     if not args.skip_spells:
         w, spell_counts = generate_spells(args.spells_source)
         written += w
     if not args.skip_feats:
         w, feat_counts = generate_feats(args.feats_source)
         written += w
-    written += finalize(spell_counts, feat_counts)
+    if args.character_refs:
+        w, character_counts = generate_character_refs(args.packs_root)
+        written += w
+    written += finalize(spell_counts, feat_counts, character_counts)
 
     print(f"Generated {len(written)} files into {ROOT}")
     return 0

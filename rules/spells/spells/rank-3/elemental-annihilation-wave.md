@@ -31,9 +31,9 @@ publication: "Pathfinder Rage of Elements"
 
 You draw elemental power from your surroundings, and combining it with your own magical energy, unleash a wave of utter destruction and swirling colors that deals 1d6 fire damage and 3d6 bludgeoning damage with a basic Reflex save. You can replace the air trait with the metal and wood traits when you cast the spell. The number of actions you spend when Casting this Spell determines the area and other parameters.
 
-2 **(somatic, verbal)** The spell is a 30-foot cone.
+2 actions **(somatic, verbal)** The spell is a 30-foot cone.
 
-3 **(material, somatic, verbal)** The spell is a 30-foot cone. On a failed saving throw, creatures are pushed 5 feet away from you, and on a critical failure they are pushed 10 feet away and are knocked prone.
+3 actions **(material, somatic, verbal)** The spell is a 30-foot cone. On a failed saving throw, creatures are pushed 5 feet away from you, and on a critical failure they are pushed 10 feet away and are knocked prone.
 
 **Two Rounds** If you spend 3 actions Casting the Spell, you can avoid finishing the spell and spend another 3 actions on your next turn to empower the spell even further. If you do, the spell is as 3 actions, but the area is a 60-foot cone, and for 1 round, the elements linger in the cone, racing off into the distance and making approaching you difficult, with the effects of Gust of Wind.
 
