@@ -48,17 +48,17 @@ You also gain specific abilities based on the type of monster you choose:
 
 - **Purple Worm** Speed 40 feet, burrow 30 feet, swim 20 feet
 
-- **Melee** 1 jaws (deadly 2d10, reach 15 feet), **Damage** 3d10+15 piercing
+- **Melee** 1 action jaws (deadly 2d10, reach 15 feet), **Damage** 3d10+15 piercing
 
-- **Melee** 1 stinger (agile, poison, reach 15 feet), **Damage** 2d12+15 piercing plus 2d6 persistent poison
+- **Melee** 1 action stinger (agile, poison, reach 15 feet), **Damage** 2d12+15 piercing plus 2d6 persistent poison
 
-- **Melee** 1 body (reach 15 feet) **Damage** 1d10+13 bludgeoning
+- **Melee** 1 action body (reach 15 feet) **Damage** 1d10+13 bludgeoning
 
 - **Hybrid** Speed 40 feet
 
-- **Melee** 1 stinger (agile, poison, reach 10 feet), **Damage** 2d12+15 piercing plus 1d6 persistent poison
+- **Melee** 1 action stinger (agile, poison, reach 10 feet), **Damage** 2d12+15 piercing plus 1d6 persistent poison
 
-- **Melee** 1 body (reach 10 feet), **Damage** 1d10+13 bludgeoning
+- **Melee** 1 action body (reach 10 feet), **Damage** 1d10+13 bludgeoning
 
 - **Hybrid Caster** You retain the ability to speak, and can cast spells as long as they don't have somatic or material components.
 

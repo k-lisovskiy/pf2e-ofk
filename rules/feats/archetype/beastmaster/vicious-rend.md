@@ -31,7 +31,7 @@ publication: "Pathfinder Howl of the Wild"
 
 Your companion sinks its claws and rips. Your companions with a qualifying unarmed attack learn the Vicious Rend activity.
 
-**Vicious Rend** 2 Make two claw, fist, pincer, or talon Strikes against the same target, applying the multiple attack penalty as normal. If both Strikes hit, the target takes an additional 1d6 persistent bleed damage. This damage increases to 2d6 if your companion is specialized.
+**Vicious Rend** 2 actions Make two claw, fist, pincer, or talon Strikes against the same target, applying the multiple attack penalty as normal. If both Strikes hit, the target takes an additional 1d6 persistent bleed damage. This damage increases to 2d6 if your companion is specialized.
 
 # Citations
 

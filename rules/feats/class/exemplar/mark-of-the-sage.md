@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 Your ikon gains a pin, stripe, or similar marking showing you as a master of your craft. The imbued ikon gains the following ability.
 
-**Transcendence—A Challenge for Heroes** 2 (concentrate, mental, spirit, transcendence)
+**Transcendence—A Challenge for Heroes** 2 actions (concentrate, mental, spirit, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.c40APnn4a7bWhtcZ inline
 

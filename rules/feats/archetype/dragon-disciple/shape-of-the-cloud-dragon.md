@@ -37,13 +37,13 @@ While in this form, you gain the following cloud dragon-specific abilities:
 
 - **Cloud** cloud walk (you can walk on clouds or fog);
 
-- **Melee** 1 jaws, **Damage** 2d10 piercing plus 1d12 electricity;
+- **Melee** 1 action jaws, **Damage** 2d10 piercing plus 1d12 electricity;
 
-- **Melee** 1 claw (agile), **Damage** 3d10 slashing;
+- **Melee** 1 action claw (agile), **Damage** 3d10 slashing;
 
-- **Melee** 1 tail (reach 10 feet), **Damage** 3d10 bludgeoning;
+- **Melee** 1 action tail (reach 10 feet), **Damage** 3d10 bludgeoning;
 
-- **Melee** 1 horn (reach 10 feet), **Damage** 3d8 piercing;
+- **Melee** 1 action horn (reach 10 feet), **Damage** 3d8 piercing;
 
 - Breath Weapon 30-foot cone, 6d12 electricity.
 

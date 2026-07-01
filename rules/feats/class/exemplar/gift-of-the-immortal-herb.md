@@ -36,7 +36,7 @@ Your blood turns a divine gold, shining in moments its spilled and begetting new
 
 **Immanence** If your divine spark remains in your body ikon for 10 continuous minutes, you regrow one damaged or ruined limb or organ.
 
-**Transcendence—Shed the Mortal Skin** 1 (healing, light, transcendence, vitality)
+**Transcendence—Shed the Mortal Skin** 1 action (healing, light, transcendence, vitality)
 
 Compendium.pf2e.actionspf2e.Item.rU3CE5niG8vHc5x4 inline
 

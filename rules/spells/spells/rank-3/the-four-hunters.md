@@ -36,11 +36,11 @@ This is a story of four evenly matched hunters who sought to capture a falling s
 - **South** was clever and cunning. The target becomes Concealed and gains a +1 status bonus to Stealth for 1 round.
 - **West** was bold and competitive. The target gains a +10-foot status bonus to their land Speed and a +1 status bonus to Acrobatics for 1 round.
 
-1 You quickly remind yourself of the story, granting only yourself the benefit.
+1 action You quickly remind yourself of the story, granting only yourself the benefit.
 
-2 You tell a trusted ally within 30 feet this story, granting them the benefit.
+2 actions You tell a trusted ally within 30 feet this story, granting them the benefit.
 
-3 You impart this tale on all of your allies within 30 feet, granting them the benefit.
+3 actions You impart this tale on all of your allies within 30 feet, granting them the benefit.
 
 Spell Effect: The Four Hunters
 

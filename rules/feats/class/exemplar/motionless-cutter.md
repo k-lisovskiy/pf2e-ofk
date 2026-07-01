@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 Your weapon is so sharp even an insect alighting upon its still blade would be severed. Your weapon ikon gains the following ability.
 
-**Transcendence—Sever Four Dragonfly Wings** 3 (transcendence)
+**Transcendence—Sever Four Dragonfly Wings** 3 actions (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.XFdTDDAPO7U0r4Et inline
 

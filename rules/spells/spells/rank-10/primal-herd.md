@@ -42,15 +42,15 @@ Summoning the power of the natural world, you transform the targets into a herd 
 
 - The following unarmed melee attacks, which are the only attacks the target can use to Strike. When Striking with these attacks, the target uses their attack modifier with the proficiency and item bonuses of their most favorable weapon or unarmed Strike, and the damage is listed for each attack. These attacks are Strength based (for the purpose of the Enfeebled condition, for example).
 
-- **Melee** 1 tusk (reach 15 feet), **Damage** 4d8+19 piercing
-- **Melee** 1 trunk (agile, reach 15 feet), **Damage** 4d6+16 bludgeoning
-- **Melee** 1 foot (agile, reach 15 feet), **Damage** 4d6+13 bludgeoning.
+- **Melee** 1 action tusk (reach 15 feet), **Damage** 4d8+19 piercing
+- **Melee** 1 action trunk (agile, reach 15 feet), **Damage** 4d6+16 bludgeoning
+- **Melee** 1 action foot (agile, reach 15 feet), **Damage** 4d6+13 bludgeoning.
 
 - Athletics modifier of +30, unless the target's own modifier is higher.
 
 - Each target can use the Trample action.
 
-- **Trample** 3 You move up to twice your Speed and move through the space of Large or smaller creatures, trampling each creature whose space you enter. A trampled creature takes damage from your foot Strike based on a basic Reflex save (DC = 19 + your level).
+- **Trample** 3 actions You move up to twice your Speed and move through the space of Large or smaller creatures, trampling each creature whose space you enter. A trampled creature takes damage from your foot Strike based on a basic Reflex save (DC = 19 + your level).
 
 Spell Effect: Primal Herd
 

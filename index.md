@@ -11,4 +11,4 @@ An [Open Knowledge Format](https://github.com/GoogleCloudPlatform/knowledge-cata
 
 ## Contents
 
-- [Rules](/rules/index.md) — [Spells](/rules/spells/index.md) (1796), [Feats](/rules/feats/index.md) (5987); 7783 concepts total; more categories to come
+- [Rules](/rules/index.md) — [Spells](/rules/spells/index.md) (1796), [Feats](/rules/feats/index.md) (5987), curated character references (34); 7817 concepts total; more categories to come

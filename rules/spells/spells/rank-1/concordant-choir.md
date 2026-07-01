@@ -34,11 +34,11 @@ You unleash a dangerous consonance of reverberating sound, focusing on a single 
 
 ---
 
-1 The spell deals 1d4 sonic damage to a single enemy, with a basic Fortitude save.
+1 action The spell deals 1d4 sonic damage to a single enemy, with a basic Fortitude save.
 
-2 (manipulate) The spell deals 2d4 sonic damage to all creatures in a 10-foot burst, with a basic Fortitude save.
+2 actions (manipulate) The spell deals 2d4 sonic damage to all creatures in a 10-foot burst, with a basic Fortitude save.
 
-3 (manipulate) The spell deals 2d4 sonic damage to all creatures in a 30-foot emanation, with a basic Fortitude save.
+3 actions (manipulate) The spell deals 2d4 sonic damage to all creatures in a 30-foot emanation, with a basic Fortitude save.
 
 ---
 

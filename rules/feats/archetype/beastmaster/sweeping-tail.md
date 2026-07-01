@@ -31,7 +31,7 @@ publication: "Pathfinder Howl of the Wild"
 
 Your companion swings its tail powerfully. Your companions with a qualifying unarmed attack learn the Sweeping Tail activity.
 
-**Sweeping Tail** 2 This companion makes two tail Strikes against different creatures within its reach, increasing its multiple attack penalty as normal. On a hit, it pushes a target back 5 feet or 10 feet on a critical hit. This is forced movement.
+**Sweeping Tail** 2 actions This companion makes two tail Strikes against different creatures within its reach, increasing its multiple attack penalty as normal. On a hit, it pushes a target back 5 feet or 10 feet on a critical hit. This is forced movement.
 
 # Citations
 

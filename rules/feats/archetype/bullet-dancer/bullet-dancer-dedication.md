@@ -31,7 +31,7 @@ publication: "Pathfinder Guns & Gears"
 
 You mix guns and melee into a deadly art. You gain the Bullet Dancer Stance action. You are also granted familiarity with bayonets, reinforced stocks, martial firearms, and martial combination weapons; for the purposes of proficiency and abilities from this archetype, you treat bayonets, reinforced stocks, martial firearms, and martial combination weapons as simple weapons. You gain access to uncommon combination weapons that have a firearm ranged form.
 
-**Bullet Dancer Stance** 1 (stance)
+**Bullet Dancer Stance** 1 action (stance)
 
 Compendium.pf2e.actionspf2e.Item.SMF1hTWPHtmlS8Cd inline
 

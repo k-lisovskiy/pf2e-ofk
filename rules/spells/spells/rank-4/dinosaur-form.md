@@ -50,47 +50,47 @@ You also gain specific abilities based on the form you choose:
 
 - Speed 25 feet;
 
-- **Melee** 1 tail (backswing, reach 10 feet), **Damage** 2d6 bludgeoning;
+- **Melee** 1 action tail (backswing, reach 10 feet), **Damage** 2d6 bludgeoning;
 
-- **Melee** 1 foot, **Damage** 2d6 bludgeoning.
+- **Melee** 1 action foot, **Damage** 2d6 bludgeoning.
 
 - **Brontosaurus**
 
 - Speed 25 feet;
 
-- **Melee** 1 tail (reach 15 feet), **Damage** 2d6 bludgeoning;
+- **Melee** 1 action tail (reach 15 feet), **Damage** 2d6 bludgeoning;
 
-- **Melee** 1 foot, **Damage** 2d8 bludgeoning.
+- **Melee** 1 action foot, **Damage** 2d8 bludgeoning.
 
 - **Deinonychus**
 
 - Speed 40 feet;
 
-- **Melee** 1 talon (agile), **Damage** 2d4 piercing plus 1 persistent bleed;
+- **Melee** 1 action talon (agile), **Damage** 2d4 piercing plus 1 persistent bleed;
 
-- **Melee** 1 jaws, **Damage** 1d10 piercing.
+- **Melee** 1 action jaws, **Damage** 1d10 piercing.
 
 - **Stegosaurus**
 
 - Speed 30 feet;
 
-- **Melee** 1 tail (reach 10 feet), **Damage** 2d8 piercing.
+- **Melee** 1 action tail (reach 10 feet), **Damage** 2d8 piercing.
 
 - **Triceratops**
 
 - Speed 30 feet;
 
-- **Melee** 1 horn, **Damage** 2d8 piercing, plus 1d6 persistent bleed on a critical hit;
+- **Melee** 1 action horn, **Damage** 2d8 piercing, plus 1d6 persistent bleed on a critical hit;
 
-- **Melee** 1 foot, **Damage** 2d6 bludgeoning.
+- **Melee** 1 action foot, **Damage** 2d6 bludgeoning.
 
 - **Tyrannosaurus**
 
 - Speed 30 feet;
 
-- **Melee** 1 jaws (deadly d12, reach 10 feet), **Damage** 1d12 piercing;
+- **Melee** 1 action jaws (deadly d12, reach 10 feet), **Damage** 1d12 piercing;
 
-- **Melee** 1 tail (reach 10 feet), **Damage** 1d10 bludgeoning.
+- **Melee** 1 action tail (reach 10 feet), **Damage** 1d10 bludgeoning.
 
 ---
 

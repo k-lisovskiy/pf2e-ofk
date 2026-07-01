@@ -36,7 +36,7 @@ The blade of your ikon takes one or more notches, capable of dealing mortal pain
 
 **Immanence** When you Strike with the ikon, you critically succeed if you roll a 19 on the die as long as that result would be a success. This has no effect on a 19 if the result would be a failure.
 
-**Transcendence—Plant Thirty Barbs** 1 (death, transcendence)
+**Transcendence—Plant Thirty Barbs** 1 action (death, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.cfQb0mBbyrjhyGf5 inline
 

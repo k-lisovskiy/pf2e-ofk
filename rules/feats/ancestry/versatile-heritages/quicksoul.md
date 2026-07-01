@@ -31,7 +31,7 @@ publication: "Pathfinder Rage of Elements"
 
 The elemental metal in your bloodline literally courses through your veins in the form of liquid metals like mercury, rubidium, gallium, and djezet, giving your actions a languid fluidity. You gain the trained proficiency rank in Acrobatics. If you would automatically become trained in Acrobatics (from your background or class, for example), you instead become trained in a skill of your choice. As these metals are largely toxic to organic life, you also gain the Toxic Touch action.
 
-**Toxic Touch** 1 (poison)
+**Toxic Touch** 1 action (poison)
 
 **Frequency** once per day
 

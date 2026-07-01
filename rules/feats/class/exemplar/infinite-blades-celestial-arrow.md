@@ -36,7 +36,7 @@ Each shot you launch multiplies itself with spiritual blades, rings, and other m
 
 **Immanence** Whenever you successfully Strike an enemy with your weapon ikon, up to two enemies adjacent to the target take spirit damage equal to your weapon ikon's damage dice as they are struck by duplicated missiles.
 
-**Transcendence—Heaven Rains an Ending** 3 (transcendence)
+**Transcendence—Heaven Rains an Ending** 3 actions (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.JtEzSceixS0WA8wn inline
 

@@ -48,37 +48,37 @@ You also gain specific abilities based on the type of elemental you choose:
 
 - fly 80 feet, movement doesn't trigger reactions;
 
-- **Melee** 1 gust, **Damage** 1d4 bludgeoning.
+- **Melee** 1 action gust, **Damage** 1d4 bludgeoning.
 
 - **Earth**
 
 - Speed 20 feet, burrow 20 feet;
 
-- **Melee** 1 boulder, **Damage** 2d10 bludgeoning.
+- **Melee** 1 action boulder, **Damage** 2d10 bludgeoning.
 
 - **Fire**
 
 - Speed 50 feet; fire resistance 10, weakness 5 to cold and 5 to water;
 
-- **Melee** 1 tendril, **Damage** 1d8 fire plus 1d4 persistent fire.
+- **Melee** 1 action tendril, **Damage** 1d8 fire plus 1d4 persistent fire.
 
 - **Metal**
 
 - Speed 40 feet, fly 20 feet;
 
-- **Melee** 1 blade (versatile piercing), **Damage** 1d8 slashing plus 1d4 electricity.
+- **Melee** 1 action blade (versatile piercing), **Damage** 1d8 slashing plus 1d4 electricity.
 
 - **Water**
 
 - Speed 20 feet, swim 60 feet; fire resistance 5;
 
-- **Melee** 1 wave, **Damage** 1d12 bludgeoning, and you can spend an action immediately after a hit to push the target 5 feet with the effects of a successful Shove.
+- **Melee** 1 action wave, **Damage** 1d12 bludgeoning, and you can spend an action immediately after a hit to push the target 5 feet with the effects of a successful Shove.
 
 - **Wood**
 
 - Speed 20 feet, climb 30 feet;
 
-- **Melee** 1 branch, **Damage** 2d10 bludgeoning.
+- **Melee** 1 action branch, **Damage** 2d10 bludgeoning.
 
 ---
 

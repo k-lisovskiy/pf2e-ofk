@@ -36,7 +36,7 @@ Your ikons bond like a pair of one-winged birds. This feat can be imbued in eith
 
 **Immanence** As long as you hold one ikon, the other will return to find its partner. Both ikons gain the returning rune.
 
-**Transcendence—Rejoin in Flight** 2 (transcendence)
+**Transcendence—Rejoin in Flight** 2 actions (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.I08t3hnpMZSRX5Ug inline
 

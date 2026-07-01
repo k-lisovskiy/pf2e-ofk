@@ -48,41 +48,41 @@ You also gain specific abilities based on the form you choose:
 
 - Speed 30 feet, climb Speed 30 feet;
 
-- **Melee** 1 mandibles, **Damage** 2d6 bludgeoning.
+- **Melee** 1 action mandibles, **Damage** 2d6 bludgeoning.
 
 - **Beetle**
 
 - Speed 25 feet;
 
-- **Melee** 1 mandibles, **Damage** 2d10 bludgeoning.
+- **Melee** 1 action mandibles, **Damage** 2d10 bludgeoning.
 
 - **Centipede**
 
 - Speed 25 feet, climb Speed 25 feet; darkvision;
 
-- **Melee** 1 mandibles, **Damage** 1d8 piercing plus 1d4 persistent poison.
+- **Melee** 1 action mandibles, **Damage** 1d8 piercing plus 1d4 persistent poison.
 
 - **Mantis**
 
 - Speed 40 feet; imprecise scent 30 feet;
 
-- **Melee** 1 foreleg, **Damage** 2d8 piercing.
+- **Melee** 1 action foreleg, **Damage** 2d8 piercing.
 
 - **Scorpion**
 
 - Speed 40 feet; darkvision, imprecise tremorsense 60 feet;
 
-- **Melee** 1 stinger, **Damage** 1d8 piercing plus 1d4 persistent poison;
+- **Melee** 1 action stinger, **Damage** 1d8 piercing plus 1d4 persistent poison;
 
-- **Melee** 1 pincer (agile), **Damage** 1d6 bludgeoning.
+- **Melee** 1 action pincer (agile), **Damage** 1d6 bludgeoning.
 
 - **Spider**
 
 - Speed 25 feet, climb Speed 25 feet; darkvision;
 
-- **Melee** 1 fangs, **Damage** 1d6 piercing plus 1d4 persistent poison;
+- **Melee** 1 action fangs, **Damage** 1d6 piercing plus 1d4 persistent poison;
 
-- **Ranged** 1 web (range increment 20 feet), **Damage** Immobilizes the target for 1 round or until it [[/act escape]]{Escapes}.
+- **Ranged** 1 action web (range increment 20 feet), **Damage** Immobilizes the target for 1 round or until it [[/act escape]]{Escapes}.
 
 Spell Effect: Insect Form
 

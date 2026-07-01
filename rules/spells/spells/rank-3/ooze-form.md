@@ -42,20 +42,20 @@ You also gain specific abilities based on the ooze:
 
 - **Black Pudding** Speed 15 feet, climb 15 feet;
 
-- **Melee** 1 pseudopod, **Damage** 2d6+5 bludgeoning and 1d8 acid.
+- **Melee** 1 action pseudopod, **Damage** 2d6+5 bludgeoning and 1d8 acid.
 
 - **Gelatinous Cube** Speed 15 feet;
 
-- **Melee** 1 cube face, **Damage** 1d6+5 acid;
+- **Melee** 1 action cube face, **Damage** 1d6+5 acid;
 - a creature hit by your cube face Strike must succeed at a Fortitude save against your spell DC or be Stunned 1 (or Paralyzed for 1 round on a critical failure); this save has the incapacitation trait.
 
 - **Gray Ooze** Speed 15 feet, climb 15 feet, swim 15 feet
 
-- **Melee** 1 pseudopod, **Damage** 1d6+5 bludgeoning and 1d6 acid, and you can spend an action after a hit to Grab the target.
+- **Melee** 1 action pseudopod, **Damage** 1d6+5 bludgeoning and 1d6 acid, and you can spend an action after a hit to Grab the target.
 
 - **Ochre Jelly** Speed 15 feet, climb 10 feet; resistance 5 to electricity;
 
-- **Melee** 1 pseudopod, **Damage** 1d8+5 bludgeoning and 1d8 acid, and you can spend an action after a hit to Grab the target.
+- **Melee** 1 action pseudopod, **Damage** 1d8+5 bludgeoning and 1d8 acid, and you can spend an action after a hit to Grab the target.
 
 Spell Effect: Ooze Form
 

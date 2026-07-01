@@ -43,26 +43,26 @@ You also gain specific abilities based on the type of aberration you choose:
 - **Chuul**
 
 - Speed 30 feet, swim 25 feet;
-- **Melee** 1 claw (reach 10 feet), **Damage** 2d8+8 bludgeoning, and you can spend an action after a hit to Grab the target.
+- **Melee** 1 action claw (reach 10 feet), **Damage** 2d8+8 bludgeoning, and you can spend an action after a hit to Grab the target.
 
 - **Gogiteth**
 
 - Speed 40 feet, climb 30 feet;
-- **Melee** 1 jaws, **Damage** 2d10+8 piercing, and you can spend an action after a hit to Grab the target;
-- **Melee** 1 leg (agile, reach 10 feet), **Damage** 2d6+8 piercing.
+- **Melee** 1 action jaws, **Damage** 2d10+8 piercing, and you can spend an action after a hit to Grab the target;
+- **Melee** 1 action leg (agile, reach 10 feet), **Damage** 2d6+8 piercing.
 
 - **Gug**
 
 - Speed 40 feet, climb 20 feet;
-- **Melee** 1 claw (agile, reach 10 feet), **Damage** 2d8+8 slashing;
+- **Melee** 1 action claw (agile, reach 10 feet), **Damage** 2d8+8 slashing;
 - your multiple joints allow you to fit through tight spaces as if you were a Medium creature.
 
 - **Otyugh**
 
 - +2 circumstance bonus on saves against disease;
 - Speed 20 feet;
-- **Melee** 1 jaws, **Damage** 3d6+8 piercing;
-- **Melee** 1 tentacle (agile, reach 10 feet), **Damage** 2d6+8 bludgeoning.
+- **Melee** 1 action jaws, **Damage** 3d6+8 piercing;
+- **Melee** 1 action tentacle (agile, reach 10 feet), **Damage** 2d6+8 bludgeoning.
 
 Spell Effect: Aberrant Form
 

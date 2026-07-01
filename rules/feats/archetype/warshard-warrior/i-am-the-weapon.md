@@ -33,7 +33,7 @@ Your supernatural bond with your weapon infuses it with a powerful echo of your 
 
 Alternatively, if no one picks up your warshard weapon within a week of your death, you can choose to fuse with your weapon rather than entering the River of Souls. You can no longer be brought back to life, but your soul remains bound to the weapon, and together you are an intelligent item, gaining the same Perception modifier, senses, communication, languages, attribute modifiers, and Will save as you. You retain the same Intelligence-, Wisdom-, and Charisma-based skills. You must still be carried and wielded, and your options are now limited to actions you can take as an intelligent item. You no longer gain or can spend Mythic Points, but as a weapon, you are still mythic. You can spend your actions to attack using the attack modifier with your warshard weapon you had in life, but your damage bonus uses the Strength modifier of your wielder instead of the Strength modifier you had in life. You gain the Impart Martial Wisdom action below, and you might gain other powers at the GM's discretion, such as the ability to influence or even control your wielder. If you're destroyed in this weapon form, your soul moves on to the River of Souls and you can be brought back to life using other means, but you must designate a new warshard weapon normally thereafter.
 
-**Activate—Impart Martial Wisdom** 2 (concentrate, mythic, prediction)
+**Activate—Impart Martial Wisdom** 2 actions (concentrate, mythic, prediction)
 
 **Frequency** once per 10 minutes
 

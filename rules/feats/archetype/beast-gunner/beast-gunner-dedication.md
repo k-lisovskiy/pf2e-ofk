@@ -37,7 +37,7 @@ If you already cast arcane or primal spells from spell slots, you learn one addi
 
 You also gain Spellsling.
 
-**Spellsling** 3
+**Spellsling** 3 actions
 
 Compendium.pf2e.actionspf2e.Item.VNuOwXIHafSLHvsZ inline
 

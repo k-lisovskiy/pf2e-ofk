@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 This badge of office proclaims your sovereignty. The imbued ikon gains the following ability.
 
-**Transcendence—Heavy is the Crown** 2 (concentrate, mental, spirit, transcendence)
+**Transcendence—Heavy is the Crown** 2 actions (concentrate, mental, spirit, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.CJnA1wEg2kA5BXfe inline
 

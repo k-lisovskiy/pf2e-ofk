@@ -30,7 +30,7 @@ publication: "Pathfinder Lost Omens Tian Xia Character Guide"
 
 Whether you always carried it or perhaps only recently inherited, you have a pusaka—an heirloom containing a spirit who you communicate with in your dreams. Choose one item of light Bulk to be your pusaka. It becomes a magic item that has the occult trait. As long as you sleep with this item in reach and spend 10 minutes during your daily preparations pampering the spirit within, you can Activate the pusaka that day.
 
-**Activate—Ancestral Recollection** 1 (concentrate)
+**Activate—Ancestral Recollection** 1 action (concentrate)
 
 **Frequency** once per day
 
@@ -40,7 +40,7 @@ Whether you always carried it or perhaps only recently inherited, you have a pus
 
 ---
 
-**Activate—Guide My Dreams** 2 (concentrate)
+**Activate—Guide My Dreams** 2 actions (concentrate)
 
 ---
 

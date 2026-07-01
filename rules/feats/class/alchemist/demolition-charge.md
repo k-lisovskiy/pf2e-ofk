@@ -38,7 +38,7 @@ The hazard has the following reaction, which you can also trigger as a single ac
 
 ---
 
-**Fire in the Hole** R
+**Fire in the Hole** reaction
 
 **Trigger** A creature moves into the hazard's space
 

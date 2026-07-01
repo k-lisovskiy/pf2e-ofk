@@ -34,7 +34,7 @@ publication: "Pathfinder #217: Death Sails a Wine-Dark Sea"
 
 A norn's thread—spun from fate itself—runs through or wraps around your ikon.
 
-**Transcendence—Unravel the Future** 1 (fortune, transcendence)
+**Transcendence—Unravel the Future** 1 action (fortune, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.TIIM35m8aDUEU4gF inline
 

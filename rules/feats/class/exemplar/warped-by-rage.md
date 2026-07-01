@@ -36,7 +36,7 @@ Rage courses through your body, transforming you into a beast of battle. The imb
 
 **Immanence** You're affected by a 4th-rank Enlarge spell. You can choose to forgo this effect when your body ikon becomes empowered.
 
-**Transcendence—Spasm of the Berserker** 1 (transcendence)
+**Transcendence—Spasm of the Berserker** 1 action (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.tHHpBREXDaafK3TF inline
 

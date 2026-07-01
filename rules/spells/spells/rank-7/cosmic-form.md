@@ -42,14 +42,14 @@ You also gain specific abilities based on the stellar body:
 
 - **Moon** Speed 30 feet, fly 50 feet
 
-- **Melee** 1 fist (agile, reach 10 feet), **Damage** 2d4+10 bludgeoning plus 1d6 fire
-- **Ranged** 1 moonbeam (range 90 feet), **Damage** 2d4+10 fire; this form's fire damage is silver for resistances, weaknesses, and the like
+- **Melee** 1 action fist (agile, reach 10 feet), **Damage** 2d4+10 bludgeoning plus 1d6 fire
+- **Ranged** 1 action moonbeam (range 90 feet), **Damage** 2d4+10 fire; this form's fire damage is silver for resistances, weaknesses, and the like
 - On a critical hit with either Strike, the target is Stupefied 2 for 1 round.
 
 - **Sun** Speed 30 feet, fly 50 feet
 
-- **Melee** 1 fist (agile, reach 10 feet), **Damage** 2d6+10 fire plus 1d6 persistent fire
-- **Ranged** 1 sunbeam (range 90 feet), **Damage** 1d6+10 fire plus 1d6 persistent fire
+- **Melee** 1 action fist (agile, reach 10 feet), **Damage** 2d6+10 fire plus 1d6 persistent fire
+- **Ranged** 1 action sunbeam (range 90 feet), **Damage** 1d6+10 fire plus 1d6 persistent fire
 - On a critical hit with either Strike, the target is Dazzled for 1 round.
 
 Spell Effect: Cosmic Form

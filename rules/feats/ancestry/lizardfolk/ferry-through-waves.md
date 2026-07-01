@@ -1,7 +1,7 @@
 ---
 type: Ancestry Feat
 title: "Ferry Through Waves"
-description: "2 or 3 Requirements You are swimming and have a free hand."
+description: "2 actions or 3 actions Requirements You are swimming and have a free hand."
 resource: "pf2e://feats/ancestry/lizardfolk/ferry-through-waves"
 tags: ["lizardfolk"]
 timestamp: 2026-06-26T00:00:00Z
@@ -29,7 +29,7 @@ publication: "Pathfinder Lost Omens Tian Xia Character Guide"
 
 ## Description
 
-2 or 3
+2 actions or 3 actions
 
 **Requirements** You are swimming and have a free hand.
 

@@ -45,76 +45,76 @@ You also gain specific abilities based on the type of animal you choose:
 - **Ape**
 
 - Speed 25 feet, climb Speed 20 feet;
-- **Melee** a fist, **Damage** 2d6 bludgeoning.
+- **Melee** 1 action fist, **Damage** 2d6 bludgeoning.
 
 - **Bear**
 
 - Speed 30 feet;
-- **Melee** a jaws, **Damage** 2d8 piercing;
-- **Melee** a claw (agile), **Damage** 1d8 slashing.
+- **Melee** 1 action jaws, **Damage** 2d8 piercing;
+- **Melee** 1 action claw (agile), **Damage** 1d8 slashing.
 
 - **Bull**
 
 - Speed 30 feet;
-- **Melee** a horn, **Damage** 2d8 piercing.
+- **Melee** 1 action horn, **Damage** 2d8 piercing.
 
 - **Canine**
 
 - Speed 40 feet;
-- **Melee** a jaws, **Damage** 2d8 piercing.
+- **Melee** 1 action jaws, **Damage** 2d8 piercing.
 
 - **Cat**
 
 - Speed 40 feet;
-- **Melee** a jaws, **Damage** 2d6 piercing;
-- **Melee** a claw (agile), **Damage** 1d10 slashing.
+- **Melee** 1 action jaws, **Damage** 2d6 piercing;
+- **Melee** 1 action claw (agile), **Damage** 1d10 slashing.
 
 - **Crab**
 
 - Speed 25 feet, swim Speed 15 feet;
-- **Melee** a big claw, **Damage** 2d8 piercing;
-- **Melee** a little claw (agile), **Damage** 2d4 piercing.
+- **Melee** 1 action big claw, **Damage** 2d8 piercing;
+- **Melee** 1 action little claw (agile), **Damage** 2d4 piercing.
 
 - **Crocodile**
 
 - Speed 25 feet, swim Speed 30 feet;
-- **Melee** a jaws, **Damage** 2d8 piercing;
-- **Melee** a tail (agile), **Damage** 1d8 bludgeoning.
+- **Melee** 1 action jaws, **Damage** 2d8 piercing;
+- **Melee** 1 action tail (agile), **Damage** 1d8 bludgeoning.
 - can hold your breath for the duration of the transformation.
 
 - **Deer**
 
 - Speed 50 feet;
-- **Melee** a antler, **Damage** 2d6 piercing.
+- **Melee** 1 action antler, **Damage** 2d6 piercing.
 
 - **Frog**
 
 - Speed 25 feet, swim Speed 25 feet;
-- **Melee** a jaws, **Damage** 2d6 bludgeoning;
-- **Melee** a tongue (reach 15 feet), **Damage** 2d4 bludgeoning.
+- **Melee** 1 action jaws, **Damage** 2d6 bludgeoning;
+- **Melee** 1 action tongue (reach 15 feet), **Damage** 2d4 bludgeoning.
 
 - **Orca**
 
 - swim Speed 35 feet;
-- **Melee** a jaws, **Damage** 2d8 piercing;
+- **Melee** 1 action jaws, **Damage** 2d8 piercing;
 - can hold your breath for the duration of the transformation.
 
 - **Seal**
 
 - Speed 20 feet, swim Speed 30 feet;
-- **Melee** a jaws (grapple), **Damage** 2d6 piercing;
+- **Melee** 1 action jaws (grapple), **Damage** 2d6 piercing;
 - can hold your breath for the duration of the transformation.
 
 - **Shark**
 
 - swim Speed 35 feet;
-- **Melee** a jaws, **Damage** 2d8 piercing;
+- **Melee** 1 action jaws, **Damage** 2d8 piercing;
 - breathe underwater but not in air.
 
 - **Snake**
 
 - Speed 20 feet, climb Speed 20 feet, swim Speed 20 feet;
-- **Melee** a fangs, **Damage** 2d4 piercing plus 1d6 poison.
+- **Melee** 1 action fangs, **Damage** 2d4 piercing plus 1d6 poison.
 
 ---
 

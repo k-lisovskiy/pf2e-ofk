@@ -1,7 +1,7 @@
 ---
 type: Class Feat
 title: "Body of Air"
-description: "R or 2 Trigger An enemy you can observe targets you with an attack or other damaging effect."
+description: "reaction or 2 actions Trigger An enemy you can observe targets you with an attack or other damaging effect."
 resource: "pf2e://feats/class/kineticist/body-of-air"
 tags: ["air", "impulse", "kineticist", "overflow", "polymorph", "primal"]
 timestamp: 2026-06-26T00:00:00Z
@@ -28,7 +28,7 @@ publication: "Pathfinder Rage of Elements"
 
 ## Description
 
-R or 2
+reaction or 2 actions
 
 **Trigger** An enemy you can observe targets you with an attack or other damaging effect.
 

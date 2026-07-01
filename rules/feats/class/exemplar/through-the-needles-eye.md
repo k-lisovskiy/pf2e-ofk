@@ -34,7 +34,7 @@ publication: "Pathfinder War of Immortals"
 
 Your weapon strikes with the perfection your will demands.
 
-**Transcendence—Blinding of the Needle** 2 (transcendence)
+**Transcendence—Blinding of the Needle** 2 actions (transcendence)
 
 Compendium.pf2e.actionspf2e.Item.Y6ee2ZvIE2fzzvAY inline
 

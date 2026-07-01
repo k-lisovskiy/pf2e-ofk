@@ -32,11 +32,11 @@ You conjure a dense storm of swirling confetti. All creatures within the area of
 
 ---
 
-1 (somatic) The spell's area is a 5-foot burst.
+1 action (somatic) The spell's area is a 5-foot burst.
 
-2 (somatic, verbal) The spell's area is a 10-foot burst.
+2 actions (somatic, verbal) The spell's area is a 10-foot burst.
 
-3 (material, somatic, verbal) The spell's area is a 15-foot burst.
+3 actions (material, somatic, verbal) The spell's area is a 15-foot burst.
 
 # Citations
 

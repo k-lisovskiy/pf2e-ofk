@@ -50,29 +50,29 @@ You also gain specific abilities based on the form you choose:
 
 - Speed 20 feet, fly Speed 30 feet; precise echolocation 40 feet;
 
-- **Melee** a fangs, **Damage** 2d8 piercing;
+- **Melee** 1 action fangs, **Damage** 2d8 piercing;
 
-- **Melee** a wing (agile), **Damage** 2d6 bludgeoning.
+- **Melee** 1 action wing (agile), **Damage** 2d6 bludgeoning.
 
 - **Bird**
 
 - Speed 10 feet, fly Speed 50 feet;
 
-- **Melee** a beak, **Damage** 2d8 piercing;
+- **Melee** 1 action beak, **Damage** 2d8 piercing;
 
-- **Melee** a talon (agile), **Damage** 1d10 slashing.
+- **Melee** 1 action talon (agile), **Damage** 1d10 slashing.
 
 - **Pterosaur**
 
 - Speed 10 feet, fly Speed 40 feet; imprecise scent 30 feet;
 
-- **Melee** a beak, **Damage** 3d6 piercing.
+- **Melee** 1 action beak, **Damage** 3d6 piercing.
 
 - **Wasp**
 
 - Speed 20 feet, fly Speed 40 feet;
 
-- **Melee** a stinger, **Damage** 1d8 piercing plus 1d6 persistent poison.
+- **Melee** 1 action stinger, **Damage** 1d8 piercing plus 1d6 persistent poison.
 
 Spell Effect: Aerial Form
 

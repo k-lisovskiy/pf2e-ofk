@@ -33,7 +33,7 @@ You have reached heights of power equaling Razmir himself. You can Craft your Ra
 
 ---
 
-**Activate—Power of the Living God** 1 (concentrate, manipulate, occult)
+**Activate—Power of the Living God** 1 action (concentrate, manipulate, occult)
 
 **Frequency** once per day
 

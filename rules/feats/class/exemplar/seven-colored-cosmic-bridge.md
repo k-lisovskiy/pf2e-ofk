@@ -36,7 +36,7 @@ Your divine spark shines in a riot of shimmering colors, capable of carrying you
 
 **Immanence** (light, teleportation) Your weapon scatters rainbow-colored light across nearby surroundings, each a possible destination. When you successfully Strike an enemy, you can choose to teleport to an unoccupied location within 10 feet as a free action.
 
-**Transcendence—Fleeting Arc through Heaven and Earth** 3 (light, spirit, teleportation, transcendence)
+**Transcendence—Fleeting Arc through Heaven and Earth** 3 actions (light, spirit, teleportation, transcendence)
 
 Compendium.pf2e.actionspf2e.Item.ObFY26oKlreyVIUm inline
 

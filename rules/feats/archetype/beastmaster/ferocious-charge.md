@@ -31,7 +31,7 @@ publication: "Pathfinder Howl of the Wild"
 
 You've taught your companions to charge directly at an enemy. Your companions with a qualifying unarmed Strike learn the Ferocious Charge activity.
 
-**Ferocious Charge** 2 The companion Strides up to twice its Speed in a straight line and makes an antlers, head, or horn Strike. If it moved at least 20 feet, it deals an additional 1d8 untyped damage. This damage increases to 2d8 if your companion is specialized. The companion can use Ferocious Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if it has the corresponding movement type.
+**Ferocious Charge** 2 actions The companion Strides up to twice its Speed in a straight line and makes an antlers, head, or horn Strike. If it moved at least 20 feet, it deals an additional 1d8 untyped damage. This damage increases to 2d8 if your companion is specialized. The companion can use Ferocious Charge while Burrowing, Climbing, Flying, or Swimming instead of Striding if it has the corresponding movement type.
 
 # Citations
 

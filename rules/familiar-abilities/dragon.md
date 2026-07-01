@@ -1,0 +1,35 @@
+---
+type: Familiar Ability
+title: "Dragon"
+description: "Your familiar has the dragon trait instead of the animal trait."
+resource: "pf2e://familiar-abilities/dragon"
+tags: []
+timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
+level: 0
+category: "familiar-ability"
+subcategory: ""
+action_type: "passive"
+actions: ""
+frequency: ""
+prerequisites: []
+only_level_1: false
+max_takable: 
+self_effect: ""
+publication: "Pathfinder Player Core"
+---
+
+# Overview
+
+- **Level**: 0
+- **Category**: Familiar Ability
+- **Action**: Passive
+
+## Description
+
+Your familiar has the dragon trait instead of the animal trait.
+
+# Citations
+
+[1] Pathfinder Player Core
+[2] Source: `packs/pf2e/familiar-abilities/dragon.json` (pf2e system data)

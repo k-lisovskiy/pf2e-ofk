@@ -30,9 +30,9 @@ publication: "Pathfinder Player Core"
 
 You heal your animal companion's wounds. You restore 1d10 Hit Points to your animal companion. The number of actions you spend Casting this Spell determines range and other parameters.
 
-1 (manipulate) The spell has a range of touch.
+1 action (manipulate) The spell has a range of touch.
 
-2 (concentrate, manipulate) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.
+2 actions (concentrate, manipulate) The spell has a range of 30 feet and restores an additional 8 Hit Points to the target.
 
 ---
 

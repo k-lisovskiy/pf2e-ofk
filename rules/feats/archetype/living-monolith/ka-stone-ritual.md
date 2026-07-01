@@ -38,7 +38,7 @@ Ka Stone
 
 ---
 
-**Activate** 2 (envision), or a different activation if otherwise specified
+**Activate** 2 actions (envision), or a different activation if otherwise specified
 
 **Frequency** a number of times each day equal to the number of class feats you have from the Living Monolith archetype
 

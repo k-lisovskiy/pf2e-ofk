@@ -31,7 +31,7 @@ publication: "Pathfinder Howl of the Wild"
 
 Your companion weaves in and out of combat, swiftly attacking before getting to a better position. Your companions with a qualifying unarmed attack learn the Running Kick activity.
 
-**Running Kick** 2 This companion Strides up to twice its Speed and makes a hoof, foot, or talon Strike at any point during the movement. This movement doesn't provoke reactions from a creature damaged by the Strike.
+**Running Kick** 2 actions This companion Strides up to twice its Speed and makes a hoof, foot, or talon Strike at any point during the movement. This movement doesn't provoke reactions from a creature damaged by the Strike.
 
 # Citations
 
