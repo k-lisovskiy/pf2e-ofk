@@ -37,7 +37,20 @@ You brandish your sentinel weapon, summoning the image of your constellation abo
 
 **Heightened (+1)** The damage increases by 1d10.
 
-ConstellationAttack (Area, Save, Damage Type; Traits)Underworld DragonVolcanic vents (line, Reflex, fire)OgreWild club swing (cone, Fortitude, bludgeoning)SwordswomanFalling blades of light (line, Reflex, piercing)Forest DragonSwarm of insects (cone, Fortitude, poison)Sea DragonPressurized seawater (line, Reflex, piercing; water trait)BlossomStorming petals and pollen (line, Fortitude; poison, plant, wood)SwallowWing gust (cone, Reflex, slashing; air)DogA biting dog (line, Reflex, slashing)OxA trampling ox (line, Reflex, bludgeoning)Sky DragonDraconic lightning (line, Reflex, electricity)Sovereign DragonPsychic roar (cone, Will, mental)ArcherHail of silver arrows (piercing, cone, Reflex)
+| Constellation | Attack (Area, Save, Damage Type; Traits) |
+| --- | --- |
+| Underworld Dragon | Volcanic vents (line, Reflex, fire) |
+| Ogre | Wild club swing (cone, Fortitude, bludgeoning) |
+| Swordswoman | Falling blades of light (line, Reflex, piercing) |
+| Forest Dragon | Swarm of insects (cone, Fortitude, poison) |
+| Sea Dragon | Pressurized seawater (line, Reflex, piercing; water trait) |
+| Blossom | Storming petals and pollen (line, Fortitude; poison, plant, wood) |
+| Swallow | Wing gust (cone, Reflex, slashing; air) |
+| Dog | A biting dog (line, Reflex, slashing) |
+| Ox | A trampling ox (line, Reflex, bludgeoning) |
+| Sky Dragon | Draconic lightning (line, Reflex, electricity) |
+| Sovereign Dragon | Psychic roar (cone, Will, mental) |
+| Archer | Hail of silver arrows (piercing, cone, Reflex) |
 
 # Citations
 

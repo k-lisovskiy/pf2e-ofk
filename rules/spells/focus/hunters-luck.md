@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Hunter's Luck"
-description: "Trigger You attempt a check to Recall Knowledge about a creature, but you haven't rolled yet."
+description: "You have a preternatural ability to remember details about your foes."
 resource: "pf2e://spells/focus/hunters-luck"
 tags: ["concentrate", "fortune", "ranger"]
 timestamp: 2026-06-26T00:00:00Z

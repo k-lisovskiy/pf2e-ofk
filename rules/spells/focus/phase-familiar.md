@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Phase Familiar"
-description: "Trigger Your familiar would take damage."
+description: "Your patron momentarily recalls your familiar to the ether, shifting it from its solid, physical form into a ghostly version of itself."
 resource: "pf2e://spells/focus/phase-familiar"
 tags: ["hex", "manipulate", "witch"]
 timestamp: 2026-06-26T00:00:00Z

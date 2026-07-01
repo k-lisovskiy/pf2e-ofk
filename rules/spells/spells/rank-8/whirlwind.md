@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Whirlwind"
-description: "Area (continued) 15foot radius, 80foottall cylinder Powerful winds coalesce into a devastating tornado."
+description: "Area (continued) 15-foot radius, 80-foot-tall cylinder Powerful winds coalesce into a devastating tornado."
 resource: "pf2e://spells/rank-8/whirlwind"
 tags: ["air", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Painted Scout"
-description: "You press your hand to the stone, causing handdrawn scouts to spread out from your fingers."
+description: "You press your hand to the stone, causing hand-drawn scouts to spread out from your fingers."
 resource: "pf2e://spells/rank-3/painted-scout"
 tags: ["concentrate", "manipulate", "scrying"]
 timestamp: 2026-06-26T00:00:00Z

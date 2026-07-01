@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Weapon Storm"
-description: "Area 30foot cone or 10foot emanation You swing a weapon you're holding, and the weapon magically multiplies into duplicates that swipe at all creatures in either a cone or an emanation."
+description: "Area 30-foot cone or 10-foot emanation You swing a weapon you're holding, and the weapon magically multiplies into duplicates that swipe at all creatures in either a cone or an emanation."
 resource: "pf2e://spells/rank-4/weapon-storm"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

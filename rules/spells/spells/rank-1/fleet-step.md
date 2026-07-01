@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Fleet Step"
-description: "You gain a +30foot status bonus to your Speed."
+description: "You gain a +30-foot status bonus to your Speed."
 resource: "pf2e://spells/rank-1/fleet-step"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

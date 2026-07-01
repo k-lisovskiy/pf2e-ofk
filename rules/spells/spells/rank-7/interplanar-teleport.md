@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Interplanar Teleport"
-description: "Requirements You have a planar key for the destination plane, used as a locus You and your allies traverse the barriers between planes of existence."
+description: "You and your allies traverse the barriers between planes of existence."
 resource: "pf2e://spells/rank-7/interplanar-teleport"
 tags: ["concentrate", "manipulate", "teleportation"]
 timestamp: 2026-06-26T00:00:00Z

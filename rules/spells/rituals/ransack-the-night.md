@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Ransack the Night"
-description: "When Fumeiyoshi was punished by the Celestial Court for deicide and fratricide, the rat who would become Lao Shu Po robbed the canguebound Fumeiyoshi of a sizable chunk of his shadow."
+description: "When Fumeiyoshi was punished by the Celestial Court for deicide and fratricide, the rat who would become Lao Shu Po robbed the cangue-bound Fumeiyoshi of a sizable chunk of his shadow."
 resource: "pf2e://spells/rituals/ransack-the-night"
 tags: ["darkness"]
 timestamp: 2026-06-26T00:00:00Z

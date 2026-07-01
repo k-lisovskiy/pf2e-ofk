@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Lucky Break"
-description: "Trigger You fail, but don't critically fail, a saving throw."
+description: "Reroll the saving throw and use the better result."
 resource: "pf2e://spells/focus/lucky-break"
 tags: ["cleric", "concentrate", "fortune"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blood Vendetta"
-description: "Requirements You can bleed."
+description: "You curse the target, punishing it for having the audacity to spill your blood."
 resource: "pf2e://spells/rank-2/blood-vendetta"
 tags: ["curse"]
 timestamp: 2026-06-26T00:00:00Z

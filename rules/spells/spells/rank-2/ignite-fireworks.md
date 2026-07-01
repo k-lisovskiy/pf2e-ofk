@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Ignite Fireworks"
-description: "A brilliant and clamorous display of sparks and colorful fireworks explode around your enemies, dealing 1d8 fire damage and 1d8 sonic damage to creatures within a 10foot burst."
+description: "A brilliant and clamorous display of sparks and colorful fireworks explode around your enemies, dealing 1d8 fire damage and 1d8 sonic damage to creatures within a 10-foot burst."
 resource: "pf2e://spells/rank-2/ignite-fireworks"
 tags: ["concentrate", "fire", "manipulate", "sonic"]
 timestamp: 2026-06-26T00:00:00Z

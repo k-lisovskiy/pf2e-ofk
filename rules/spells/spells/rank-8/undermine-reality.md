@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Undermine Reality"
-description: "You lash a target with tendrils of shadow that steal some of its substance, making it quasireal."
+description: "You lash a target with tendrils of shadow that steal some of its substance, making it quasi-real."
 resource: "pf2e://spells/rank-8/undermine-reality"
 tags: ["concentrate", "illusion", "incapacitation", "manipulate", "shadow"]
 timestamp: 2026-06-26T00:00:00Z

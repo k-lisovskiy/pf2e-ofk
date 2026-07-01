@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Mirror's Misfortune"
-description: "You split into your real self and a mirrored version of yourself that curses wouldbe attackers with misfortune on their next attacks."
+description: "You split into your real self and a mirrored version of yourself that curses would-be attackers with misfortune on their next attacks."
 resource: "pf2e://spells/rank-4/mirrors-misfortune"
 tags: ["concentrate", "illusion", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

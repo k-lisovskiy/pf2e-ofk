@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Bee-Man's Summons"
-description: "You recreate the BeeMan's infamous ability to sense when someone utters their name."
+description: "You recreate the Bee-Man's infamous ability to sense when someone utters their name."
 resource: "pf2e://spells/rank-2/bee-mans-summons"
 tags: ["auditory", "concentrate", "linguistic", "mental"]
 timestamp: 2026-06-26T00:00:00Z

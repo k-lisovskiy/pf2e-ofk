@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Pyrefowl Rebuke"
-description: "Trigger A creature within 10 feet of you Strikes and deals damage to you."
+description: "Fiery wings briefly envelop your arms, and with a swift wingbeat, you flutter away from your attacker in a shower of searing sparks."
 resource: "pf2e://spells/rank-2/pyrefowl-rebuke"
 tags: ["fire", "manipulate", "move"]
 timestamp: 2026-06-26T00:00:00Z

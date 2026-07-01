@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Alter Reality"
-description: "You use your occult lore and the power of your mind to manipulate the spiritual multiverse, resulting in any of the following effects: Duplicate any occult spell of 9th rank or lower to which you h..."
+description: "You use your occult lore and the power of your mind to manipulate the spiritual multiverse, resulting in any of the following effects: - Duplicate any occult spell of 9th rank or lower to which you..."
 resource: "pf2e://spells/rank-10/alter-reality"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

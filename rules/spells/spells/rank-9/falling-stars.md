@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Falling Stars"
-description: "Area 4 40foot bursts You reach into the skies and call down an array of falling stars that explode upon colliding with the ground."
+description: "Area 4 40-foot bursts You reach into the skies and call down an array of falling stars that explode upon colliding with the ground."
 resource: "pf2e://spells/rank-9/falling-stars"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

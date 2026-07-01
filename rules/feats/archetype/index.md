@@ -1,0 +1,254 @@
+---
+type: Index
+title: "PF2e Archetype Feats"
+description: "All 2247 Pathfinder 2e archetype feats, grouped by archetype."
+timestamp: 2026-06-26T00:00:00Z
+---
+
+# Archetype Feats
+
+2247 feat concepts across 243 archetype groups.
+
+- [Acrobat](/rules/feats/archetype/acrobat/index.md) — 10 feats
+- [Alchemist](/rules/feats/archetype/alchemist/index.md) — 6 feats
+- [Aldori Duelist](/rules/feats/archetype/aldori-duelist/index.md) — 14 feats
+- [Alkenstar Agent](/rules/feats/archetype/alkenstar-agent/index.md) — 4 feats
+- [Alter Ego](/rules/feats/archetype/alter-ego/index.md) — 11 feats
+- [Animal Trainer](/rules/feats/archetype/animal-trainer/index.md) — 6 feats
+- [Animist](/rules/feats/archetype/animist/index.md) — 7 feats
+- [Apocalypse Rider](/rules/feats/archetype/apocalypse-rider/index.md) — 16 feats
+- [Archaeologist](/rules/feats/archetype/archaeologist/index.md) — 6 feats
+- [Archer](/rules/feats/archetype/archer/index.md) — 6 feats
+- [Archfiend](/rules/feats/archetype/archfiend/index.md) — 11 feats
+- [Artillerist](/rules/feats/archetype/artillerist/index.md) — 7 feats
+- [Ascended Celestial](/rules/feats/archetype/ascended-celestial/index.md) — 14 feats
+- [Assassin](/rules/feats/archetype/assassin/index.md) — 8 feats
+- [Avenger](/rules/feats/archetype/avenger/index.md) — 5 feats
+- [Avenging Runelord](/rules/feats/archetype/avenging-runelord/index.md) — 12 feats
+- [Barbarian](/rules/feats/archetype/barbarian/index.md) — 6 feats
+- [Bard](/rules/feats/archetype/bard/index.md) — 9 feats
+- [Bastion](/rules/feats/archetype/bastion/index.md) — 5 feats
+- [Battle Harbinger](/rules/feats/archetype/battle-harbinger/index.md) — 12 feats
+- [Beast Gunner](/rules/feats/archetype/beast-gunner/index.md) — 6 feats
+- [Beast Lord](/rules/feats/archetype/beast-lord/index.md) — 11 feats
+- [Beastmaster](/rules/feats/archetype/beastmaster/index.md) — 24 feats
+- [Bellflower Tiller](/rules/feats/archetype/bellflower-tiller/index.md) — 7 feats
+- [Blackjacket](/rules/feats/archetype/blackjacket/index.md) — 8 feats
+- [Blessed One](/rules/feats/archetype/blessed-one/index.md) — 4 feats
+- [Bloodrager](/rules/feats/archetype/bloodrager/index.md) — 8 feats
+- [Bounty Hunter](/rules/feats/archetype/bounty-hunter/index.md) — 4 feats
+- [Bright Lion](/rules/feats/archetype/bright-lion/index.md) — 8 feats
+- [Broken Chain](/rules/feats/archetype/broken-chain/index.md) — 15 feats
+- [Bullet Dancer](/rules/feats/archetype/bullet-dancer/index.md) — 5 feats
+- [Butterfly Blade](/rules/feats/archetype/butterfly-blade/index.md) — 6 feats
+- [Campfire Chronicler](/rules/feats/archetype/campfire-chronicler/index.md) — 9 feats
+- [Captain](/rules/feats/archetype/captain/index.md) — 11 feats
+- [Captivator](/rules/feats/archetype/captivator/index.md) — 10 feats
+- [Cathartic Mage](/rules/feats/archetype/cathartic-mage/index.md) — 7 feats
+- [Cavalier](/rules/feats/archetype/cavalier/index.md) — 18 feats
+- [Celebrity](/rules/feats/archetype/celebrity/index.md) — 8 feats
+- [Champion](/rules/feats/archetype/champion/index.md) — 7 feats
+- [Chelaxian Scion](/rules/feats/archetype/chelaxian-scion/index.md) — 4 feats
+- [Chronoskimmer](/rules/feats/archetype/chronoskimmer/index.md) — 11 feats
+- [Clawdancer](/rules/feats/archetype/clawdancer/index.md) — 15 feats
+- [Cleric](/rules/feats/archetype/cleric/index.md) — 7 feats
+- [Clockwork Reanimator](/rules/feats/archetype/clockwork-reanimator/index.md) — 10 feats
+- [Commander](/rules/feats/archetype/commander/index.md) — 6 feats
+- [Corpse Tender](/rules/feats/archetype/corpse-tender/index.md) — 5 feats
+- [Crossbow Infiltrator](/rules/feats/archetype/crossbow-infiltrator/index.md) — 9 feats
+- [Crystal Keeper](/rules/feats/archetype/crystal-keeper/index.md) — 5 feats
+- [Cultivator](/rules/feats/archetype/cultivator/index.md) — 10 feats
+- [Curse Maelstrom](/rules/feats/archetype/curse-maelstrom/index.md) — 8 feats
+- [Dandy](/rules/feats/archetype/dandy/index.md) — 17 feats
+- [Demolitionist](/rules/feats/archetype/demolitionist/index.md) — 5 feats
+- [Draconic Acolyte](/rules/feats/archetype/draconic-acolyte/index.md) — 12 feats
+- [Dragon Disciple](/rules/feats/archetype/dragon-disciple/index.md) — 14 feats
+- [Drake Rider](/rules/feats/archetype/drake-rider/index.md) — 10 feats
+- [Druid](/rules/feats/archetype/druid/index.md) — 8 feats
+- [Dual Weapon Warrior](/rules/feats/archetype/dual-weapon-warrior/index.md) — 5 feats
+- [Duelist](/rules/feats/archetype/duelist/index.md) — 5 feats
+- [Eagle Knight](/rules/feats/archetype/eagle-knight/index.md) — 11 feats
+- [Edgewatch Detective](/rules/feats/archetype/edgewatch-detective/index.md) — 4 feats
+- [Eldritch Archer](/rules/feats/archetype/eldritch-archer/index.md) — 11 feats
+- [Eldritch Researcher](/rules/feats/archetype/eldritch-researcher/index.md) — 11 feats
+- [Elementalist](/rules/feats/archetype/elementalist/index.md) — 11 feats
+- [Eternal Legend](/rules/feats/archetype/eternal-legend/index.md) — 18 feats
+- [Exemplar](/rules/feats/archetype/exemplar/index.md) — 6 feats
+- [Exorcist](/rules/feats/archetype/exorcist/index.md) — 5 feats
+- [Familiar Master](/rules/feats/archetype/familiar-master/index.md) — 6 feats
+- [Familiar Sage](/rules/feats/archetype/familiar-sage/index.md) — 11 feats
+- [Fan Dancer](/rules/feats/archetype/fan-dancer/index.md) — 14 feats
+- [Field Propagandist](/rules/feats/archetype/field-propagandist/index.md) — 9 feats
+- [Fighter](/rules/feats/archetype/fighter/index.md) — 6 feats
+- [Firebrand Braggart](/rules/feats/archetype/firebrand-braggart/index.md) — 8 feats
+- [Firework Technician](/rules/feats/archetype/firework-technician/index.md) — 6 feats
+- [Five Breath Vanguard](/rules/feats/archetype/five-breath-vanguard/index.md) — 5 feats
+- [Flexible Spellcaster](/rules/feats/archetype/flexible-spellcaster/index.md) — 1 feats
+- [Folklorist](/rules/feats/archetype/folklorist/index.md) — 5 feats
+- [Game Hunter](/rules/feats/archetype/game-hunter/index.md) — 4 feats
+- [Gelid Shard](/rules/feats/archetype/gelid-shard/index.md) — 10 feats
+- [Geomancer](/rules/feats/archetype/geomancer/index.md) — 10 feats
+- [Ghost](/rules/feats/archetype/ghost/index.md) — 13 feats
+- [Ghost Eater](/rules/feats/archetype/ghost-eater/index.md) — 4 feats
+- [Ghost Hunter](/rules/feats/archetype/ghost-hunter/index.md) — 6 feats
+- [Ghoul](/rules/feats/archetype/ghoul/index.md) — 18 feats
+- [Gladiator](/rules/feats/archetype/gladiator/index.md) — 9 feats
+- [Godling](/rules/feats/archetype/godling/index.md) — 14 feats
+- [Golden League Xun](/rules/feats/archetype/golden-league-xun/index.md) — 5 feats
+- [Golden Legionnaire](/rules/feats/archetype/golden-legionnaire/index.md) — 13 feats
+- [Golem Grafter](/rules/feats/archetype/golem-grafter/index.md) — 5 feats
+- [Gray Gardener](/rules/feats/archetype/gray-gardener/index.md) — 11 feats
+- [Guardian](/rules/feats/archetype/guardian/index.md) — 7 feats
+- [Guerrilla](/rules/feats/archetype/guerrilla/index.md) — 12 feats
+- [Gunslinger](/rules/feats/archetype/gunslinger/index.md) — 7 feats
+- [Halcyon Speaker](/rules/feats/archetype/halcyon-speaker/index.md) — 16 feats
+- [Hallowed Necromancer](/rules/feats/archetype/hallowed-necromancer/index.md) — 7 feats
+- [Harrower](/rules/feats/archetype/harrower/index.md) — 8 feats
+- [Hellbreaker](/rules/feats/archetype/hellbreaker/index.md) — 11 feats
+- [Hellknight](/rules/feats/archetype/hellknight/index.md) — 37 feats
+- [Hellknight Signifer](/rules/feats/archetype/hellknight-signifer/index.md) — 1 feats
+- [Herbalist](/rules/feats/archetype/herbalist/index.md) — 6 feats
+- [Heroic Scion](/rules/feats/archetype/heroic-scion/index.md) — 15 feats
+- [Horizon Walker](/rules/feats/archetype/horizon-walker/index.md) — 6 feats
+- [Inventor](/rules/feats/archetype/inventor/index.md) — 6 feats
+- [Investigator](/rules/feats/archetype/investigator/index.md) — 6 feats
+- [Iridian Choirmaster](/rules/feats/archetype/iridian-choirmaster/index.md) — 15 feats
+- [Jalmeri Heavenseeker](/rules/feats/archetype/jalmeri-heavenseeker/index.md) — 7 feats
+- [Juggler](/rules/feats/archetype/juggler/index.md) — 6 feats
+- [Kineticist](/rules/feats/archetype/kineticist/index.md) — 7 feats
+- [Kitharodian Actor](/rules/feats/archetype/kitharodian-actor/index.md) — 10 feats
+- [Knight Reclaimant](/rules/feats/archetype/knight-reclaimant/index.md) — 18 feats
+- [Knight Vigilant](/rules/feats/archetype/knight-vigilant/index.md) — 19 feats
+- [Lastwall Sentry](/rules/feats/archetype/lastwall-sentry/index.md) — 23 feats
+- [Lepidstadt Surgeon](/rules/feats/archetype/lepidstadt-surgeon/index.md) — 10 feats
+- [Lich](/rules/feats/archetype/lich/index.md) — 7 feats
+- [Linguist](/rules/feats/archetype/linguist/index.md) — 7 feats
+- [Lion Blade](/rules/feats/archetype/lion-blade/index.md) — 11 feats
+- [Living Monolith](/rules/feats/archetype/living-monolith/index.md) — 7 feats
+- [Living Vessel](/rules/feats/archetype/living-vessel/index.md) — 7 feats
+- [Loremaster](/rules/feats/archetype/loremaster/index.md) — 5 feats
+- [Magaambyan Attendant](/rules/feats/archetype/magaambyan-attendant/index.md) — 19 feats
+- [Magic Warrior](/rules/feats/archetype/magic-warrior/index.md) — 4 feats
+- [Magus](/rules/feats/archetype/magus/index.md) — 8 feats
+- [Mammoth Lord](/rules/feats/archetype/mammoth-lord/index.md) — 11 feats
+- [Marshal](/rules/feats/archetype/marshal/index.md) — 19 feats
+- [Martial Artist](/rules/feats/archetype/martial-artist/index.md) — 9 feats
+- [Mauler](/rules/feats/archetype/mauler/index.md) — 5 feats
+- [Medic](/rules/feats/archetype/medic/index.md) — 6 feats
+- [Mind Smith](/rules/feats/archetype/mind-smith/index.md) — 11 feats
+- [Monk](/rules/feats/archetype/monk/index.md) — 7 feats
+- [Mortal Herald](/rules/feats/archetype/mortal-herald/index.md) — 29 feats
+- [Mummy](/rules/feats/archetype/mummy/index.md) — 12 feats
+- [Munitions Master](/rules/feats/archetype/munitions-master/index.md) — 6 feats
+- [Nantambu Chime Ringer](/rules/feats/archetype/nantambu-chime-ringer/index.md) — 5 feats
+- [Necrologist](/rules/feats/archetype/necrologist/index.md) — 12 feats
+- [Nidalese Horselord](/rules/feats/archetype/nidalese-horselord/index.md) — 11 feats
+- [Oatia Skysage](/rules/feats/archetype/oatia-skysage/index.md) — 12 feats
+- [Oozemorph](/rules/feats/archetype/oozemorph/index.md) — 8 feats
+- [Oracle](/rules/feats/archetype/oracle/index.md) — 8 feats
+- [Ostilli Host](/rules/feats/archetype/ostilli-host/index.md) — 12 feats
+- [Overwatch](/rules/feats/archetype/overwatch/index.md) — 9 feats
+- [Pactbinder](/rules/feats/archetype/pactbinder/index.md) — 15 feats
+- [Pactbound Initiate](/rules/feats/archetype/pactbound-initiate/index.md) — 6 feats
+- [Palatine Detective](/rules/feats/archetype/palatine-detective/index.md) — 9 feats
+- [Pathfinder Agent](/rules/feats/archetype/pathfinder-agent/index.md) — 24 feats
+- [Pirate](/rules/feats/archetype/pirate/index.md) — 8 feats
+- [Pistol Phenom](/rules/feats/archetype/pistol-phenom/index.md) — 7 feats
+- [Poisoner](/rules/feats/archetype/poisoner/index.md) — 6 feats
+- [Prophesied Monarch](/rules/feats/archetype/prophesied-monarch/index.md) — 14 feats
+- [Prophet Of Kalistrade](/rules/feats/archetype/prophet-of-kalistrade/index.md) — 9 feats
+- [Provocator](/rules/feats/archetype/provocator/index.md) — 6 feats
+- [Psychic](/rules/feats/archetype/psychic/index.md) — 7 feats
+- [Psychic Duelist](/rules/feats/archetype/psychic-duelist/index.md) — 4 feats
+- [Pure Legion Enforcer](/rules/feats/archetype/pure-legion-enforcer/index.md) — 10 feats
+- [Ranger](/rules/feats/archetype/ranger/index.md) — 5 feats
+- [Razmiran Priest](/rules/feats/archetype/razmiran-priest/index.md) — 5 feats
+- [Reanimator](/rules/feats/archetype/reanimator/index.md) — 6 feats
+- [Red Mantis Assassin](/rules/feats/archetype/red-mantis-assassin/index.md) — 11 feats
+- [Ritualist](/rules/feats/archetype/ritualist/index.md) — 6 feats
+- [Rivethun Emissary](/rules/feats/archetype/rivethun-emissary/index.md) — 10 feats
+- [Rivethun Invoker](/rules/feats/archetype/rivethun-invoker/index.md) — 7 feats
+- [Rivethun Involutionist](/rules/feats/archetype/rivethun-involutionist/index.md) — 6 feats
+- [Rogue](/rules/feats/archetype/rogue/index.md) — 5 feats
+- [Rose Warden](/rules/feats/archetype/rose-warden/index.md) — 9 feats
+- [Runelord](/rules/feats/archetype/runelord/index.md) — 9 feats
+- [Runescarred](/rules/feats/archetype/runescarred/index.md) — 4 feats
+- [Sanguimancer](/rules/feats/archetype/sanguimancer/index.md) — 5 feats
+- [Scions Of Domora](/rules/feats/archetype/scions-of-domora/index.md) — 8 feats
+- [Scout](/rules/feats/archetype/scout/index.md) — 7 feats
+- [Scroll Trickster](/rules/feats/archetype/scroll-trickster/index.md) — 5 feats
+- [Scrollmaster](/rules/feats/archetype/scrollmaster/index.md) — 13 feats
+- [Scrounger](/rules/feats/archetype/scrounger/index.md) — 4 feats
+- [Seneschal](/rules/feats/archetype/seneschal/index.md) — 9 feats
+- [Sentinel](/rules/feats/archetype/sentinel/index.md) — 4 feats
+- [Shadowcaster](/rules/feats/archetype/shadowcaster/index.md) — 7 feats
+- [Shadowdancer](/rules/feats/archetype/shadowdancer/index.md) — 7 feats
+- [Shared Archetype Feats](/rules/feats/archetype/shared-archetype-feats/index.md) — 12 feats
+- [Shieldmarshal](/rules/feats/archetype/shieldmarshal/index.md) — 4 feats
+- [Sister Of The Golden Erinys](/rules/feats/archetype/sister-of-the-golden-erinys/index.md) — 8 feats
+- [Sixth Pillar](/rules/feats/archetype/sixth-pillar/index.md) — 5 feats
+- [Sleepwalker](/rules/feats/archetype/sleepwalker/index.md) — 10 feats
+- [Snarecrafter](/rules/feats/archetype/snarecrafter/index.md) — 11 feats
+- [Sniping Duo](/rules/feats/archetype/sniping-duo/index.md) — 9 feats
+- [Sorcerer](/rules/feats/archetype/sorcerer/index.md) — 8 feats
+- [Soul Warden](/rules/feats/archetype/soul-warden/index.md) — 8 feats
+- [Soulforger](/rules/feats/archetype/soulforger/index.md) — 4 feats
+- [Spell Trickster](/rules/feats/archetype/spell-trickster/index.md) — 26 feats
+- [Spellmaster](/rules/feats/archetype/spellmaster/index.md) — 14 feats
+- [Spellshot](/rules/feats/archetype/spellshot/index.md) — 6 feats
+- [Spirit Warrior](/rules/feats/archetype/spirit-warrior/index.md) — 13 feats
+- [Splinter Of Finality](/rules/feats/archetype/splinter-of-finality/index.md) — 10 feats
+- [Staff Acrobat](/rules/feats/archetype/staff-acrobat/index.md) — 6 feats
+- [Stalwart Defender](/rules/feats/archetype/stalwart-defender/index.md) — 13 feats
+- [Starlit Sentinel](/rules/feats/archetype/starlit-sentinel/index.md) — 6 feats
+- [Starstone Aspirant](/rules/feats/archetype/starstone-aspirant/index.md) — 11 feats
+- [Steel Falcon](/rules/feats/archetype/steel-falcon/index.md) — 10 feats
+- [Sterling Dynamo](/rules/feats/archetype/sterling-dynamo/index.md) — 7 feats
+- [Stone Brawler](/rules/feats/archetype/stone-brawler/index.md) — 6 feats
+- [Stonebound](/rules/feats/archetype/stonebound/index.md) — 8 feats
+- [Student Of Perfection](/rules/feats/archetype/student-of-perfection/index.md) — 8 feats
+- [Summoner](/rules/feats/archetype/summoner/index.md) — 9 feats
+- [Swarmkeeper](/rules/feats/archetype/swarmkeeper/index.md) — 11 feats
+- [Swashbuckler](/rules/feats/archetype/swashbuckler/index.md) — 6 feats
+- [Swordmaster](/rules/feats/archetype/swordmaster/index.md) — 20 feats
+- [Talisman Dabbler](/rules/feats/archetype/talisman-dabbler/index.md) — 4 feats
+- [Tattooed Historian](/rules/feats/archetype/tattooed-historian/index.md) — 6 feats
+- [Thaumaturge](/rules/feats/archetype/thaumaturge/index.md) — 6 feats
+- [Thlipit Contestant](/rules/feats/archetype/thlipit-contestant/index.md) — 12 feats
+- [Time Mage](/rules/feats/archetype/time-mage/index.md) — 9 feats
+- [Timewracked](/rules/feats/archetype/timewracked/index.md) — 12 feats
+- [Trapsmith](/rules/feats/archetype/trapsmith/index.md) — 6 feats
+- [Trick Driver](/rules/feats/archetype/trick-driver/index.md) — 7 feats
+- [Turpin Rowe Lumberjack](/rules/feats/archetype/turpin-rowe-lumberjack/index.md) — 5 feats
+- [Twilight Speaker](/rules/feats/archetype/twilight-speaker/index.md) — 7 feats
+- [Twilight Talon](/rules/feats/archetype/twilight-talon/index.md) — 10 feats
+- [Ulfen Guard](/rules/feats/archetype/ulfen-guard/index.md) — 7 feats
+- [Undead Master](/rules/feats/archetype/undead-master/index.md) — 3 feats
+- [Undead Slayer](/rules/feats/archetype/undead-slayer/index.md) — 10 feats
+- [Undersea Privateer](/rules/feats/archetype/undersea-privateer/index.md) — 14 feats
+- [Unexpected Sharpshooter](/rules/feats/archetype/unexpected-sharpshooter/index.md) — 8 feats
+- [Ursine Avenger Hood](/rules/feats/archetype/ursine-avenger-hood/index.md) — 10 feats
+- [Vampire](/rules/feats/archetype/vampire/index.md) — 12 feats
+- [Vehicle Mechanic](/rules/feats/archetype/vehicle-mechanic/index.md) — 7 feats
+- [Venture Gossip](/rules/feats/archetype/venture-gossip/index.md) — 7 feats
+- [Verduran Shadow](/rules/feats/archetype/verduran-shadow/index.md) — 6 feats
+- [Vigilante](/rules/feats/archetype/vigilante/index.md) — 11 feats
+- [Viking](/rules/feats/archetype/viking/index.md) — 6 feats
+- [Vindicator](/rules/feats/archetype/vindicator/index.md) — 4 feats
+- [Wandering Chef](/rules/feats/archetype/wandering-chef/index.md) — 8 feats
+- [War Mage](/rules/feats/archetype/war-mage/index.md) — 10 feats
+- [Warrior Of Legend](/rules/feats/archetype/warrior-of-legend/index.md) — 12 feats
+- [Warshard Warrior](/rules/feats/archetype/warshard-warrior/index.md) — 12 feats
+- [Weapon Improviser](/rules/feats/archetype/weapon-improviser/index.md) — 6 feats
+- [Wellspring Mage](/rules/feats/archetype/wellspring-mage/index.md) — 4 feats
+- [Werecreature](/rules/feats/archetype/werecreature/index.md) — 29 feats
+- [Wild Mimic](/rules/feats/archetype/wild-mimic/index.md) — 12 feats
+- [Wildspell](/rules/feats/archetype/wildspell/index.md) — 16 feats
+- [Winged Warrior](/rules/feats/archetype/winged-warrior/index.md) — 15 feats
+- [Witch](/rules/feats/archetype/witch/index.md) — 7 feats
+- [Wizard](/rules/feats/archetype/wizard/index.md) — 18 feats
+- [Worm Caller](/rules/feats/archetype/worm-caller/index.md) — 13 feats
+- [Wrestler](/rules/feats/archetype/wrestler/index.md) — 12 feats
+- [Wylderheart](/rules/feats/archetype/wylderheart/index.md) — 8 feats
+- [Zephyr Guard](/rules/feats/archetype/zephyr-guard/index.md) — 5 feats
+- [Zombie](/rules/feats/archetype/zombie/index.md) — 11 feats

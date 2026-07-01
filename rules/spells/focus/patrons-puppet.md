@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Patron's Puppet"
-description: "Trigger Your turn begins."
+description: "At your unspoken plea, your patron temporarily assumes control over your familiar."
 resource: "pf2e://spells/focus/patrons-puppet"
 tags: ["hex", "witch"]
 timestamp: 2026-06-26T00:00:00Z

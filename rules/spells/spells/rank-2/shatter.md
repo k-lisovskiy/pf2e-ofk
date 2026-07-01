@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shatter"
-description: "A highfrequency sonic attack shatters a nearby object."
+description: "A high-frequency sonic attack shatters a nearby object."
 resource: "pf2e://spells/rank-2/shatter"
 tags: ["concentrate", "manipulate", "sonic"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,0 +1,62 @@
+---
+type: Index
+title: "Magus — Class Feats"
+description: "All 51 class feats for Magus."
+timestamp: 2026-06-26T00:00:00Z
+---
+
+# Magus — Class Feats
+
+All 51 class feats for Magus.
+
+- [Arcane Fists](/rules/feats/class/magus/arcane-fists.md)
+- [Arcane Shroud](/rules/feats/class/magus/arcane-shroud.md)
+- [Capture Magic](/rules/feats/class/magus/capture-magic.md)
+- [Cascade Countermeasure](/rules/feats/class/magus/cascade-countermeasure.md)
+- [Cascading Ray](/rules/feats/class/magus/cascading-ray.md)
+- [Conflux Focus](/rules/feats/class/magus/conflux-focus.md)
+- [Conflux Wellspring](/rules/feats/class/magus/conflux-wellspring.md)
+- [Convergent Tides](/rules/feats/class/magus/convergent-tides.md)
+- [Crosscurrent Counter](/rules/feats/class/magus/crosscurrent-counter.md)
+- [Dazzling Block](/rules/feats/class/magus/dazzling-block.md)
+- [Devastating Spellstrike](/rules/feats/class/magus/devastating-spellstrike.md)
+- [Dimensional Disappearance](/rules/feats/class/magus/dimensional-disappearance.md)
+- [Dispelling Spellstrike](/rules/feats/class/magus/dispelling-spellstrike.md)
+- [Distant Waterbird's Poise](/rules/feats/class/magus/distant-waterbirds-poise.md)
+- [Distracting Spellstrike](/rules/feats/class/magus/distracting-spellstrike.md)
+- [Emergency Targe](/rules/feats/class/magus/emergency-targe.md)
+- [Expansive Spellstrike](/rules/feats/class/magus/expansive-spellstrike.md)
+- [Force Fang](/rules/feats/class/magus/force-fang.md)
+- [Fused Staff](/rules/feats/class/magus/fused-staff.md)
+- [Hasted Assault](/rules/feats/class/magus/hasted-assault.md)
+- [Heaven-Earth Encompassing Sleeves](/rules/feats/class/magus/heaven-earth-encompassing-sleeves.md)
+- [Knowledge is Power](/rules/feats/class/magus/knowledge-is-power.md)
+- [Lunging Spellstrike](/rules/feats/class/magus/lunging-spellstrike.md)
+- [Maelstrom Flow](/rules/feats/class/magus/maelstrom-flow.md)
+- [Magic Sense (Magus)](/rules/feats/class/magus/magic-sense-magus.md)
+- [Magus's Analysis](/rules/feats/class/magus/maguss-analysis.md)
+- [Meteoric Spellstrike](/rules/feats/class/magus/meteoric-spellstrike.md)
+- [Overwhelming Spellstrike](/rules/feats/class/magus/overwhelming-spellstrike.md)
+- [Preternatural Parry](/rules/feats/class/magus/preternatural-parry.md)
+- [Raise a Tome](/rules/feats/class/magus/raise-a-tome.md)
+- [Rapid Recharge](/rules/feats/class/magus/rapid-recharge.md)
+- [Resounding Cascade](/rules/feats/class/magus/resounding-cascade.md)
+- [Runic Impression](/rules/feats/class/magus/runic-impression.md)
+- [Shattering Spellstrike](/rules/feats/class/magus/shattering-spellstrike.md)
+- [Shielded Tome](/rules/feats/class/magus/shielded-tome.md)
+- [Spell Parry](/rules/feats/class/magus/spell-parry.md)
+- [Spell Swipe](/rules/feats/class/magus/spell-swipe.md)
+- [Spirit Sheath](/rules/feats/class/magus/spirit-sheath.md)
+- [Standby Spell](/rules/feats/class/magus/standby-spell.md)
+- [Starlit Eyes](/rules/feats/class/magus/starlit-eyes.md)
+- [Steady Spellcasting (Magus)](/rules/feats/class/magus/steady-spellcasting-magus.md)
+- [Striker's Scroll](/rules/feats/class/magus/strikers-scroll.md)
+- [Student of the Staff](/rules/feats/class/magus/student-of-the-staff.md)
+- [Supreme Spellstrike](/rules/feats/class/magus/supreme-spellstrike.md)
+- [Surface Tension](/rules/feats/class/magus/surface-tension.md)
+- [Sustaining Steel](/rules/feats/class/magus/sustaining-steel.md)
+- [Unsheathing the Sword-Light](/rules/feats/class/magus/unsheathing-the-sword-light.md)
+- [Vermillion Threads](/rules/feats/class/magus/vermillion-threads.md)
+- [Versatile Spellstrike](/rules/feats/class/magus/versatile-spellstrike.md)
+- [Whirlpool's Pull](/rules/feats/class/magus/whirlpools-pull.md)
+- [Whirlwind Spell](/rules/feats/class/magus/whirlwind-spell.md)

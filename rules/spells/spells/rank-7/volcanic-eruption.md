@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Volcanic Eruption"
-description: "Area 5foot radius, 80foottall cylinder The ground opens up, spraying a column of lava high into the air in a vertical cylinder, dealing 14d6 fire damage to creatures in the area."
+description: "Area 5-foot radius, 80-foot-tall cylinder The ground opens up, spraying a column of lava high into the air in a vertical cylinder, dealing 14d6 fire damage to creatures in the area."
 resource: "pf2e://spells/rank-7/volcanic-eruption"
 tags: ["concentrate", "fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

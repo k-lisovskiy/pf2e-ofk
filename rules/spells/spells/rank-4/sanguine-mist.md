@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Sanguine Mist"
-description: "You unleash a cloud of foul, bloodsucking fog that drains the vitality from the living to bolster your own."
+description: "You unleash a cloud of foul, blood-sucking fog that drains the vitality from the living to bolster your own."
 resource: "pf2e://spells/rank-4/sanguine-mist"
 tags: ["concentrate", "death", "manipulate", "void"]
 timestamp: 2026-06-26T00:00:00Z

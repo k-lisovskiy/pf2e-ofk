@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Wall of Flesh"
-description: "You craft a 20foottall wall of living flesh in a straight line up to 30 feet long."
+description: "You craft a 20-foot-tall wall of living flesh in a straight line up to 30 feet long."
 resource: "pf2e://spells/rank-5/wall-of-flesh"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

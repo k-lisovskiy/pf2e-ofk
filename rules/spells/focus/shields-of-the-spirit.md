@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Shields of the Spirit"
-description: "Requirements You are wielding a shield."
+description: "You Raise your Shield, causing ephemeral spirit shields to float within your champion's aura."
 resource: "pf2e://spells/focus/shields-of-the-spirit"
 tags: ["champion", "concentrate", "sanctified", "spirit"]
 timestamp: 2026-06-26T00:00:00Z

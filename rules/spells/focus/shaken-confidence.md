@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Shaken Confidence"
-description: "Trigger An enemy within 30 feet of you critically fails an attack roll, Perception check, or skill check."
+description: "You mock the target for all its failings, twisting its self-confidence into doubt."
 resource: "pf2e://spells/focus/shaken-confidence"
 tags: ["cleric", "concentrate", "emotion", "mental", "misfortune"]
 timestamp: 2026-06-26T00:00:00Z

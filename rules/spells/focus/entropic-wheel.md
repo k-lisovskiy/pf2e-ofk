@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Entropic Wheel"
-description: "Trigger You deal cold or fire damage to an enemy."
+description: "You stockpile thermal energy in a magical wheel-like construct that lets you burn opponents with cold or freeze their bodies with heat."
 resource: "pf2e://spells/focus/entropic-wheel"
 tags: ["cantrip", "cold", "concentrate", "fire", "psychic"]
 timestamp: 2026-06-26T00:00:00Z

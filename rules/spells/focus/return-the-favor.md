@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Return the Favor"
-description: "Trigger An ally uses a reaction to grant you a beneficial effect during a combat encounter."
+description: "You're unable to leave any debts unpaid."
 resource: "pf2e://spells/focus/return-the-favor"
 tags: ["hex", "manipulate", "witch"]
 timestamp: 2026-06-26T00:00:00Z

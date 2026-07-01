@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Falling Sky"
-description: "Area 60foot tall, 30foot radius cylinder Extraordinary telekinetic pressure smashes down through the area, battering creatures within it to the ground."
+description: "Area 60-foot tall, 30-foot radius cylinder Extraordinary telekinetic pressure smashes down through the area, battering creatures within it to the ground."
 resource: "pf2e://spells/rank-8/falling-sky"
 tags: ["concentrate", "incapacitation", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

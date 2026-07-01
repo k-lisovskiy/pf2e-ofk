@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Disperse into Air"
-description: "Trigger You take damage from an enemy or a hazard."
+description: "After taking the triggering damage, you transform into air."
 resource: "pf2e://spells/focus/disperse-into-air"
 tags: ["air", "cleric", "manipulate", "polymorph"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Energy Aegis"
-description: "You protect the target with a powerful, longlasting energy barrier."
+description: "You protect the target with a powerful, long-lasting energy barrier."
 resource: "pf2e://spells/rank-7/energy-aegis"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Nature's Bounty"
-description: "A palmsized raw fruit or vegetable of your choice appears in your open hand."
+description: "A palm-sized raw fruit or vegetable of your choice appears in your open hand."
 resource: "pf2e://spells/focus/natures-bounty"
 tags: ["cleric", "manipulate", "plant", "vitality"]
 timestamp: 2026-06-26T00:00:00Z

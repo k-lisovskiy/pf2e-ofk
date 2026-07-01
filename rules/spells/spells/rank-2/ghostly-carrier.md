@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Ghostly Carrier"
-description: "You create a Tiny, semicorporeal figure with a form you choose."
+description: "You create a Tiny, semi-corporeal figure with a form you choose."
 resource: "pf2e://spells/rank-2/ghostly-carrier"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

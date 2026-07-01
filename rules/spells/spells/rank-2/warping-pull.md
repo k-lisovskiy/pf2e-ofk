@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Warping Pull"
-description: "Trigger An effect would deal damage to an ally within range."
+description: "You get an ally out of danger with a teleporting pull."
 resource: "pf2e://spells/rank-2/warping-pull"
 tags: ["concentrate", "manipulate", "teleportation"]
 timestamp: 2026-06-26T00:00:00Z

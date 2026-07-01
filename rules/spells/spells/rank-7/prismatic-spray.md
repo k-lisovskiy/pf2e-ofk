@@ -32,7 +32,18 @@ A spray of rainbow light beams cascades from your open hand. Each creature in th
 
 ****Prismatic Spray**
 
-**[[/r 1d8 #Prismatic Spray]]ColorSaveEffects (Traits)1RedReflex50 fire damage (fire)2OrangeReflex60 acid damage (acid)3YellowReflex70 electricity damage (electricity)4GreenFortitude30 poison damage and Enfeebled 1 for 1 minute (poison)5BlueFortitudeAffected as if by Petrify6IndigoWillConfused, as the Warp Mind spell (mental)7VioletWillSlowed for 1 minute; if a critical failure, sent to another plane, as Interplanar Teleport (teleportation)8Potent beam-Affected by two beams - roll twice, rerolling any duplicates or results of 8
+**
+
+| [[/r 1d8 #Prismatic Spray]] | Color | Save | Effects (Traits) |
+| --- | --- | --- | --- |
+| 1 | Red | Reflex | 50 fire damage (fire) |
+| 2 | Orange | Reflex | 60 acid damage (acid) |
+| 3 | Yellow | Reflex | 70 electricity damage (electricity) |
+| 4 | Green | Fortitude | 30 poison damage and Enfeebled 1 for 1 minute (poison) |
+| 5 | Blue | Fortitude | Affected as if by Petrify |
+| 6 | Indigo | Will | Confused, as the Warp Mind spell (mental) |
+| 7 | Violet | Will | Slowed for 1 minute; if a critical failure, sent to another plane, as Interplanar Teleport (teleportation) |
+| 8 | Potent beam | - | Affected by two beams - roll twice, rerolling any duplicates or results of 8 |
 
 # Citations
 

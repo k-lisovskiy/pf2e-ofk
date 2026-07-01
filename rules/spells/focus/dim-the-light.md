@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Dim the Light"
-description: "Trigger You cast a darkness or shadow spell."
+description: "You magnify the darkness from the triggering effect, causing the ambient light level to flicker briefly so you can slip from sight."
 resource: "pf2e://spells/focus/dim-the-light"
 tags: ["darkness", "manipulate", "sorcerer"]
 timestamp: 2026-06-26T00:00:00Z

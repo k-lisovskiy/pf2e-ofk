@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Propulsive Breeze"
-description: "Trigger An ally in range Strides or Leaps."
+description: "You create a current of wind at your ally's back, propelling their movement."
 resource: "pf2e://spells/rank-2/propulsive-breeze"
 tags: ["air", "manipulate", "move"]
 timestamp: 2026-06-26T00:00:00Z

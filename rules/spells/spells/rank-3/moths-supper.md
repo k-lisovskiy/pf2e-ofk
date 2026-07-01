@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Moth's Supper"
-description: "You sigh, and your breath transforms into delicate, blackwinged butterflies and huge death'shead hawkmoths."
+description: "You sigh, and your breath transforms into delicate, black-winged butterflies and huge death's-head hawkmoths."
 resource: "pf2e://spells/rank-3/moths-supper"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

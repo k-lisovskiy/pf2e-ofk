@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Lashing Rope"
-description: "You cause a section of rope or a ropelike object to animate, slither to your square, and encircle you, wreathing you in twisting, lashing fibers."
+description: "You cause a section of rope or a rope-like object to animate, slither to your square, and encircle you, wreathing you in twisting, lashing fibers."
 resource: "pf2e://spells/rank-3/lashing-rope"
 tags: ["attack", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

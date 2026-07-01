@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Helpful Reload"
-description: "Trigger One of your allies makes a ranged Strike with a weapon with a reload of 1 or less Requirements Your ally has more ammunition for their ranged weapon available."
+description: "With a quick gesture, you reload your ally's weapon, allowing them to focus on fighting the enemy."
 resource: "pf2e://spells/rank-2/helpful-reload"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

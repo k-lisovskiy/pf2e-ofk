@@ -43,7 +43,13 @@ Fleeting notes of a strange and unnatural song fill the air, overtaking the mind
 
 **Critical Failure** Roll [[/r 1d4+1]] on the table below.
 
-ResultEffect1The target is Frightened 22The target is Confused for 1 round3The target is Stupefied 4 for 1 round4The target is Blinded for 1 round5The target is Stunned for 1 round and Stupefied 1 for an unlimited duration
+| Result | Effect |
+| --- | --- |
+| 1 | The target is Frightened 2 |
+| 2 | The target is Confused for 1 round |
+| 3 | The target is Stupefied 4 for 1 round |
+| 4 | The target is Blinded for 1 round |
+| 5 | The target is Stunned for 1 round and Stupefied 1 for an unlimited duration |
 
 # Citations
 

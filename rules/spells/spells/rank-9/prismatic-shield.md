@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Prismatic Shield"
-description: "Shieldsized shards of multicolored light manifest in the air around you, each rotating quickly to intercept attacks."
+description: "Shield-sized shards of multicolored light manifest in the air around you, each rotating quickly to intercept attacks."
 resource: "pf2e://spells/rank-9/prismatic-shield"
 tags: ["concentrate", "light"]
 timestamp: 2026-06-26T00:00:00Z

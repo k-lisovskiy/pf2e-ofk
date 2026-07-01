@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Dream Council"
-description: "When you Cast this Spell, any targetsincluding youcan choose to immediately fall asleep."
+description: "When you Cast this Spell, any targets-including you-can choose to immediately fall asleep."
 resource: "pf2e://spells/rank-8/dream-council"
 tags: ["concentrate", "illusion", "manipulate", "mental", "sleep"]
 timestamp: 2026-06-26T00:00:00Z

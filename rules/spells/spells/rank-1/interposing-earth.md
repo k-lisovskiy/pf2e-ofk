@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Interposing Earth"
-description: "Trigger You are the target of a Strike or would attempt a Reflex save against a damaging area effect."
+description: "You raise a flimsy barrier of earth to shield you from harm."
 resource: "pf2e://spells/rank-1/interposing-earth"
 tags: ["earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Flame Vortex"
-description: "Area 5foot radius, 40foot tall cylinder You combine a blazing inferno and air currents into a fiery vortex."
+description: "Area 5-foot radius, 40-foot tall cylinder You combine a blazing inferno and air currents into a fiery vortex."
 resource: "pf2e://spells/rank-6/flame-vortex"
 tags: ["air", "concentrate", "fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

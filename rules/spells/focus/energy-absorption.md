@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Energy Absorption"
-description: "Trigger An effect would deal acid, cold, electricity, or fire damage to you You're used to mitigating the damage done by bombs, siege engines, and magical artillery."
+description: "You're used to mitigating the damage done by bombs, siege engines, and magical artillery."
 resource: "pf2e://spells/focus/energy-absorption"
 tags: ["wizard"]
 timestamp: 2026-06-26T00:00:00Z

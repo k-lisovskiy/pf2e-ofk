@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Rust Cloud"
-description: "Redblown flecks of rust jitter in the air, forming a cloud of agitated particles."
+description: "Red-blown flecks of rust jitter in the air, forming a cloud of agitated particles."
 resource: "pf2e://spells/rank-4/rust-cloud"
 tags: ["concentrate", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z

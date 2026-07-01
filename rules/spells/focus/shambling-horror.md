@@ -37,125 +37,42 @@ A shambling horror has the minion trait. You can't control more than one shambli
 
 **
 
-Level
-Size
-Creature Name
-
--1
-Medium
-Skeleton Guard
-
-0
-Medium
-Wolf Skeleton
-
-1
-Medium
-Skeletal Soldier
-
-2
-Medium
-Skeletal Champion
-
-2
-Large
-Skeletal Horse
-
-3
-Large
-Skeletal Giant
-
-5
-Medium
-Harpy Skeleton
-
-5
-Medium
-Skeletal Mage
-
-6
-Large
-Beetle Carapace
-
-7
-Huge
-Skeletal Hulk
-
-8
-Large
-Drake Skeleton
-
-9
-Gargantuan
-Tyrannosaurus Skeleton
-
-11
-Gargantuan
-Skeleton Infantry
-
-13
-Gargantuan
-Skeletal Titan
+| Level | Size | Creature Name |
+| --- | --- | --- |
+| -1 | Medium | Skeleton Guard |
+| 0 | Medium | Wolf Skeleton |
+| 1 | Medium | Skeletal Soldier |
+| 2 | Medium | Skeletal Champion |
+| 2 | Large | Skeletal Horse |
+| 3 | Large | Skeletal Giant |
+| 5 | Medium | Harpy Skeleton |
+| 5 | Medium | Skeletal Mage |
+| 6 | Large | Beetle Carapace |
+| 7 | Huge | Skeletal Hulk |
+| 8 | Large | Drake Skeleton |
+| 9 | Gargantuan | Tyrannosaurus Skeleton |
+| 11 | Gargantuan | Skeleton Infantry |
+| 13 | Gargantuan | Skeletal Titan |
 
 **Zombies
 
 **
 
-Level
-Size
-Creature Name
-
--1
-Medium
-Zombie Shambler
-
-0
-Medium
-Zombie Snake
-
-1
-Medium
-Plague Zombie
-
-2
-Medium
-Husk Zombie
-
-2
-Large
-Zombie Brute
-
-3
-Large
-Zombie Owlbear
-
-4
-Gargantuan
-Shambler Troop
-
-4
-Medium
-Zombie Lord
-
-5
-Medium
-Withered
-
-6
-Medium
-Sulfur Zombie
-
-6
-Huge
-Zombie Hulk
-
-9
-Huge
-Zombie Dragon
-
-11
-Huge
-Zombie Mammoth
+| Level | Size | Creature Name |
+| --- | --- | --- |
+| -1 | Medium | Zombie Shambler |
+| 0 | Medium | Zombie Snake |
+| 1 | Medium | Plague Zombie |
+| 2 | Medium | Husk Zombie |
+| 2 | Large | Zombie Brute |
+| 3 | Large | Zombie Owlbear |
+| 4 | Gargantuan | Shambler Troop |
+| 4 | Medium | Zombie Lord |
+| 5 | Medium | Withered |
+| 6 | Medium | Sulfur Zombie |
+| 6 | Huge | Zombie Hulk |
+| 9 | Huge | Zombie Dragon |
+| 11 | Huge | Zombie Mammoth |
 
 # Citations
 

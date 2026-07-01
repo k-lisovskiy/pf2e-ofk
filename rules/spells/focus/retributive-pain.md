@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Retributive Pain"
-description: "Trigger A creature in range damages you."
+description: "You vengefully reflect your pain upon your tormentor."
 resource: "pf2e://spells/focus/retributive-pain"
 tags: ["cleric", "manipulate", "mental", "nonlethal"]
 timestamp: 2026-06-26T00:00:00Z

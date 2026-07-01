@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Tempt Fate"
-description: "Trigger You or an ally within range attempts a saving throw."
+description: "You twist the forces of fate to make a moment dire or uneventful, with no in-between."
 resource: "pf2e://spells/focus/tempt-fate"
 tags: ["cleric", "fortune", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

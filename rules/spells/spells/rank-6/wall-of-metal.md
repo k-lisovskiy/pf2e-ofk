@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Wall of Metal"
-description: "You call forth a sheet of metal, forming a wall of iron, lowgrade cold iron, or standardgrade silver up to 60 feet long, 30 feet high, and 1/4 inch thick."
+description: "You call forth a sheet of metal, forming a wall of iron, low-grade cold iron, or standard-grade silver up to 60 feet long, 30 feet high, and 1/4 inch thick."
 resource: "pf2e://spells/rank-6/wall-of-metal"
 tags: ["concentrate", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z

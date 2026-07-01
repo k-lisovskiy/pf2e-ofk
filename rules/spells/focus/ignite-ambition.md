@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Ignite Ambition"
-description: "Trigger You or an ally in range attempt to use a mental effect to convince a creature to do something (such as a Coerce, Request, or a Suggestion spell)."
+description: "You strengthen a target's ambition, increase its resentment of allies, and make its allegiances more susceptible to change."
 resource: "pf2e://spells/focus/ignite-ambition"
 tags: ["cleric", "concentrate", "emotion", "mental", "subtle"]
 timestamp: 2026-06-26T00:00:00Z

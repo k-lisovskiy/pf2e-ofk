@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Curse of Recoil"
-description: "Trigger An enemy you can see is about to make a ranged attack."
+description: "You curse an enemy to suffer a kickback as they make a ranged attack, potentially causing them to miss."
 resource: "pf2e://spells/rank-1/curse-of-recoil"
 tags: ["concentrate", "curse"]
 timestamp: 2026-06-26T00:00:00Z

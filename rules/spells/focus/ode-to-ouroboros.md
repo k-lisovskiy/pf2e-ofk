@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Ode to Ouroboros"
-description: "Trigger A creature's dying condition would reach the value at which they would die."
+description: "Your ode staves off death."
 resource: "pf2e://spells/focus/ode-to-ouroboros"
 tags: ["bard", "composition", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

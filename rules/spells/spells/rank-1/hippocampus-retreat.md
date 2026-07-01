@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Hippocampus Retreat"
-description: "Requirements You're mostly or totally submerged in water."
+description: "You temporarily shape your lower limbs into the tail of a hippocampus in order to swim away from a nearby foe after dealing a parting blow."
 resource: "pf2e://spells/rank-1/hippocampus-retreat"
 tags: ["attack", "concentrate", "manipulate", "morph"]
 timestamp: 2026-06-26T00:00:00Z

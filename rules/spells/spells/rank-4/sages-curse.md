@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Sage's Curse"
-description: "You afflict the target with a curse that fills its mind with distracting and hyperspecialized minutiae, causing it to secondguess even simple facts."
+description: "You afflict the target with a curse that fills its mind with distracting and hyperspecialized minutiae, causing it to second-guess even simple facts."
 resource: "pf2e://spells/rank-4/sages-curse"
 tags: ["concentrate", "curse", "manipulate", "mental", "misfortune"]
 timestamp: 2026-06-26T00:00:00Z

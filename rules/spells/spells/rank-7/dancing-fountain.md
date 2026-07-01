@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Dancing Fountain"
-description: "Area 30foot burst centered on you Tapping the ground, you create a shallow pool of water that spreads over the affected area, and majestic sprays, jets, and mists of water erupt forth in a dazzling..."
+description: "Area 30-foot burst centered on you Tapping the ground, you create a shallow pool of water that spreads over the affected area, and majestic sprays, jets, and mists of water erupt forth in a dazzlin..."
 resource: "pf2e://spells/rank-7/dancing-fountain"
 tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

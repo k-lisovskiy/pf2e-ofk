@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Armor of Thorn and Claw"
-description: "Razorsharp thorns and claws erupt from your skin or scales."
+description: "Razor-sharp thorns and claws erupt from your skin or scales."
 resource: "pf2e://spells/rank-1/armor-of-thorn-and-claw"
 tags: ["concentrate", "manipulate", "morph"]
 timestamp: 2026-06-26T00:00:00Z

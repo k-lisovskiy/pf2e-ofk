@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Home Among Mulberry Leaves"
-description: "Requirements You're wielding qiinfused fabric."
+description: "Qi-formed threads unravel from your fabric on conjured needles as your attack makes contact with an enemy and wraps it in place like an insect in its cocoon."
 resource: "pf2e://spells/focus/home-among-mulberry-leaves"
 tags: ["magus", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

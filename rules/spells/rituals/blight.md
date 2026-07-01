@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Blight"
-description: "Area 1/2mileradius circle centered on you You twist and stunt plants in the area, causing them to wither."
+description: "Area 1/2-mile-radius circle centered on you You twist and stunt plants in the area, causing them to wither."
 resource: "pf2e://spells/rituals/blight"
 tags: ["plant", "void"]
 timestamp: 2026-06-26T00:00:00Z

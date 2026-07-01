@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Blood in the Water"
-description: "Requirements The target is taking persistent bleed damage or your last action dealt slashing damage to the target."
+description: "Predators are drawn to the scent of blood, and blood can disperse shockingly far in the water."
 resource: "pf2e://spells/focus/blood-in-the-water"
 tags: ["concentrate", "hex", "manipulate", "spirit", "witch"]
 timestamp: 2026-06-26T00:00:00Z

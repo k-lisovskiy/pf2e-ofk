@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Swallow Light"
-description: "You draw magical light into your open mouth, consuming it and turning its essence into fuel for a gout of lifedraining shadows."
+description: "You draw magical light into your open mouth, consuming it and turning its essence into fuel for a gout of life-draining shadows."
 resource: "pf2e://spells/rank-2/swallow-light"
 tags: ["cold", "concentrate", "darkness", "manipulate", "void"]
 timestamp: 2026-06-26T00:00:00Z

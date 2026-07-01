@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Brine Dragon Bile"
-description: "Trigger A creature within range takes damage from a slashing or piercing attack, or one that inflicts persistent bleed damage."
+description: "You spit a glob of caustic saltwater that stings the wounds of the creature."
 resource: "pf2e://spells/rank-2/brine-dragon-bile"
 tags: ["acid", "attack", "concentrate", "water"]
 timestamp: 2026-06-26T00:00:00Z

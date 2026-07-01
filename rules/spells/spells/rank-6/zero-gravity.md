@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Zero Gravity"
-description: "Area 20foot radius, 40foottall cylinder You negate gravity's effects in the area."
+description: "Area 20-foot radius, 40-foot-tall cylinder You negate gravity's effects in the area."
 resource: "pf2e://spells/rank-6/zero-gravity"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

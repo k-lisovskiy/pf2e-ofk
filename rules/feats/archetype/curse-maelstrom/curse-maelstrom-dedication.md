@@ -1,0 +1,45 @@
+---
+type: Archetype Feat
+title: "Curse Maelstrom Dedication"
+description: "A horrible curse has left a lingering stain on your soul, and its effects continue to plague you even if the curse's other effects have ended."
+resource: "pf2e://feats/archetype/curse-maelstrom/curse-maelstrom-dedication"
+tags: ["archetype", "dedication"]
+timestamp: 2026-06-26T00:00:00Z
+rarity: "rare"
+level: 2
+category: "archetype"
+subcategory: "curse-maelstrom"
+action_type: "passive"
+actions: ""
+frequency: ""
+prerequisites: ["You are cursed or have previously been cursed."]
+only_level_1: false
+max_takable: 
+self_effect: ""
+publication: "Pathfinder Dark Archive (Remastered)"
+---
+
+# Overview
+
+- **Level**: 2
+- **Category**: Archetype (curse-maelstrom)
+- **Action**: Passive
+- **Prerequisites**: You are cursed or have previously been cursed.
+- **Traits**: archetype, dedication
+
+## Description
+
+A horrible curse has left a lingering stain on your soul, and its effects continue to plague you even if the curse's other effects have ended. You can choose to suppress it, but if you instead let it manifest, you can channel its power in your favor. During an encounter, when you succeed at a check, the GM can offer to have you roll again, taking the second result. This is a misfortune effect. If you do so, you enter a curse maelstrom state. If the misfortune effect is somehow canceled or negated (by a fortune effect, for example), you don't enter a curse maelstrom state.
+
+Effect: Curse Maelstrom State
+
+In addition, the curse is jealous of its place within your soul and gladly lashes out whenever others dare to usurp that position, granting you its power without the usual price. If a foe places a misfortune effect on your roll and the effect applies to your roll, you enter a curse maelstrom state, and if you fail a saving throw against a foe's curse effect and are affected by the curse, you also enter a curse maelstrom state. No matter the source, you can only enter a curse maelstrom state during an encounter, and if you don't end the state on your own, it ends at the end of the encounter. Once it ends, you can't enter a curse maelstrom state again for 1 minute.
+
+While in a curse maelstrom state, you can't benefit from fortune effects, and they also don't cancel misfortune effects on you; they simply have no effect. While in this state, all creatures other than you within a 10-foot emanation take a -1 status penalty to all saving throws and skill checks due to the storm of bad luck swirling out of your body. You gain the Expel Maelstrom action, which you can use to focus the brunt of your curses onto an unlucky target.
+
+Curse Maelstrom
+
+# Citations
+
+[1] Pathfinder Dark Archive (Remastered)
+[2] Source: `packs/pf2e/feats/archetype/curse-maelstrom/curse-maelstrom-dedication.json` (pf2e system data)

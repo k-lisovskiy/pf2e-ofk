@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Outcast's Curse"
-description: "You afflict the target with a curse that makes its presence abrasive and offputting."
+description: "You afflict the target with a curse that makes its presence abrasive and off-putting."
 resource: "pf2e://spells/rank-4/outcasts-curse"
 tags: ["concentrate", "curse", "manipulate", "mental", "misfortune"]
 timestamp: 2026-06-26T00:00:00Z

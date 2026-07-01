@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Filter Air"
-description: "Trigger You're exposed to a poison or disease that has the inhaled trait, and you're aware of the exposure Requirements You breathe air."
+description: "You suck in a rough breath of air, and your body automatically filters out the harmful molecules that would infest your lungs."
 resource: "pf2e://spells/rank-4/filter-air"
 tags: ["air", "concentrate", "manipulate", "subtle"]
 timestamp: 2026-06-26T00:00:00Z

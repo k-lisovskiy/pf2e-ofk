@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Delay Consequence"
-description: "Trigger A creature or object within range is hit by an attack."
+description: "You transpose the moment that the target would be injured to a point later in its timestream."
 resource: "pf2e://spells/focus/delay-consequence"
 tags: ["cleric", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

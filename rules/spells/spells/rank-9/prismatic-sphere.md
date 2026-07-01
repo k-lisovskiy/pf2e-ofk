@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Prismatic Sphere"
-description: "You create a sevenlayered sphere to protect an area."
+description: "You create a seven-layered sphere to protect an area."
 resource: "pf2e://spells/rank-9/prismatic-sphere"
 tags: ["concentrate", "light", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

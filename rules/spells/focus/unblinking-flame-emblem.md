@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Unblinking Flame Emblem"
-description: "Trigger Your last action was a successful Strike against an enemy You emblazon the target with a fiery sigil that projects your sight and your flame onto them, allowing you and your allies to track..."
+description: "You emblazon the target with a fiery sigil that projects your sight and your flame onto them, allowing you and your allies to track their movements and making it easier to hit them."
 resource: "pf2e://spells/focus/unblinking-flame-emblem"
 tags: ["fire"]
 timestamp: 2026-06-26T00:00:00Z

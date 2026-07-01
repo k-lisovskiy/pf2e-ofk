@@ -1,0 +1,54 @@
+---
+type: Ancestry Feat
+title: "Bone Swarm"
+description: "You scatter your body and transform into a whirling storm of bones for up to 1 minute or until you spend a single action to return to your normal shape."
+resource: "pf2e://feats/ancestry/skeleton/bone-swarm"
+tags: ["concentrate", "polymorph", "skeleton"]
+timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
+level: 17
+category: "ancestry"
+subcategory: "skeleton"
+action_type: "action"
+actions: "2"
+frequency: "1 per day"
+prerequisites: []
+only_level_1: false
+max_takable: 
+self_effect: "Effect: Bone Swarm"
+publication: "Pathfinder Book of the Dead"
+---
+
+# Overview
+
+- **Level**: 17
+- **Category**: Ancestry (skeleton)
+- **Action**: 2 actions
+- **Frequency**: 1 per day
+- **Special**: Grants effect: Effect: Bone Swarm.
+- **Traits**: concentrate, polymorph, skeleton
+
+## Description
+
+**Frequency** once per day
+
+---
+
+You scatter your body and transform into a whirling storm of bones for up to 1 minute or until you spend a single action to return to your normal shape. You become Huge, gain the swarm trait, and gain a fly Speed of 40 feet. As a swarm, you have the following characteristics.
+
+- You are immune to the Grabbed, Prone, and Restrained conditions.
+
+- You have weakness 5 to area and splash damage.
+
+- You can occupy the same space as other creatures and must do so to use your damaging ability.
+
+- As a 2-action activity, you can deal 10d6 bludgeoning damage to all creatures sharing your space (reflex save save with a DC equal to your class DC or spell DC, whichever is higher).
+
+- You can't speak, Cast Spells, use manipulate actions requiring your hands, Activate magic items, or make any Strikes with your normal body.
+
+- You don't gain the swarm mind ability, so you are still affected normally by mental effects. You also retain the benefits of skeleton feats that don't require communication or the use of hands.
+
+# Citations
+
+[1] Pathfinder Book of the Dead
+[2] Source: `packs/pf2e/feats/ancestry/skeleton/level-17/bone-swarm.json` (pf2e system data)

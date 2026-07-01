@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Life Siphon"
-description: "Trigger You expend one of your wizard spell slots to cast a wizard spell of the necromancy school."
+description: "You use some of the spell's magic to heal yourself, regaining 1d8 Hit Points per rank of the spell."
 resource: "pf2e://spells/focus/life-siphon"
 tags: ["concentrate", "healing", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

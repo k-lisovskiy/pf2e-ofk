@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Control Weather"
-description: "Area 2mileradius circle centered on you You alter the weather, making it calm and normal for the season or choosing up to two effects based on the season."
+description: "Area 2-mile-radius circle centered on you You alter the weather, making it calm and normal for the season or choosing up to two effects based on the season."
 resource: "pf2e://spells/rituals/control-weather"
 tags: []
 timestamp: 2026-06-26T00:00:00Z

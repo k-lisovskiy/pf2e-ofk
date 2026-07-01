@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shift Blame"
-description: "Trigger You or another creature attacks a creature or fails at a Deception, Diplomacy, or Intimidation check."
+description: "You alter the target's memories of the triggering event as they form."
 resource: "pf2e://spells/rank-3/shift-blame"
 tags: ["concentrate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

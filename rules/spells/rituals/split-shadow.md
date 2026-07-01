@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Split Shadow"
-description: "You create a shadow double of the target by drawing energy directly from the Shadow Plane into a mirror and shaping it into an exact, quasireal duplicate."
+description: "You create a shadow double of the target by drawing energy directly from the Shadow Plane into a mirror and shaping it into an exact, quasi-real duplicate."
 resource: "pf2e://spells/rituals/split-shadow"
 tags: ["illusion", "shadow"]
 timestamp: 2026-06-26T00:00:00Z

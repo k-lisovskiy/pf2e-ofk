@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Everlight"
-description: "The gemstone you touch glows, spreading bright light with a color of your choice in a 20foot radius (and dim light for the next 20 feet)."
+description: "The gemstone you touch glows, spreading bright light with a color of your choice in a 20-foot radius (and dim light for the next 20 feet)."
 resource: "pf2e://spells/rank-2/everlight"
 tags: ["concentrate", "light", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

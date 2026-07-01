@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Personal Ocean"
-description: "You surround yourself in a bubblelike shroud of seawater that fills your space completely and moves with you."
+description: "You surround yourself in a bubble-like shroud of seawater that fills your space completely and moves with you."
 resource: "pf2e://spells/rank-6/personal-ocean"
 tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

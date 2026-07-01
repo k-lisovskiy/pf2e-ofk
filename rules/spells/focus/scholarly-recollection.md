@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Scholarly Recollection"
-description: "Trigger You attempt a Perception check to Seek, or you attempt a skill check to Recall Knowledge with a skill you're trained in."
+description: "Speaking a short prayer as you gather your thoughts, you're blessed to find yourself pointed in the right direction."
 resource: "pf2e://spells/focus/scholarly-recollection"
 tags: ["cleric", "concentrate", "fortune"]
 timestamp: 2026-06-26T00:00:00Z

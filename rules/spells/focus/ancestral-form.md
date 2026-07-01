@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Ancestral Form"
-description: "You take the form of your ancestral spirits, becoming Invisible and quasicorporeal."
+description: "You take the form of your ancestral spirits, becoming Invisible and quasi-corporeal."
 resource: "pf2e://spells/focus/ancestral-form"
 tags: ["concentrate", "manipulate", "oracle"]
 timestamp: 2026-06-26T00:00:00Z

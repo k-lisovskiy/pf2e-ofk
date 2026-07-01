@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Champion's Sacrifice"
-description: "Trigger An ally is hit by a Strike, or an ally fails a saving throw against an effect that doesn't affect you."
+description: "You form a link with an ally, allowing you to take harm in their stead."
 resource: "pf2e://spells/focus/champions-sacrifice"
 tags: ["champion", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

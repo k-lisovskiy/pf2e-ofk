@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Scouring Pulse"
-description: "Area 10foot radius, 60foottall cylinder You inundate the area with concentrated vitality energy, which scours away the stain of undeath."
+description: "Area 10-foot radius, 60-foot-tall cylinder You inundate the area with concentrated vitality energy, which scours away the stain of undeath."
 resource: "pf2e://spells/rank-5/scouring-pulse"
 tags: ["concentrate", "light", "manipulate", "vitality"]
 timestamp: 2026-06-26T00:00:00Z

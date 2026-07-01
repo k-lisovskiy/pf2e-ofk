@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Asterism"
-description: "Area (continued) five 30foot lines Lines of burning starlight form a constellation around you."
+description: "Area (continued) five 30-foot lines Lines of burning starlight form a constellation around you."
 resource: "pf2e://spells/focus/asterism"
 tags: ["cleric", "concentrate", "light", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

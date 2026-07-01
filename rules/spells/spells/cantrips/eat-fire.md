@@ -1,7 +1,7 @@
 ---
 type: Cantrip
 title: "Eat Fire"
-description: "Trigger You would take fire damage."
+description: "You consume and ingest fire, making it less harmful to you."
 resource: "pf2e://spells/cantrip/eat-fire"
 tags: ["fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

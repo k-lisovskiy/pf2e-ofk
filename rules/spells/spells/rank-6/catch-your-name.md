@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Catch Your Name"
-description: "Trigger A creature on your plane speaks your private or true name Requirements You know your own true name."
+description: "You learn a private name (but not the true name) of the creature who spoke your name, as well as their precise location, unless they succeed at a Will save to negate the effect."
 resource: "pf2e://spells/rank-6/catch-your-name"
 tags: ["manipulate"]
 timestamp: 2026-06-26T00:00:00Z

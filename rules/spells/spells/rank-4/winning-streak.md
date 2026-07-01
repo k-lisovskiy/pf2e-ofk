@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Winning Streak"
-description: "The target is energized by its good fortune as it spreads to othersas long as they keep winning."
+description: "The target is energized by its good fortune as it spreads to others-as long as they keep winning."
 resource: "pf2e://spells/rank-4/winning-streak"
 tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z

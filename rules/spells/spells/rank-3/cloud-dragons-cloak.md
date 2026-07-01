@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Cloud Dragon's Cloak"
-description: "Trigger You or an ally in range is targeted by a ranged attack."
+description: "A cloud of mist enshrouds the target, appearing much like the deflecting clouds created by cloud dragons."
 resource: "pf2e://spells/rank-3/cloud-dragons-cloak"
 tags: ["air", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

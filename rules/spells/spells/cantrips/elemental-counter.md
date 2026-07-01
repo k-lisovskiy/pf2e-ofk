@@ -1,7 +1,7 @@
 ---
 type: Cantrip
 title: "Elemental Counter"
-description: "Trigger You or a creature within 60 feet rolls a saving throw against a spell with the earth, fire, metal, plant, water, or wood trait, or are targeted by a spell attack with such a trait."
+description: "Each element in the elemental cycle counters another, and you can use your elemental spells to protect against elements they counter."
 resource: "pf2e://spells/cantrip/elemental-counter"
 tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z

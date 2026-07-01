@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Agonizing Despair"
-description: "Your target's mind tumbles down a deep well of dread, dwelling so intently on deepseated fears that it's painful."
+description: "Your target's mind tumbles down a deep well of dread, dwelling so intently on deep-seated fears that it's painful."
 resource: "pf2e://spells/rank-3/agonizing-despair"
 tags: ["concentrate", "emotion", "fear", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

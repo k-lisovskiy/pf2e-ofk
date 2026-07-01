@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Sudden Shift"
-description: "Trigger An enemy misses you with a melee attack."
+description: "You swiftly move from a dangerous spot and veil yourself."
 resource: "pf2e://spells/focus/sudden-shift"
 tags: ["cleric", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

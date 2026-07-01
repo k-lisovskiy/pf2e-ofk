@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Consecrate"
-description: "Area 40footradius burst around an immobile altar, shrine, or fixture of your deity Secondary Casters 2, must be worshippers of your religion You consecrate a site to your deity, chanting praises an..."
+description: "Area 40-foot-radius burst around an immobile altar, shrine, or fixture of your deity Secondary Casters 2, must be worshippers of your religion You consecrate a site to your deity, chanting praises..."
 resource: "pf2e://spells/rituals/consecrate"
 tags: ["consecration"]
 timestamp: 2026-06-26T00:00:00Z

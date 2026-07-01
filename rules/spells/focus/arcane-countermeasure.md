@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Arcane Countermeasure"
-description: "Trigger A creature within range that you can see Casts a Spell."
+description: "You undermine the target spell, making it easier to defend against."
 resource: "pf2e://spells/focus/arcane-countermeasure"
 tags: ["manipulate", "sorcerer"]
 timestamp: 2026-06-26T00:00:00Z

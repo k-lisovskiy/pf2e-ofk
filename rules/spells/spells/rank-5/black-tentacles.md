@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Black Tentacles"
-description: "Area 20foot burst adjacent to a flat surface Oily black tentacles rise up and attempt to capture creatures in the area."
+description: "Area 20-foot burst adjacent to a flat surface Oily black tentacles rise up and attempt to capture creatures in the area."
 resource: "pf2e://spells/rank-5/black-tentacles"
 tags: ["attack", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

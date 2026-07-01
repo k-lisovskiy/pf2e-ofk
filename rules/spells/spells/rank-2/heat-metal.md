@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Heat Metal"
-description: "This spell heats the targeted metal to become redhot for a moment."
+description: "This spell heats the targeted metal to become red-hot for a moment."
 resource: "pf2e://spells/rank-2/heat-metal"
 tags: ["concentrate", "fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

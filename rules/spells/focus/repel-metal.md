@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Repel Metal"
-description: "Trigger A Strike with a metallic weapon or projectile would hit you or an ally within range."
+description: "You call forth a repelling field."
 resource: "pf2e://spells/focus/repel-metal"
 tags: ["cleric", "concentrate", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z

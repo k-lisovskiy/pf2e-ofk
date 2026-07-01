@@ -1,7 +1,7 @@
 ---
 type: Cantrip
 title: "Illuminate"
-description: "You light all nonmagical light sources in the area that use fire to provide their light—such as candles, lamps, and sconces."
+description: "You light all non-magical light sources in the area that use fire to provide their light—such as candles, lamps, and sconces."
 resource: "pf2e://spells/cantrip/illuminate"
 tags: ["fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Elemental Sentinel"
-description: "You place a tiny elemental wisp within a single object, usually a mirror, statue, or other mundanelooking item, to serve as an alarm."
+description: "You place a tiny elemental wisp within a single object, usually a mirror, statue, or other mundane-looking item, to serve as an alarm."
 resource: "pf2e://spells/rituals/elemental-sentinel"
 tags: []
 timestamp: 2026-06-26T00:00:00Z

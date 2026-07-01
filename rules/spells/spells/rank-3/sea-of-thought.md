@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Sea of Thought"
-description: "You cover the area in a sloshing torrent of semisolidified thought, roughly ankle high."
+description: "You cover the area in a sloshing torrent of semi-solidified thought, roughly ankle high."
 resource: "pf2e://spells/rank-3/sea-of-thought"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

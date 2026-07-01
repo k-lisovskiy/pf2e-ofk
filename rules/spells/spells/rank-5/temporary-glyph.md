@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Temporary Glyph"
-description: "Area 5foot square You temporarily bind a hostile spell into a symbol."
+description: "Area 5-foot square You temporarily bind a hostile spell into a symbol."
 resource: "pf2e://spells/rank-5/temporary-glyph"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

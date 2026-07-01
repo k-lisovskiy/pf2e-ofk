@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Punishing Winds"
-description: "Area (continued) 30footradius, 100foottall cylinder Violent winds and a powerful downdraft fill the area, forming a cyclone."
+description: "Area (continued) 30-foot-radius, 100-foot-tall cylinder Violent winds and a powerful downdraft fill the area, forming a cyclone."
 resource: "pf2e://spells/rank-8/punishing-winds"
 tags: ["air", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

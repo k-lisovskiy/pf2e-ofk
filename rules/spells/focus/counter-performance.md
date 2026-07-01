@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Counter Performance"
-description: "Trigger You or an ally within 60 feet rolls a saving throw against an auditory or visual effect."
+description: "Your performance protects you and your allies."
 resource: "pf2e://spells/focus/counter-performance"
 tags: ["bard", "composition", "concentrate", "fortune", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

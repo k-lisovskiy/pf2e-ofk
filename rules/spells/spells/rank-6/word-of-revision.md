@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Word of Revision"
-description: "Trigger A creature within range fails or critically fails a saving throw or is reduced to 0 Hit Points As all good writers know, you shouldn't kill off your protagonist before their story is complete."
+description: "As all good writers know, you shouldn't kill off your protagonist before their story is complete."
 resource: "pf2e://spells/rank-6/word-of-revision"
 tags: ["concentrate", "fortune"]
 timestamp: 2026-06-26T00:00:00Z

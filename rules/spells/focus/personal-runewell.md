@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Personal Runewell"
-description: "Area (continued) 15foot radius, 30foottall cylinder The runelords of Thassilon pioneered the creation of runewells, magical artifacts that could extract and store the power of sin magic from mortal..."
+description: "Area (continued) 15-foot radius, 30-foot-tall cylinder The runelords of Thassilon pioneered the creation of runewells, magical artifacts that could extract and store the power of sin magic from mor..."
 resource: "pf2e://spells/focus/personal-runewell"
 tags: ["concentrate", "manipulate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

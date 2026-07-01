@@ -56,26 +56,14 @@ Spell Effect: Harrowing
 
 **Heightened (+1)** The target gains an additional wild card. Attempt a primary skill check for each additional wild card drawn to determine that card's benefits. The *harrowing*'s duration ends as soon as the target spends all of their wild cards.
 
-Suit
-Associated Check
-
-1—Hammers (Str)
-Strikes (both melee and ranged)
-
-2—Keys (Dex)
-Reflex saving throws
-
-3—Shields (Con)
-Fortitude saving throws
-
-4—Books (Int)
-Skill checks
-
-5—Stars (Wis)
-Will saving throws
-
-6—Crowns (Cha)
-All other checks (including flat checks)
+| Suit | Associated Check |
+| --- | --- |
+| 1—Hammers (Str) | Strikes (both melee and ranged) |
+| 2—Keys (Dex) | Reflex saving throws |
+| 3—Shields (Con) | Fortitude saving throws |
+| 4—Books (Int) | Skill checks |
+| 5—Stars (Wis) | Will saving throws |
+| 6—Crowns (Cha) | All other checks (including flat checks) |
 
 # Citations
 

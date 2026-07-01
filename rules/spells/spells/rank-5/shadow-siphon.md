@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shadow Siphon"
-description: "Trigger A spell or magical effect deals damage."
+description: "Exchanging material energy with that of the Shadow Plane, you transform the triggering spell into a partially illusory version of itself."
 resource: "pf2e://spells/rank-5/shadow-siphon"
 tags: ["concentrate", "illusion", "shadow"]
 timestamp: 2026-06-26T00:00:00Z

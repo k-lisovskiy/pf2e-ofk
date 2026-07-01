@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Soothing Spring"
-description: "Steam wisps into the air as a stonelined pool appears in the ground and fills with hot water that bubbles up from the earth."
+description: "Steam wisps into the air as a stone-lined pool appears in the ground and fills with hot water that bubbles up from the earth."
 resource: "pf2e://spells/rank-4/soothing-spring"
 tags: ["concentrate", "healing", "manipulate", "vitality", "water"]
 timestamp: 2026-06-26T00:00:00Z

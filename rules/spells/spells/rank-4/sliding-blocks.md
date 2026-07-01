@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Sliding Blocks"
-description: "You conjure up to six 5foot stone cubes you can gently move with a gesture."
+description: "You conjure up to six 5-foot stone cubes you can gently move with a gesture."
 resource: "pf2e://spells/rank-4/sliding-blocks"
 tags: ["concentrate", "earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

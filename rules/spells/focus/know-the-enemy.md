@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Know the Enemy"
-description: "Trigger You roll initiative and can see a creature, you succeed at an attack roll against a creature, or a creature fails a saving throw against one of your spells."
+description: "You quickly remind yourself of useful information."
 resource: "pf2e://spells/focus/know-the-enemy"
 tags: ["cleric", "fortune", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

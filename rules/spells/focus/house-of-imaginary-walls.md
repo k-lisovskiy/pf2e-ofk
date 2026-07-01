@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "House of Imaginary Walls"
-description: "You mime an Invisible 10footby10foot wall adjacent to you and within your reach."
+description: "You mime an Invisible 10-foot-by-10-foot wall adjacent to you and within your reach."
 resource: "pf2e://spells/focus/house-of-imaginary-walls"
 tags: ["bard", "cantrip", "composition", "illusion", "manipulate", "visual"]
 timestamp: 2026-06-26T00:00:00Z

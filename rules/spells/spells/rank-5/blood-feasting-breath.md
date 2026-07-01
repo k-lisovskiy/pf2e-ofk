@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blood-Feasting Breath"
-description: "Area (continued) two 30foot cones Like a vorpal dragon, you absorb life with an inhale and release it with an exhale."
+description: "Area (continued) two 30-foot cones Like a vorpal dragon, you absorb life with an inhale and release it with an exhale."
 resource: "pf2e://spells/rank-5/blood-feasting-breath"
 tags: ["concentrate", "healing", "manipulate", "vitality", "void"]
 timestamp: 2026-06-26T00:00:00Z

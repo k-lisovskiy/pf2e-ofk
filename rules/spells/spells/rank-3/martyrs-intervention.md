@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Martyr's Intervention"
-description: "Trigger A creature within range would take damage that reduces it to 0 Hit Points Requirements You don't have the wounded condition."
+description: "You shield a creature in dire need with your own life force, taking the harm upon yourself to save their life."
 resource: "pf2e://spells/rank-3/martyrs-intervention"
 tags: ["concentrate", "healing"]
 timestamp: 2026-06-26T00:00:00Z

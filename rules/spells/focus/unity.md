@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Unity"
-description: "Trigger You and 1 or more allies within range are targeted by a spell or ability that allows a saving throw."
+description: "You put up a united defense."
 resource: "pf2e://spells/focus/unity"
 tags: ["cleric", "concentrate", "fortune"]
 timestamp: 2026-06-26T00:00:00Z

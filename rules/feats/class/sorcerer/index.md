@@ -1,0 +1,61 @@
+---
+type: Index
+title: "Sorcerer — Class Feats"
+description: "All 50 class feats for Sorcerer."
+timestamp: 2026-06-26T00:00:00Z
+---
+
+# Sorcerer — Class Feats
+
+All 50 class feats for Sorcerer.
+
+- [Advanced Bloodline](/rules/feats/class/sorcerer/advanced-bloodline.md)
+- [Ancestral Blood Magic](/rules/feats/class/sorcerer/ancestral-blood-magic.md)
+- [Ancestral Mage](/rules/feats/class/sorcerer/ancestral-mage.md)
+- [Anoint Ally](/rules/feats/class/sorcerer/anoint-ally.md)
+- [Arcane Evolution](/rules/feats/class/sorcerer/arcane-evolution.md)
+- [Bleed Out](/rules/feats/class/sorcerer/bleed-out.md)
+- [Blessed Blood (Sorcerer)](/rules/feats/class/sorcerer/blessed-blood-sorcerer.md)
+- [Blood Ascendancy](/rules/feats/class/sorcerer/blood-ascendancy.md)
+- [Blood Component Substitution](/rules/feats/class/sorcerer/blood-component-substitution.md)
+- [Blood Rising](/rules/feats/class/sorcerer/blood-rising.md)
+- [Blood Sovereignty](/rules/feats/class/sorcerer/blood-sovereignty.md)
+- [Bloodline Conduit](/rules/feats/class/sorcerer/bloodline-conduit.md)
+- [Bloodline Focus](/rules/feats/class/sorcerer/bloodline-focus.md)
+- [Bloodline Metamorphosis](/rules/feats/class/sorcerer/bloodline-metamorphosis.md)
+- [Bloodline Mutation](/rules/feats/class/sorcerer/bloodline-mutation.md)
+- [Bloodline Perfection](/rules/feats/class/sorcerer/bloodline-perfection.md)
+- [Bloodline Resistance](/rules/feats/class/sorcerer/bloodline-resistance.md)
+- [Consume Spell](/rules/feats/class/sorcerer/consume-spell.md)
+- [Counterspell (Spontaneous)](/rules/feats/class/sorcerer/counterspell-spontaneous.md)
+- [Crossblooded Evolution](/rules/feats/class/sorcerer/crossblooded-evolution.md)
+- [Diverting Vortex](/rules/feats/class/sorcerer/diverting-vortex.md)
+- [Divine Evolution](/rules/feats/class/sorcerer/divine-evolution.md)
+- [Echoing Spell](/rules/feats/class/sorcerer/echoing-spell.md)
+- [Elaborate Flourish](/rules/feats/class/sorcerer/elaborate-flourish.md)
+- [Energetic Resonance](/rules/feats/class/sorcerer/energetic-resonance.md)
+- [Energy Fusion](/rules/feats/class/sorcerer/energy-fusion.md)
+- [Energy Ward](/rules/feats/class/sorcerer/energy-ward.md)
+- [Entreat with Forebears](/rules/feats/class/sorcerer/entreat-with-forebears.md)
+- [Explosion of Power](/rules/feats/class/sorcerer/explosion-of-power.md)
+- [Greater Bloodline](/rules/feats/class/sorcerer/greater-bloodline.md)
+- [Greater Crossblooded Evolution](/rules/feats/class/sorcerer/greater-crossblooded-evolution.md)
+- [Greater Mental Evolution](/rules/feats/class/sorcerer/greater-mental-evolution.md)
+- [Greater Physical Evolution](/rules/feats/class/sorcerer/greater-physical-evolution.md)
+- [Greater Spiritual Evolution](/rules/feats/class/sorcerer/greater-spiritual-evolution.md)
+- [Greater Vital Evolution](/rules/feats/class/sorcerer/greater-vital-evolution.md)
+- [Interweave Dispel](/rules/feats/class/sorcerer/interweave-dispel.md)
+- [Occult Evolution](/rules/feats/class/sorcerer/occult-evolution.md)
+- [Primal Evolution](/rules/feats/class/sorcerer/primal-evolution.md)
+- [Propelling Sorcery](/rules/feats/class/sorcerer/propelling-sorcery.md)
+- [Reflect Harm](/rules/feats/class/sorcerer/reflect-harm.md)
+- [Ruby Resurrection](/rules/feats/class/sorcerer/ruby-resurrection.md)
+- [Safeguard Spell](/rules/feats/class/sorcerer/safeguard-spell.md)
+- [Signature Spell Expansion](/rules/feats/class/sorcerer/signature-spell-expansion.md)
+- [Soulsight (Sorcerer)](/rules/feats/class/sorcerer/soulsight-sorcerer.md)
+- [Spell Relay](/rules/feats/class/sorcerer/spell-relay.md)
+- [Spell Shroud](/rules/feats/class/sorcerer/spell-shroud.md)
+- [Split Shot](/rules/feats/class/sorcerer/split-shot.md)
+- [Tap into Blood](/rules/feats/class/sorcerer/tap-into-blood.md)
+- [Tenacious Blood Magic](/rules/feats/class/sorcerer/tenacious-blood-magic.md)
+- [Terraforming Trickery](/rules/feats/class/sorcerer/terraforming-trickery.md)

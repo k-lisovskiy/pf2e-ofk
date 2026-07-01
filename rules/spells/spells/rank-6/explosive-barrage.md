@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Explosive Barrage"
-description: "Area (continued) 20foot burst plus additional 5foot burst You fire a booming, fiery explosion followed by a salvo of smaller blasts, each cracking the air with the sound of thunder."
+description: "Area (continued) 20-foot burst plus additional 5-foot burst You fire a booming, fiery explosion followed by a salvo of smaller blasts, each cracking the air with the sound of thunder."
 resource: "pf2e://spells/rank-6/explosive-barrage"
 tags: ["concentrate", "fire", "manipulate", "sonic"]
 timestamp: 2026-06-26T00:00:00Z

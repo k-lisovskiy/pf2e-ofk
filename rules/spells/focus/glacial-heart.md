@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Glacial Heart"
-description: "Ice and bonedeep cold assail the target, freezing it from the inside out."
+description: "Ice and bone-deep cold assail the target, freezing it from the inside out."
 resource: "pf2e://spells/focus/glacial-heart"
 tags: ["concentrate", "hex", "manipulate", "witch"]
 timestamp: 2026-06-26T00:00:00Z

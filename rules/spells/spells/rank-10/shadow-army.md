@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shadow Army"
-description: "You create dozens of semireal copies of yourself that swarm across the battlefield and fight your enemies."
+description: "You create dozens of semi-real copies of yourself that swarm across the battlefield and fight your enemies."
 resource: "pf2e://spells/rank-10/shadow-army"
 tags: ["auditory", "concentrate", "illusion", "manipulate", "mental", "shadow", "visual"]
 timestamp: 2026-06-26T00:00:00Z

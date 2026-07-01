@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Desperate Repair"
-description: "Trigger A shield within range would be reduced to 0 Hit Points by a damaging effect Requirements The triggering shield had more than 1 Hit Point before taking damage."
+description: "You hold a shield together with the power of your magic, forcing wood and steel to fuse back together."
 resource: "pf2e://spells/rank-5/desperate-repair"
 tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z

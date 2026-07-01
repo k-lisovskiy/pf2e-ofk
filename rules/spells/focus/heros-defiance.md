@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Hero's Defiance"
-description: "Trigger An attack would bring you to 0 Hit Points."
+description: "You shout in defiance and are filled with a burst of healing."
 resource: "pf2e://spells/focus/heros-defiance"
 tags: ["champion", "concentrate", "healing", "vitality"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Storm of Vengeance"
-description: "A massive storm cloud forms in the air in a 360foot burst."
+description: "A massive storm cloud forms in the air in a 360-foot burst."
 resource: "pf2e://spells/rank-9/storm-of-vengeance"
 tags: ["air", "concentrate", "electricity", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

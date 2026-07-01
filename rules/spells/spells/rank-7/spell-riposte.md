@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Spell Riposte"
-description: "Trigger You're the target of a spell you're aware of."
+description: "You attempt to counteract the triggering spell."
 resource: "pf2e://spells/rank-7/spell-riposte"
 tags: ["manipulate"]
 timestamp: 2026-06-26T00:00:00Z

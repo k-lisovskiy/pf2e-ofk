@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "City of Sin"
-description: "Area 7mileradius circle centered on you Each day during the casting of this ritual, intelligent creatures within range become increasingly prone to shed their inhibitions and give in to whatever te..."
+description: "Area 7-mile-radius circle centered on you Each day during the casting of this ritual, intelligent creatures within range become increasingly prone to shed their inhibitions and give in to whatever..."
 resource: "pf2e://spells/rituals/city-of-sin"
 tags: ["emotion", "mental", "mythic"]
 timestamp: 2026-06-26T00:00:00Z

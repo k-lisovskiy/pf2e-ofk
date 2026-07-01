@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Bridge of Vines"
-description: "Vines sprout beneath your feet and extend away from you in a straight line up to 60 feet, forming a 10footwide bridge that can cross over difficult terrain and low obstacles, as well as reach highe..."
+description: "Vines sprout beneath your feet and extend away from you in a straight line up to 60 feet, forming a 10-foot-wide bridge that can cross over difficult terrain and low obstacles, as well as reach hig..."
 resource: "pf2e://spells/rank-4/bridge-of-vines"
 tags: ["concentrate", "manipulate", "plant", "wood"]
 timestamp: 2026-06-26T00:00:00Z

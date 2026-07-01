@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Channel Arrogance"
-description: "You channel your heightened sense of selfworth into a creature, forcing them to acknowledge your true worth."
+description: "You channel your heightened sense of self-worth into a creature, forcing them to acknowledge your true worth."
 resource: "pf2e://spells/rank-4/channel-arrogance"
 tags: ["concentrate", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

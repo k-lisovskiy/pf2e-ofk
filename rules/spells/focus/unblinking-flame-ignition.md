@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Unblinking Flame Ignition"
-description: "Trigger A foe reduces you to half your Hit Points or fewer."
+description: "You feel the most alive when pushed into a corner, as the insights and vision granted by the flame stoke into overdrive."
 resource: "pf2e://spells/focus/unblinking-flame-ignition"
 tags: ["concentrate", "fire"]
 timestamp: 2026-06-26T00:00:00Z
