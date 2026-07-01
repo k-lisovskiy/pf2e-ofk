@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Necrotic Radiation"
-description: "You imbue the touched object or space with slowacting necrotic radiation."
+description: "You imbue the touched object or space with slow-acting necrotic radiation."
 resource: "pf2e://spells/rank-4/necrotic-radiation"
 tags: ["manipulate", "void"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blistering Invective"
-description: "A heap of insults and invectives spew from your mouthwords so devastating your foes burn from the intensity of your diatribe."
+description: "A heap of insults and invectives spew from your mouth-words so devastating your foes burn from the intensity of your diatribe."
 resource: "pf2e://spells/rank-2/blistering-invective"
 tags: ["auditory", "concentrate", "emotion", "fear", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

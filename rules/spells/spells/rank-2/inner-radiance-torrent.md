@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Inner Radiance Torrent"
-description: "You gradually manifest your spiritual energy into your cupped hands before firing off a storm of bolts and beams that deal 4d4 force damage to all creatures in a 60foot line."
+description: "You gradually manifest your spiritual energy into your cupped hands before firing off a storm of bolts and beams that deal 4d4 force damage to all creatures in a 60-foot line."
 resource: "pf2e://spells/rank-2/inner-radiance-torrent"
 tags: ["force", "light"]
 timestamp: 2026-06-26T00:00:00Z

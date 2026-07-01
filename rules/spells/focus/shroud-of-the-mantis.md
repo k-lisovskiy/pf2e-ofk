@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Shroud of the Mantis"
-description: "You wrap yourself in a crimson cloak that renders you Invisible, with the same restrictions as a 2ndrank Invisibility spell."
+description: "You wrap yourself in a crimson cloak that renders you Invisible, with the same restrictions as a 2nd-rank Invisibility spell."
 resource: "pf2e://spells/focus/shroud-of-the-mantis"
 tags: ["illusion", "manipulate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

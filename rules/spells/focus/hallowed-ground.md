@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Hallowed Ground"
-description: "One small space becomes inhospitable to undead as you fill it with lifeinfused benevolent magic."
+description: "One small space becomes inhospitable to undead as you fill it with life-infused benevolent magic."
 resource: "pf2e://spells/focus/hallowed-ground"
 tags: ["concentrate", "good", "holy", "manipulate", "vitality"]
 timestamp: 2026-06-26T00:00:00Z

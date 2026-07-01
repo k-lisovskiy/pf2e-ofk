@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Interdisciplinary Incantation"
-description: "Trigger A creature within 30 feet casts an arcane spell."
+description: "You gather the embers of another caster's spell, using your understanding of unified magic to pick apart their formulas and incantations well enough to imitate the spell yourself, if only for a sho..."
 resource: "pf2e://spells/focus/interdisciplinary-incantation"
 tags: ["concentrate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Rune of Observation"
-description: "You inscribe an invisible eyeshaped rune in the air, creating a sensor as Clairvoyance."
+description: "You inscribe an invisible eye-shaped rune in the air, creating a sensor as Clairvoyance."
 resource: "pf2e://spells/focus/rune-of-observation"
 tags: ["concentrate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

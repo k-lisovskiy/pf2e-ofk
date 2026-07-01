@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Sting of the Sea"
-description: "A long tentacle like that belonging to an octopus, anemone, or manofwar, dripping with briny water, appears from a glowing blue portal to wrap around the target's face, blocking its vision."
+description: "A long tentacle like that belonging to an octopus, anemone, or man-of-war, dripping with briny water, appears from a glowing blue portal to wrap around the target's face, blocking its vision."
 resource: "pf2e://spells/focus/sting-of-the-sea"
 tags: ["cantrip", "concentrate", "hex", "witch"]
 timestamp: 2026-06-26T00:00:00Z

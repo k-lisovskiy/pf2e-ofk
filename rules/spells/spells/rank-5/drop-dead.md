@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Drop Dead"
-description: "Trigger A creature within range is hit by an attack from an enemy."
+description: "The target appears to fall down dead, though it actually turns Invisible."
 resource: "pf2e://spells/rank-5/drop-dead"
 tags: ["illusion", "manipulate", "subtle", "visual"]
 timestamp: 2026-06-26T00:00:00Z

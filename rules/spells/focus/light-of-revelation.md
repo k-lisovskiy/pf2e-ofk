@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Light of Revelation"
-description: "You shed a luminous aura, illuminating a 30foot radius with bright light."
+description: "You shed a luminous aura, illuminating a 30-foot radius with bright light."
 resource: "pf2e://spells/focus/light-of-revelation"
 tags: ["concentrate", "light", "manipulate", "revelation"]
 timestamp: 2026-06-26T00:00:00Z

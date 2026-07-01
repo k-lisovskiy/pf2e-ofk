@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Ephemeral Hazards"
-description: "Area (continued) four 10footby10foot spaces You create illusory hazards, such as spinning blades or a puddle of acid, in four 10footby–10foot spaces within range."
+description: "Area (continued) four 10-foot-by-10-foot spaces You create illusory hazards, such as spinning blades or a puddle of acid, in four 10-foot-by–10-foot spaces within range."
 resource: "pf2e://spells/focus/ephemeral-hazards"
 tags: ["cleric", "concentrate", "illusion", "manipulate", "mental", "visual"]
 timestamp: 2026-06-26T00:00:00Z

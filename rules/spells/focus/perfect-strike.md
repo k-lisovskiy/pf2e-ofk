@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Perfect Strike"
-description: "Trigger You miss a Strike with an unarmed attack."
+description: "You call upon insight from your training to recover accuracy."
 resource: "pf2e://spells/focus/perfect-strike"
 tags: ["concentrate", "fortune"]
 timestamp: 2026-06-26T00:00:00Z

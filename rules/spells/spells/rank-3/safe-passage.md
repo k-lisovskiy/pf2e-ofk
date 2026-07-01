@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Safe Passage"
-description: "Area 10footwide, 10foottall, 60footlong section of terrain You make passage through the area safe for a brief amount of time."
+description: "Area 10-foot-wide, 10-foot-tall, 60-foot-long section of terrain You make passage through the area safe for a brief amount of time."
 resource: "pf2e://spells/rank-3/safe-passage"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

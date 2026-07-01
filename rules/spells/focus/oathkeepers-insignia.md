@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Oathkeeper's Insignia"
-description: "Trigger You make a promise or deal."
+description: "A magical indicator assures a creature that you've upheld your end of a bargain."
 resource: "pf2e://spells/focus/oathkeepers-insignia"
 tags: ["cleric", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

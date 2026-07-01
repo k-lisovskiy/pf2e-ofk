@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Geyser"
-description: "Area 10foot radius, 50foottall cylinder A powerful geyser blasts up from the ground, potentially pushing creatures on top of it into the air."
+description: "Area 10-foot radius, 50-foot-tall cylinder A powerful geyser blasts up from the ground, potentially pushing creatures on top of it into the air."
 resource: "pf2e://spells/rank-5/geyser"
 tags: ["concentrate", "fire", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

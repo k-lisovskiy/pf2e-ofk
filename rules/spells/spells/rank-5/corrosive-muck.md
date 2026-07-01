@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Corrosive Muck"
-description: "Area all squares in two 10foot burst."
+description: "Area all squares in two 10-foot burst."
 resource: "pf2e://spells/rank-5/corrosive-muck"
 tags: ["acid", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Ancestral Memories"
-description: "The memories of longdead spellcasters grant you their knowledge, making your spells more formidable."
+description: "The memories of long-dead spellcasters grant you their knowledge, making your spells more formidable."
 resource: "pf2e://spells/focus/ancestral-memories"
 tags: ["concentrate", "sorcerer"]
 timestamp: 2026-06-26T00:00:00Z

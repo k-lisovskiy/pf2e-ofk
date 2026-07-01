@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Dragon Turret"
-description: "Area (continued) an empty 10foot radius, 50foottall cylinder You conjure forth a massive tower with a large dragon that's bound to crawl its length."
+description: "Area (continued) an empty 10-foot radius, 50-foot-tall cylinder You conjure forth a massive tower with a large dragon that's bound to crawl its length."
 resource: "pf2e://spells/rank-10/dragon-turret"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

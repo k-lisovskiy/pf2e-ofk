@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Anathematic Reprisal"
-description: "Trigger A creature performs an act anathema to your deity."
+description: "You punish a creature that transgresses against your deity, drawing upon the anguish you feel upon seeing one of your deity's anathema committed."
 resource: "pf2e://spells/rank-4/anathematic-reprisal"
 tags: ["concentrate", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Ulcerous Canker"
-description: "Weeping sores open on the target as you expose it to decay, dealing 1d4 void damage and 1d4 poison damage plus (2ceil(rank/2)1) bleed damage."
+description: "Weeping sores open on the target as you expose it to decay, dealing 1d4 void damage and 1d4 poison damage plus (2ceil(rank/2)-1) bleed damage."
 resource: "pf2e://spells/focus/ulcerous-canker"
 tags: ["concentrate", "manipulate", "oracle", "poison", "void"]
 timestamp: 2026-06-26T00:00:00Z

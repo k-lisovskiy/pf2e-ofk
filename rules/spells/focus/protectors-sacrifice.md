@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Protector's Sacrifice"
-description: "Trigger An ally within 30 feet takes damage."
+description: "You protect your ally by suffering in their stead."
 resource: "pf2e://spells/focus/protectors-sacrifice"
 tags: ["cleric", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

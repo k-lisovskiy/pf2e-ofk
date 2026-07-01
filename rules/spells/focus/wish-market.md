@@ -29,25 +29,12 @@ publication: "Pathfinder Adventure Path: Hell's Destiny"
 
 You signal your willingness to make a deal, attracting ghostly merchants that eagerly and silently wave contracts for your consideration while demanding an esoteric price. When you Cast this Spell, you accept an offer from the merchants. You gain a +1 status bonus to Perception checks and your choice of Acrobatics, Athletics, Nature, Occultism, or Religion checks for the spell's duration, and you can either Recall Knowledge or [[/act seek]] as a free action. However, you also pay a random price; roll 1d4 on the table below. The first time each round you Sustain the spell, you can either Recall Knowledge or Seek as a free action or haggle with the merchant to suppress the price's penalty for 1 round.
 
-1d4
-
-Effect
-
-1
-
-**Your Social Graces**: For the spell's duration, you take a –2 status penalty to Diplomacy and Society checks.
-
-2
-
-**Your Guile**: For the spell's duration, you take a –2 status penalty to Deception and Stealth checks.
-
-3
-
-**Your Manual Dexterity**: For the spell's duration, you take a –2 status penalty to Crafting and Thievery checks.
-
-4
-
-**Your Higher Reasoning**: For the spell's duration, you take a –2 status penalty to Arcana and Medicine checks.
+| 1d4 | Effect |
+| --- | --- |
+| 1 | Your Social Graces: For the spell's duration, you take a –2 status penalty to Diplomacy and Society checks. |
+| 2 | Your Guile: For the spell's duration, you take a –2 status penalty to Deception and Stealth checks. |
+| 3 | Your Manual Dexterity: For the spell's duration, you take a –2 status penalty to Crafting and Thievery checks. |
+| 4 | Your Higher Reasoning: For the spell's duration, you take a –2 status penalty to Arcana and Medicine checks. |
 
 ---
 

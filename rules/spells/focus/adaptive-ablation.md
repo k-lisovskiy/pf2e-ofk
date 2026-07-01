@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Adaptive Ablation"
-description: "Trigger You take acid, cold, electricity, fire, or sonic damage."
+description: "You shift yourself to adapt to the mystical wavelengths of the energy damage, protecting yourself from further harm."
 resource: "pf2e://spells/focus/adaptive-ablation"
 tags: ["cleric", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

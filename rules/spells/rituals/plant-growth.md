@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Plant Growth"
-description: "Area 1/2mileradius circle centered on you You cause the plants within the area to be healthier and more fruitful."
+description: "Area 1/2-mile-radius circle centered on you You cause the plants within the area to be healthier and more fruitful."
 resource: "pf2e://spells/rituals/plant-growth"
 tags: ["plant", "vitality", "wood"]
 timestamp: 2026-06-26T00:00:00Z

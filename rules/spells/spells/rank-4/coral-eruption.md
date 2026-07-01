@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Coral Eruption"
-description: "Area two 10foot bursts that don't overlap Razor sharp coral growths erupt from the ground, transforming the landscape into a dangerous coral reef."
+description: "Area two 10-foot bursts that don't overlap Razor sharp coral growths erupt from the ground, transforming the landscape into a dangerous coral reef."
 resource: "pf2e://spells/rank-4/coral-eruption"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

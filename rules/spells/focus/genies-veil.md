@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Genie's Veil"
-description: "Trigger A creature within range is attacked."
+description: "With a flourish, you fulfill a creature's wish for protection, bending reality to keep them from harm."
 resource: "pf2e://spells/focus/genies-veil"
 tags: ["manipulate", "sorcerer"]
 timestamp: 2026-06-26T00:00:00Z

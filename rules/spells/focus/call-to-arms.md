@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Call to Arms"
-description: "Trigger You are about to roll for initiative."
+description: "You cry out a call to arms, inspiring your allies to enter the fray."
 resource: "pf2e://spells/focus/call-to-arms"
 tags: ["auditory", "concentrate", "cursebound", "emotion", "mental", "oracle"]
 timestamp: 2026-06-26T00:00:00Z

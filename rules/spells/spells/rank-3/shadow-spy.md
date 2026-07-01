@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shadow Spy"
-description: "You mix blood, soil, and shadow together to form a halfreal homunculus in the shape of a crow, sparrow, or other bird."
+description: "You mix blood, soil, and shadow together to form a half-real homunculus in the shape of a crow, sparrow, or other bird."
 resource: "pf2e://spells/rank-3/shadow-spy"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

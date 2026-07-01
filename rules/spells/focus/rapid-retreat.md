@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Rapid Retreat"
-description: "Trigger You take damage from an attack or spell."
+description: "You know how to swiftly escape from harm."
 resource: "pf2e://spells/focus/rapid-retreat"
 tags: ["teleportation", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

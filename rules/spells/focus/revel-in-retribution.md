@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Revel in Retribution"
-description: "Time seems to slow for you, allowing you to strike your opponents midmove."
+description: "Time seems to slow for you, allowing you to strike your opponents mid-move."
 resource: "pf2e://spells/focus/revel-in-retribution"
 tags: ["concentrate", "manipulate", "mental", "oracle"]
 timestamp: 2026-06-26T00:00:00Z

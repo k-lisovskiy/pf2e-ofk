@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Confusing Colors"
-description: "A cloud of cascading, everchanging colors manifests in the air."
+description: "A cloud of cascading, ever-changing colors manifests in the air."
 resource: "pf2e://spells/rank-8/confusing-colors"
 tags: ["illusion", "incapacitation", "manipulate", "subtle", "visual"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Pollen Pods"
-description: "Area four unoccupied 5foot squares, each of which is at least 20 feet apart You cultivate four wooden bulbs, each filled with toxic pollen and sensitive to motion."
+description: "Area four unoccupied 5-foot squares, each of which is at least 20 feet apart You cultivate four wooden bulbs, each filled with toxic pollen and sensitive to motion."
 resource: "pf2e://spells/rank-7/pollen-pods"
 tags: ["concentrate", "manipulate", "plant", "wood"]
 timestamp: 2026-06-26T00:00:00Z

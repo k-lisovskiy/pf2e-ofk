@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Invisibility Cloak"
-description: "You become Invisible, with the same restrictions as the 2ndrank Invisibility spell."
+description: "You become Invisible, with the same restrictions as the 2nd-rank Invisibility spell."
 resource: "pf2e://spells/focus/invisibility-cloak"
 tags: ["illusion", "manipulate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

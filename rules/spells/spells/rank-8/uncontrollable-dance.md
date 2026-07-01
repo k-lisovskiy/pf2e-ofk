@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Uncontrollable Dance"
-description: "The target is overcome with an allconsuming urge to dance."
+description: "The target is overcome with an all-consuming urge to dance."
 resource: "pf2e://spells/rank-8/uncontrollable-dance"
 tags: ["concentrate", "incapacitation", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Community Restoration"
-description: "Trigger You Cast a Spell from a wizard spell slot, and the spell affects one or more willing allies without damaging them."
+description: "When you use your magic to support your allies, shared strength bolsters you all."
 resource: "pf2e://spells/focus/community-restoration"
 tags: ["concentrate", "healing", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

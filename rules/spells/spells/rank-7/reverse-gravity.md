@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Reverse Gravity"
-description: "Area (continued) 20foot radius, 40foot tall cylinder You reverse gravity in the area."
+description: "Area (continued) 20-foot radius, 40-foot tall cylinder You reverse gravity in the area."
 resource: "pf2e://spells/rank-7/reverse-gravity"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

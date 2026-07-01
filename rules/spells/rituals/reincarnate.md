@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Reincarnate"
-description: "You call forth the target's soul and attempt to incarnate it into a brandnew body."
+description: "You call forth the target's soul and attempt to incarnate it into a brand-new body."
 resource: "pf2e://spells/rituals/reincarnate"
 tags: []
 timestamp: 2026-06-26T00:00:00Z

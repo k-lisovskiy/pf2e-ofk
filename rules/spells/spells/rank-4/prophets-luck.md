@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Prophet's Luck"
-description: "Trigger You or a creature within range attempts a saving throw against an obvious threat."
+description: "You prophesize the result of the triggering saving throw as either a success (including a critical success) or a failure (including a critical failure)."
 resource: "pf2e://spells/rank-4/prophets-luck"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

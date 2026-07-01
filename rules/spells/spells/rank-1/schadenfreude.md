@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Schadenfreude"
-description: "Trigger You critically fail a saving throw against a foe's effect."
+description: "You distract your enemy with their feeling of smug pleasure when you fail catastrophically."
 resource: "pf2e://spells/rank-1/schadenfreude"
 tags: ["concentrate", "emotion", "mental"]
 timestamp: 2026-06-26T00:00:00Z

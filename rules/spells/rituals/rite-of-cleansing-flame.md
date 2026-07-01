@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Rite of Cleansing Flame"
-description: "Drawing on the latent power suffused within PolBailax by its phoenix patron, you and the secondary casters send an ephemeral rush of cleansing energy through the city."
+description: "Drawing on the latent power suffused within Pol-Bailax by its phoenix patron, you and the secondary casters send an ephemeral rush of cleansing energy through the city."
 resource: "pf2e://spells/rituals/rite-of-cleansing-flame"
 tags: ["consecration", "fire"]
 timestamp: 2026-06-26T00:00:00Z

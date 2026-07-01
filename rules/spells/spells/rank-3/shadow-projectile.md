@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shadow Projectile"
-description: "Trigger An ally within 20 feet of you makes a ranged attack roll."
+description: "You create an illusory duplicate of your ally's ranged attack to confuse your opponents."
 resource: "pf2e://spells/rank-3/shadow-projectile"
 tags: ["illusion", "manipulate", "shadow", "visual"]
 timestamp: 2026-06-26T00:00:00Z

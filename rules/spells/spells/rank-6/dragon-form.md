@@ -58,7 +58,48 @@ You gain the following statistics and abilities regardless of which battle form 
 
 Spell Effect: Dragon Form
 
-DragonTraditionSpeedsDragon BreathSaving ThrowAdamantinePrimalBurrowCone of bludgeoningReflexBarrageArcane—Cone of forceReflexBogPrimalSwimCone of acidReflexBrinePrimalSwimLine of bludgeoningReflexCinderPrimal—Cone of fireReflexCloudPrimal—Cone of electricityReflexConspiratorOccultClimbCone of poisonFortitudeCoralPrimalSwimLine of bludgeoningReflexCrystalPrimal—Cone of piercingReflexDelightDivine—Cone of spiritReflexDespairOccult—Cone of sonicWillDiabolicDivine—Cone of fireReflexEmpyrealDivine—Cone of spiritReflexExecutorDivine—Cone of sonicReflexForestPrimal—Cone of piercingReflexFortuneArcane—Cone of forceReflexHornedPrimalSwimCone of poisonFortitudeMagmaPrimalBurrowCone of fireReflexMirageArcaneClimbCone of mentalWillMockingOccult—Cone of bludgeoningReflexOathDivine—Cone of spiritWillOmenOccult—Cone of mentalWillPhaseArcane—Cone of forceReflexRequiemDivineSwimLine of spiritWillResurrectionDivine—Cone of voidFortitudeRimePrimalSwimCone of coldReflexRuneArcane—Cone of fireReflexSageOccult—Cone of mentalWillSeaArcaneSwimCone of bludgeoningReflexSkyDivine—Cone of electricityReflexSovereignOccult—Cone of mentalWillStormcrownPrimal—Line of electricityReflexTimeArcane—Cone of forceWillUmbralOccult—Cone of voidReflexUnderworldArcaneBurrowCone of fireReflexVizierOccultSwimCone of fireReflexVorpalArcane—Cone of voidWillWailingArcane—Cone of sonicFortitudeWhisperOccult—Cone of mentalWillWishArcaneClimbCone of mentalWill
+| Dragon | Tradition | Speeds | Dragon Breath | Saving Throw |
+| --- | --- | --- | --- | --- |
+| Adamantine | Primal | Burrow | Cone of bludgeoning | Reflex |
+| Barrage | Arcane | — | Cone of force | Reflex |
+| Bog | Primal | Swim | Cone of acid | Reflex |
+| Brine | Primal | Swim | Line of bludgeoning | Reflex |
+| Cinder | Primal | — | Cone of fire | Reflex |
+| Cloud | Primal | — | Cone of electricity | Reflex |
+| Conspirator | Occult | Climb | Cone of poison | Fortitude |
+| Coral | Primal | Swim | Line of bludgeoning | Reflex |
+| Crystal | Primal | — | Cone of piercing | Reflex |
+| Delight | Divine | — | Cone of spirit | Reflex |
+| Despair | Occult | — | Cone of sonic | Will |
+| Diabolic | Divine | — | Cone of fire | Reflex |
+| Empyreal | Divine | — | Cone of spirit | Reflex |
+| Executor | Divine | — | Cone of sonic | Reflex |
+| Forest | Primal | — | Cone of piercing | Reflex |
+| Fortune | Arcane | — | Cone of force | Reflex |
+| Horned | Primal | Swim | Cone of poison | Fortitude |
+| Magma | Primal | Burrow | Cone of fire | Reflex |
+| Mirage | Arcane | Climb | Cone of mental | Will |
+| Mocking | Occult | — | Cone of bludgeoning | Reflex |
+| Oath | Divine | — | Cone of spirit | Will |
+| Omen | Occult | — | Cone of mental | Will |
+| Phase | Arcane | — | Cone of force | Reflex |
+| Requiem | Divine | Swim | Line of spirit | Will |
+| Resurrection | Divine | — | Cone of void | Fortitude |
+| Rime | Primal | Swim | Cone of cold | Reflex |
+| Rune | Arcane | — | Cone of fire | Reflex |
+| Sage | Occult | — | Cone of mental | Will |
+| Sea | Arcane | Swim | Cone of bludgeoning | Reflex |
+| Sky | Divine | — | Cone of electricity | Reflex |
+| Sovereign | Occult | — | Cone of mental | Will |
+| Stormcrown | Primal | — | Line of electricity | Reflex |
+| Time | Arcane | — | Cone of force | Will |
+| Umbral | Occult | — | Cone of void | Reflex |
+| Underworld | Arcane | Burrow | Cone of fire | Reflex |
+| Vizier | Occult | Swim | Cone of fire | Reflex |
+| Vorpal | Arcane | — | Cone of void | Will |
+| Wailing | Arcane | — | Cone of sonic | Fortitude |
+| Whisper | Occult | — | Cone of mental | Will |
+| Wish | Arcane | Climb | Cone of mental | Will |
 
 ---
 

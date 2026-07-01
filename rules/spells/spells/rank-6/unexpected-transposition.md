@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Unexpected Transposition"
-description: "Trigger You are targeted with an enemy's Strike."
+description: "When attacked, you attempt to quickly swap your own position with that of another creature."
 resource: "pf2e://spells/rank-6/unexpected-transposition"
 tags: ["concentrate", "teleportation"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Perfected Body"
-description: "Trigger You fail or critically fail a saving throw against an effect that has the morph, poison, or polymorph trait, or that would make you Clumsy, Doomed, Enfeebled, Petrified, or Sickened."
+description: "Your body's perfection keeps you just a little bit healthier than most."
 resource: "pf2e://spells/focus/perfected-body"
 tags: ["cleric", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Elemental Blast"
-description: "Area 10foot burst, 30foot cone, or 60foot line You gather elemental energy and blast your foes in one of the various listed shapes of your choosing, dealing 8d6 damage."
+description: "Area 10-foot burst, 30-foot cone, or 60-foot line You gather elemental energy and blast your foes in one of the various listed shapes of your choosing, dealing 8d6 damage."
 resource: "pf2e://spells/focus/elemental-blast"
 tags: ["concentrate", "manipulate", "sorcerer"]
 timestamp: 2026-06-26T00:00:00Z

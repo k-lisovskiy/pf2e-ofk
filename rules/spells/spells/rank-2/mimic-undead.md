@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Mimic Undead"
-description: "You take death and wrap it about you like a cloakyour colors wash out and your skin grows cold to the touch."
+description: "You take death and wrap it about you like a cloak-your colors wash out and your skin grows cold to the touch."
 resource: "pf2e://spells/rank-2/mimic-undead"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

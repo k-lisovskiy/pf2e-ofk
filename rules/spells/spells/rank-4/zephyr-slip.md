@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Zephyr Slip"
-description: "Trigger A creature enters a space within 5 feet of you."
+description: "An arresting breeze sweeps you up in an instant and moves you to safety."
 resource: "pf2e://spells/rank-4/zephyr-slip"
 tags: ["air", "manipulate", "move"]
 timestamp: 2026-06-26T00:00:00Z

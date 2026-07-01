@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Timely Tutor"
-description: "You serve as an astral connection between your eidolon or familiar and the Akashic Recorda demiplane consisting of a comprehensive psychic librarythen turn to the creature for advice."
+description: "You serve as an astral connection between your eidolon or familiar and the Akashic Record-a demiplane consisting of a comprehensive psychic library-then turn to the creature for advice."
 resource: "pf2e://spells/rank-2/timely-tutor"
 tags: ["manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

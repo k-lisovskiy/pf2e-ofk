@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Personal Rain Cloud"
-description: "You conjure a 5footwide rain cloud that follows the target wherever it goes."
+description: "You conjure a 5-foot-wide rain cloud that follows the target wherever it goes."
 resource: "pf2e://spells/rank-1/personal-rain-cloud"
 tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

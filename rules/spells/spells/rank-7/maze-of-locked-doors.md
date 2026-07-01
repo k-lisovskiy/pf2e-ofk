@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Maze of Locked Doors"
-description: "The target of your spell is drawn into a long, twisting, extradimensional hallway blocked at 30foot intervals with highgrade duskwood doors (Hardness 20, HP 80, BT 40, athletics save (DC 30) to For..."
+description: "The target of your spell is drawn into a long, twisting, extradimensional hallway blocked at 30-foot intervals with high-grade duskwood doors (Hardness 20, HP 80, BT 40, athletics save (DC 30) to F..."
 resource: "pf2e://spells/rank-7/maze-of-locked-doors"
 tags: ["concentrate", "extradimensional", "incapacitation", "manipulate", "teleportation"]
 timestamp: 2026-06-26T00:00:00Z

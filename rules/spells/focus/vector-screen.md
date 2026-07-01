@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Vector Screen"
-description: "You set up a transparent, rippling screen of telekinetic energy that seizes small, fastmoving projectiles."
+description: "You set up a transparent, rippling screen of telekinetic energy that seizes small, fast-moving projectiles."
 resource: "pf2e://spells/focus/vector-screen"
 tags: ["cantrip", "concentrate", "manipulate", "psychic"]
 timestamp: 2026-06-26T00:00:00Z

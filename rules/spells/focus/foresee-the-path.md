@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Foresee the Path"
-description: "You see just a split second into the future and glean how an enemy will move, making it easier for your allies to strike it midaction."
+description: "You see just a split second into the future and glean how an enemy will move, making it easier for your allies to strike it mid-action."
 resource: "pf2e://spells/focus/foresee-the-path"
 tags: ["cantrip", "concentrate", "psychic"]
 timestamp: 2026-06-26T00:00:00Z

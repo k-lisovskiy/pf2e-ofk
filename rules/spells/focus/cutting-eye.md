@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Cutting Eye"
-description: "Trigger You are the target of an attack or must attempt a saving throw against a spell."
+description: "Your eyes open enviously, stealing the power of an opponent for yourself."
 resource: "pf2e://spells/focus/cutting-eye"
 tags: ["concentrate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

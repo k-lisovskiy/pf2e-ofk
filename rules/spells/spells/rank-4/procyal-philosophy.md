@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Procyal Philosophy"
-description: "The racoonlike visage of a sagacious procyal appears, dispensing helpful advice."
+description: "The racoon-like visage of a sagacious procyal appears, dispensing helpful advice."
 resource: "pf2e://spells/rank-4/procyal-philosophy"
 tags: ["auditory", "concentrate", "good", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

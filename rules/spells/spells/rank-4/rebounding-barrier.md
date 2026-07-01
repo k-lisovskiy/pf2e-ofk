@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Rebounding Barrier"
-description: "Trigger You are hit by a physical Strike."
+description: "You swiftly raise a reflective barrier, reducing physical damage and rebounding it onto your attacker."
 resource: "pf2e://spells/rank-4/rebounding-barrier"
 tags: ["concentrate"]
 timestamp: 2026-06-26T00:00:00Z

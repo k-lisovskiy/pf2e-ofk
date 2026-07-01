@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Victory Cry"
-description: "Trigger An ally within range critically succeeds at a melee Strike."
+description: "Your true might comes from your bonds with your allies, and you glory in their achievements."
 resource: "pf2e://spells/focus/victory-cry"
 tags: ["cleric", "concentrate", "sonic"]
 timestamp: 2026-06-26T00:00:00Z

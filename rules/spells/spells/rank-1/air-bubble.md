@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Air Bubble"
-description: "Trigger A creature within range enters an environment where it can't breathe."
+description: "A bubble of pure air appears around the target's head, allowing it to breathe normally."
 resource: "pf2e://spells/rank-1/air-bubble"
 tags: ["air", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

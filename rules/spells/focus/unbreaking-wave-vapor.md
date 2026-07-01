@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Unbreaking Wave Vapor"
-description: "Trigger You're targeted by an attack made by an attacker you can see."
+description: "You're Concealed against the triggering attack and gain a +2 circumstance bonus to AC against it."
 resource: "pf2e://spells/focus/unbreaking-wave-vapor"
 tags: ["concentrate", "water"]
 timestamp: 2026-06-26T00:00:00Z

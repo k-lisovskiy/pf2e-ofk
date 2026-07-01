@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Labyrinthine Prison"
-description: "This ritual was developed by a longdead minotaur herogod whose cult trained to hunt and trap evil beings."
+description: "This ritual was developed by a long-dead minotaur hero-god whose cult trained to hunt and trap evil beings."
 resource: "pf2e://spells/rituals/labyrinthine-prison"
 tags: ["mythic", "teleportation"]
 timestamp: 2026-06-26T00:00:00Z

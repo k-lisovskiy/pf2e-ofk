@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Downpour"
-description: "You call forth a torrential downpour, which extinguishes nonmagical flames."
+description: "You call forth a torrential downpour, which extinguishes non-magical flames."
 resource: "pf2e://spells/focus/downpour"
 tags: ["cleric", "concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

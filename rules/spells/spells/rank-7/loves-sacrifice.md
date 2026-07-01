@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Love's Sacrifice"
-description: "Trigger You take damage that would reduce you to 0 Hit Points."
+description: "You cry out for aid, and a creature near you feels compelled to throw itself in front of the threat as the ultimate expression of their love."
 resource: "pf2e://spells/rank-7/loves-sacrifice"
 tags: ["auditory", "concentrate", "emotion", "mental"]
 timestamp: 2026-06-26T00:00:00Z

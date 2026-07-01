@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Redistribute Potential"
-description: "Area two adjacent 5foot squares Energy attempts to balance out, but with your magic, you can shunt all the energy in one area to another."
+description: "Area two adjacent 5-foot squares Energy attempts to balance out, but with your magic, you can shunt all the energy in one area to another."
 resource: "pf2e://spells/focus/redistribute-potential"
 tags: ["cantrip", "cold", "concentrate", "fire", "manipulate", "psychic"]
 timestamp: 2026-06-26T00:00:00Z

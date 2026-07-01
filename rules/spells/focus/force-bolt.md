@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Force Bolt"
-description: "You fire an arrowshaped bolt of force, one of the most common and reliable forms of battle magic."
+description: "You fire an arrow-shaped bolt of force, one of the most common and reliable forms of battle magic."
 resource: "pf2e://spells/focus/force-bolt"
 tags: ["force", "manipulate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

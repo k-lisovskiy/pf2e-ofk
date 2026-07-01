@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blister Bomb"
-description: "You launch a small bomb enchanted with a fastacting skin disease at your foes, causing their skin to break out in horrible bleeding sores."
+description: "You launch a small bomb enchanted with a fast-acting skin disease at your foes, causing their skin to break out in horrible bleeding sores."
 resource: "pf2e://spells/rank-3/blister-bomb"
 tags: ["concentrate", "disease", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

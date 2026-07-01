@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Mimic Spell"
-description: "Trigger A creature you're aware of within range Casts a Spell of the same tradition as mimic spell and of the same or lower rank."
+description: "You learn the secrets of a spell just by watching someone else cast it."
 resource: "pf2e://spells/rank-8/mimic-spell"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

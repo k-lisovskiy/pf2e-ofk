@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Scintillating Safeguard"
-description: "Trigger An effect would deal physical or energy damage to you or a creature in range."
+description: "A sparkling magical barrier envelops each target, shielding them against the triggering effect."
 resource: "pf2e://spells/rank-6/scintillating-safeguard"
 tags: ["manipulate"]
 timestamp: 2026-06-26T00:00:00Z

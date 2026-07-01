@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Spy's Mark"
-description: "By pressing your hand to a wall or other solid immobile surface, you cause the crossedswords symbol of the Firebrands—or a different symbol of your choosing—to appear on the targeted surface."
+description: "By pressing your hand to a wall or other solid immobile surface, you cause the crossed-swords symbol of the Firebrands—or a different symbol of your choosing—to appear on the targeted surface."
 resource: "pf2e://spells/rank-2/spys-mark"
 tags: ["concentrate", "manipulate", "scrying"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blastback"
-description: "Trigger You fall more than 10 feet."
+description: "You hit the ground with a shuddering boom, propelling the force of your fall out in a wave."
 resource: "pf2e://spells/rank-3/blastback"
 tags: ["air", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

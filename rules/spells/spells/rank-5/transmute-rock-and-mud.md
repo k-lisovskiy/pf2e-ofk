@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Transmute Rock And Mud"
-description: "Area 2 adjacent 10foot cubes You warp the structure of earthen material, turning rock into mud or mud into rock."
+description: "Area 2 adjacent 10-foot cubes You warp the structure of earthen material, turning rock into mud or mud into rock."
 resource: "pf2e://spells/rank-5/transmute-rock-and-mud"
 tags: ["concentrate", "earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

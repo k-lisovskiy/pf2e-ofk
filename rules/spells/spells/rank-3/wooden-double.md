@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Wooden Double"
-description: "Trigger You're critically hit by a damagedealing effect or a Strike."
+description: "A wooden double appears out of nowhere and takes the blow in your place."
 resource: "pf2e://spells/rank-3/wooden-double"
 tags: ["manipulate", "wood"]
 timestamp: 2026-06-26T00:00:00Z

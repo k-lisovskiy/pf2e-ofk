@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Whirlpool"
-description: "Area 25foot radius, 20foot tall cylinder With a spin of your hand, you create a large swirling vortex of storming waves."
+description: "Area 25-foot radius, 20-foot tall cylinder With a spin of your hand, you create a large swirling vortex of storming waves."
 resource: "pf2e://spells/rank-8/whirlpool"
 tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

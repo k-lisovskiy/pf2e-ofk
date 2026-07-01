@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Summon Plant or Fungus"
-description: "You summon a creature that has the plant or fungus trait and whose level is 1 to fight for you."
+description: "You summon a creature that has the plant or fungus trait and whose level is -1 to fight for you."
 resource: "pf2e://spells/rank-1/summon-plant-or-fungus"
 tags: ["concentrate", "manipulate", "summon"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Teleportation Circle"
-description: "You create a 10footdiameter circle on the ground, which acts as a portal to a destination determined at the time of the ritual."
+description: "You create a 10-foot-diameter circle on the ground, which acts as a portal to a destination determined at the time of the ritual."
 resource: "pf2e://spells/rituals/teleportation-circle"
 tags: ["teleportation"]
 timestamp: 2026-06-26T00:00:00Z

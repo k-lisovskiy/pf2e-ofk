@@ -36,7 +36,14 @@ You evoke the energy of a part of the Outer Rifts. The damage types of the spell
 
 **Chthonian Wrath
 
-**[[/r 1D4]]RealmManifestationDamage and type1SkiesBolts and lightning and flying debrisBludgeoning and electricity2DepthsAcid and demonic shellsAcid and slashing3FrozenFrigid air and iceBludgeoning and cold4VolcanicJagged volcanic rocks and magmaFire and piercing
+**
+
+| [[/r 1D4]] | Realm | Manifestation | Damage and type |
+| --- | --- | --- | --- |
+| 1 | Skies | Bolts and lightning and flying debris | Bludgeoning and electricity |
+| 2 | Depths | Acid and demonic shells | Acid and slashing |
+| 3 | Frozen | Frigid air and ice | Bludgeoning and cold |
+| 4 | Volcanic | Jagged volcanic rocks and magma | Fire and piercing |
 
 # Citations
 

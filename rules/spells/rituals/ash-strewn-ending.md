@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Ash-Strewn Ending"
-description: "Lo, speak of the herogods and their ashstrewn endings!"
+description: "Lo, speak of the hero-gods and their ash-strewn endings!"
 resource: "pf2e://spells/rituals/ash-strewn-ending"
 tags: ["death", "mythic"]
 timestamp: 2026-06-26T00:00:00Z

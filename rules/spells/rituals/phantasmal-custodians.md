@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Phantasmal Custodians"
-description: "Area 100 feet × 100 feet, up to 20 feet high You create a longlasting adaptation of the Phantasmal Minion, forming entities to carry out basic tasks at a fixed location."
+description: "Area 100 feet × 100 feet, up to 20 feet high You create a long-lasting adaptation of the Phantasmal Minion, forming entities to carry out basic tasks at a fixed location."
 resource: "pf2e://spells/rituals/phantasmal-custodians"
 tags: []
 timestamp: 2026-06-26T00:00:00Z

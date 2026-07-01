@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blinding Fury"
-description: "Trigger A creature damages you."
+description: "You curse the target with your outrage at being attacked."
 resource: "pf2e://spells/rank-6/blinding-fury"
 tags: ["concentrate", "curse", "emotion", "incapacitation", "mental"]
 timestamp: 2026-06-26T00:00:00Z

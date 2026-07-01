@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Nullify"
-description: "Trigger A foe within range casts a 9thrank or lower spell."
+description: "You instantly destroy the incoming spell, though at the cost of sending magical feedback through your body."
 resource: "pf2e://spells/rank-10/nullify"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

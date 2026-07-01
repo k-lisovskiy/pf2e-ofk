@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Flame Barrier"
-description: "Trigger An effect would deal fire damage to either you or an ally within range."
+description: "You swiftly deflect incoming flames."
 resource: "pf2e://spells/focus/flame-barrier"
 tags: ["cleric", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Share Burden"
-description: "Trigger An ally within range is about to attempt a saving throw against a harmful emotion effect, and you would not otherwise have to save against the effect."
+description: "You shoulder some of your ally's pain."
 resource: "pf2e://spells/focus/share-burden"
 tags: ["cleric", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

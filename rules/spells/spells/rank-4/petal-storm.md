@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Petal Storm"
-description: "You bring forth a cloud of razorsharp flower petals that thrash violently in the wind."
+description: "You bring forth a cloud of razor-sharp flower petals that thrash violently in the wind."
 resource: "pf2e://spells/rank-4/petal-storm"
 tags: ["air", "concentrate", "manipulate", "plant", "wood"]
 timestamp: 2026-06-26T00:00:00Z

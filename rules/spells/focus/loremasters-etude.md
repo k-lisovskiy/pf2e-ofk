@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Loremaster's Etude"
-description: "Trigger You or an ally within range attempts a skill check to Recall Knowledge You call upon your muse's deep mysteries, granting the target a greater ability to think and recall information."
+description: "You call upon your muse's deep mysteries, granting the target a greater ability to think and recall information."
 resource: "pf2e://spells/focus/loremasters-etude"
 tags: ["bard", "composition", "fortune", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Polar Ray"
-description: "You fire a bluewhite ray of freezing air and sleet that deals 10d8 cold damage."
+description: "You fire a blue-white ray of freezing air and sleet that deals 10d8 cold damage."
 resource: "pf2e://spells/rank-8/polar-ray"
 tags: ["attack", "cold", "concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

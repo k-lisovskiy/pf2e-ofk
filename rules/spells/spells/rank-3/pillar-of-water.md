@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Pillar of Water"
-description: "You create a large, selfcontained cylinder of still, clear fresh water."
+description: "You create a large, self-contained cylinder of still, clear fresh water."
 resource: "pf2e://spells/rank-3/pillar-of-water"
 tags: ["concentrate", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

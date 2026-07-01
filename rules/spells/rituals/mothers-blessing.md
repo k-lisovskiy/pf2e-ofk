@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Mother's Blessing"
-description: "You attempt to purify and stabilize the life inside of UlgremAxaan's last remaining clutch of eggs."
+description: "You attempt to purify and stabilize the life inside of Ulgrem-Axaan's last remaining clutch of eggs."
 resource: "pf2e://spells/rituals/mothers-blessing"
 tags: ["beast", "consecration", "vitality"]
 timestamp: 2026-06-26T00:00:00Z

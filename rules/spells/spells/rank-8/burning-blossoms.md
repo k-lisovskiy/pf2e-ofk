@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Burning Blossoms"
-description: "Area 30foot radius, 100foot tall cylinder An intangible hollow tree sprouts from the ground and grows to towering height, radiating a fiery passion and fascinating viewers."
+description: "Area 30-foot radius, 100-foot tall cylinder An intangible hollow tree sprouts from the ground and grows to towering height, radiating a fiery passion and fascinating viewers."
 resource: "pf2e://spells/rank-8/burning-blossoms"
 tags: ["concentrate", "fire", "manipulate", "plant"]
 timestamp: 2026-06-26T00:00:00Z

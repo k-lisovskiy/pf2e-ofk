@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Gentle Landing"
-description: "Trigger a creature within range is falling You raise a magical updraft to arrest a fall."
+description: "You raise a magical updraft to arrest a fall."
 resource: "pf2e://spells/rank-1/gentle-landing"
 tags: ["air", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

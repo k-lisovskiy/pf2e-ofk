@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Flame Strike"
-description: "Area: 10foot radius, 40foottall cylinder You call a rain of divine fire that plummets down from above, dealing 8d6 fire damage."
+description: "Area: 10-foot radius, 40-foot-tall cylinder You call a rain of divine fire that plummets down from above, dealing 8d6 fire damage."
 resource: "pf2e://spells/rank-5/flame-strike"
 tags: ["concentrate", "fire", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

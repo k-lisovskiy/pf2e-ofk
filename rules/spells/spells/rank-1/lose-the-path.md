@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Lose the Path"
-description: "Trigger A creature in range Strides You surround a moving creature with lifelike illusions, shifting their perception of the terrain to subtly lead them off course."
+description: "You surround a moving creature with lifelike illusions, shifting their perception of the terrain to subtly lead them off course."
 resource: "pf2e://spells/rank-1/lose-the-path"
 tags: ["illusion", "manipulate", "mental", "visual"]
 timestamp: 2026-06-26T00:00:00Z

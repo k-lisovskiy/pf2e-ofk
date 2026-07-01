@@ -1,0 +1,41 @@
+---
+type: Class Feat
+title: "Headshot"
+description: "You attempt to finish your target with a final, well-placed shot."
+resource: "pf2e://feats/class/gunslinger/headshot"
+tags: ["concentrate", "gunslinger"]
+timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
+level: 14
+category: "class"
+subcategory: "gunslinger"
+action_type: "action"
+actions: "2"
+frequency: ""
+prerequisites: ["way of the sniper"]
+only_level_1: false
+max_takable: 
+self_effect: ""
+publication: "Pathfinder Guns & Gears"
+---
+
+# Overview
+
+- **Level**: 14
+- **Category**: Class (gunslinger)
+- **Action**: 2 actions
+- **Prerequisites**: way of the sniper
+- **Traits**: concentrate, gunslinger
+
+## Description
+
+**Requirements** You're wielding a loaded firearm or crossbow.
+
+---
+
+You attempt to finish your target with a final, well-placed shot. Make a crossbow or firearm Strike. If you've damaged the target within the last minute with the same weapon and you get a critical success on your attack roll, the target must succeed at a fortitude save save against your class DC or die; this is a death and incapacitation effect. A creature that survives is temporarily immune for 1 day. Creatures with no head (such as dullahans or oozes) are immune to this ability, and creatures with redundant heads (such as ettins) might survive the destruction of a head.
+
+# Citations
+
+[1] Pathfinder Guns & Gears
+[2] Source: `packs/pf2e/feats/class/gunslinger/level-14/headshot.json` (pf2e system data)

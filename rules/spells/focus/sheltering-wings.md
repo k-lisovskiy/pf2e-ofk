@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Sheltering Wings"
-description: "Trigger An ally moves through a square within 15 feet of you or uses an action that has the move trait."
+description: "Like migratory birds, you know everyone flies farther together."
 resource: "pf2e://spells/focus/sheltering-wings"
 tags: ["hex", "manipulate", "witch"]
 timestamp: 2026-06-26T00:00:00Z

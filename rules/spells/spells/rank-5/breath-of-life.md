@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Breath of Life"
-description: "Trigger A living creature within range would die."
+description: "Your blessing revives a creature at the moment of its death."
 resource: "pf2e://spells/rank-5/breath-of-life"
 tags: ["concentrate", "healing", "vitality"]
 timestamp: 2026-06-26T00:00:00Z

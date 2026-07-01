@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Hidebound"
-description: "Trigger A creature within range is hit with a Strike that deals physical damage."
+description: "The target's skin erupts in thick hide or dense scales."
 resource: "pf2e://spells/rank-2/hidebound"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

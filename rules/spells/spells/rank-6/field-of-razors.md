@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Field of Razors"
-description: "You grind a chunk of your choice of metal to fine dust between your hands and blow it into the air, where it grows into a tangle of wires covered in razorsharp prongs."
+description: "You grind a chunk of your choice of metal to fine dust between your hands and blow it into the air, where it grows into a tangle of wires covered in razor-sharp prongs."
 resource: "pf2e://spells/rank-6/field-of-razors"
 tags: ["concentrate", "manipulate", "metal"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Cataclysm"
-description: "You call upon the unimaginable power of worldending cataclysms, ripping a small piece of each cataclysm and combining them together into one horrifically powerful attack."
+description: "You call upon the unimaginable power of world-ending cataclysms, ripping a small piece of each cataclysm and combining them together into one horrifically powerful attack."
 resource: "pf2e://spells/rank-10/cataclysm"
 tags: ["acid", "air", "cold", "concentrate", "earth", "electricity", "fire", "manipulate", "water"]
 timestamp: 2026-06-26T00:00:00Z

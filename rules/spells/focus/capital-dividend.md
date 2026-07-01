@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Capital Dividend"
-description: "Trigger You would be reduced to 0 Hit Points but not immediately killed."
+description: "Through diet and other strict regimens, you've fortified your body as Kalistrade's teachings have fortified your mind."
 resource: "pf2e://spells/focus/capital-dividend"
 tags: ["concentrate", "wizard"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Practice Makes Perfect"
-description: "Trigger You or an ally within range fails a skill check for a skill in which you or they are trained."
+description: "The target gains a +2 status bonus to the triggering check, or a +3 bonus if the target has master or better proficiency in the skill."
 resource: "pf2e://spells/focus/practice-makes-perfect"
 tags: ["cleric", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

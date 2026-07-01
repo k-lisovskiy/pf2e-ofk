@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Rose's Thorns"
-description: "Rose bushes with razorsharp thorns sprout from the ground in the area."
+description: "Rose bushes with razor-sharp thorns sprout from the ground in the area."
 resource: "pf2e://spells/rank-6/roses-thorns"
 tags: ["concentrate", "manipulate", "plant"]
 timestamp: 2026-06-26T00:00:00Z

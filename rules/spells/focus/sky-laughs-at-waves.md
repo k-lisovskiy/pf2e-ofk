@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Sky Laughs at Waves"
-description: "Requirements You're wielding a onehanded weapon in the sword group."
+description: "You soar and leave the world's squabbles behind before your violent intentions ground you once more."
 resource: "pf2e://spells/focus/sky-laughs-at-waves"
 tags: ["magus", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

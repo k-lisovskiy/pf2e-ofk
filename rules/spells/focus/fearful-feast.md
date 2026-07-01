@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Fearful Feast"
-description: "Trigger A creature within range becomes Frightened You open your mouth wide and inhale sharply; you draw in the bravery, selfconfidence, and hope to which the frightened target clings and then stri..."
+description: "You open your mouth wide and inhale sharply; you draw in the bravery, self-confidence, and hope to which the frightened target clings and then strip away the target's false assumption that these fr..."
 resource: "pf2e://spells/focus/fearful-feast"
 tags: ["cleric", "fear", "manipulate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

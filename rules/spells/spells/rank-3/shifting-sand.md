@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Shifting Sand"
-description: "Area (continued) a horizontal earthen or sandy surface within a 20foot burst You cause the surface to heave."
+description: "Area (continued) a horizontal earthen or sandy surface within a 20-foot burst You cause the surface to heave."
 resource: "pf2e://spells/rank-3/shifting-sand"
 tags: ["concentrate", "earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

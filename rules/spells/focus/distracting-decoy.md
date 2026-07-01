@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Distracting Decoy"
-description: "You conjure a colorful, fastmoving shape, such as a small bird or other animal that draws your target's eye."
+description: "You conjure a colorful, fast-moving shape, such as a small bird or other animal that draws your target's eye."
 resource: "pf2e://spells/focus/distracting-decoy"
 tags: ["concentrate", "ranger", "visual"]
 timestamp: 2026-06-26T00:00:00Z

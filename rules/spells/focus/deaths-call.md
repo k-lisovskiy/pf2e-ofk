@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Death's Call"
-description: "Trigger A living creature within 20 feet of you dies, or an undead creature within 20 feet of you is destroyed."
+description: "Seeing another pass from this world invigorates you."
 resource: "pf2e://spells/focus/deaths-call"
 tags: ["cleric", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

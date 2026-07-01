@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Expeditious Excavation"
-description: "Area (continued) cube of dirt 5 feet across or smaller You remove loose dirt, dust, gravel, sand, and the like (though not solid stone) up to the size of a 5foot cube."
+description: "Area (continued) cube of dirt 5 feet across or smaller You remove loose dirt, dust, gravel, sand, and the like (though not solid stone) up to the size of a 5-foot cube."
 resource: "pf2e://spells/rank-2/expeditious-excavation"
 tags: ["concentrate", "earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

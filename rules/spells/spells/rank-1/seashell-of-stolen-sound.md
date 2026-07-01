@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Seashell of Stolen Sound"
-description: "Trigger A creature within range begins to make a sound."
+description: "You store a sound in a seashell to use as you will: the last words of a loved one, a dragon's mighty roar, the compromising conversation between two powerful diplomats, or even more strange and sec..."
 resource: "pf2e://spells/rank-1/seashell-of-stolen-sound"
 tags: ["concentrate", "sonic"]
 timestamp: 2026-06-26T00:00:00Z

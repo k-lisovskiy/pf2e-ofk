@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Day's Weight"
-description: "You fastforward time for a single creature, burdening it with the aches and pain of an entire day and making it temporarily tired and weak."
+description: "You fast-forward time for a single creature, burdening it with the aches and pain of an entire day and making it temporarily tired and weak."
 resource: "pf2e://spells/rank-3/days-weight"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

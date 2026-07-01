@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Chastising Retort"
-description: "Trigger A creature within range attempts a Deception check to Lie or Feint."
+description: "You unleash some choice words empowered with divine might."
 resource: "pf2e://spells/focus/chastising-retort"
 tags: ["cleric", "concentrate", "mental"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,0 +1,39 @@
+---
+type: Archetype Feat
+title: "Mutable Familiar"
+description: "Your familiar's supernatural spirit has outgrown its corporeal body."
+resource: "pf2e://feats/archetype/familiar-master/mutable-familiar"
+tags: ["archetype"]
+timestamp: 2026-06-26T00:00:00Z
+rarity: "common"
+level: 8
+category: "archetype"
+subcategory: "familiar-master"
+action_type: "passive"
+actions: ""
+frequency: ""
+prerequisites: ["Familiar Master Dedication"]
+only_level_1: false
+max_takable: 
+self_effect: ""
+publication: "Pathfinder Player Core 2"
+---
+
+# Overview
+
+- **Level**: 8
+- **Category**: Archetype (familiar-master)
+- **Action**: Passive
+- **Prerequisites**: Familiar Master Dedication
+- **Traits**: archetype
+
+## Description
+
+Your familiar's supernatural spirit has outgrown its corporeal body. You can conduct a special 10-minute activity to reselect certain familiar abilities, switching one or more of the following abilities for other abilities on this list: amphibious, burrower, climber, darkvision, fast movement, manual dexterity, resistance, and scent.
+
+You can reselect only familiar abilities you would normally be able to reselect each day, not required familiar abilities for your familiar. You can't remove an ability that is required for another ability your familiar has (for instance, you can't remove manual dexterity if the familiar has lab assistant).
+
+# Citations
+
+[1] Pathfinder Player Core 2
+[2] Source: `packs/pf2e/feats/archetype/familiar-master/mutable-familiar.json` (pf2e system data)

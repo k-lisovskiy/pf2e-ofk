@@ -1,7 +1,7 @@
 ---
 type: Cantrip
 title: "Light"
-description: "You create an orb of light that sheds bright light in a 20foot radius (and dim light for the next 20 feet) in a color you choose."
+description: "You create an orb of light that sheds bright light in a 20-foot radius (and dim light for the next 20 feet) in a color you choose."
 resource: "pf2e://spells/cantrip/light"
 tags: ["concentrate", "light", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

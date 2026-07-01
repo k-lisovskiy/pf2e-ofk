@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Portrait of the Artist"
-description: "You change your appearance to look like a wellknown artist talented at a particular craft or performance, such as a painter, singer, or orator, with the effects of illusory disguise."
+description: "You change your appearance to look like a well-known artist talented at a particular craft or performance, such as a painter, singer, or orator, with the effects of illusory disguise."
 resource: "pf2e://spells/rank-5/portrait-of-the-artist"
 tags: ["concentrate", "illusion", "manipulate", "visual"]
 timestamp: 2026-06-26T00:00:00Z

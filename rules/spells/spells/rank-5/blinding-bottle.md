@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blinding Bottle"
-description: "You conjure an exploding glass container filled with a sightstealing poison and hurl it across enemy lines."
+description: "You conjure an exploding glass container filled with a sight-stealing poison and hurl it across enemy lines."
 resource: "pf2e://spells/rank-5/blinding-bottle"
 tags: ["concentrate", "manipulate", "poison"]
 timestamp: 2026-06-26T00:00:00Z

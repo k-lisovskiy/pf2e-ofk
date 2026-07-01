@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Bottle the Storm"
-description: "Trigger You would take electricity damage."
+description: "When lightning is turned against you, you store the charge safely within yourself, unleashing it when the time is right."
 resource: "pf2e://spells/focus/bottle-the-storm"
 tags: ["cleric", "electricity", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

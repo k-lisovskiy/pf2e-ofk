@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Gnaw at the Moon"
-description: "It's said that after his demise at the hands of jealous Fumeiyoshi, Tsukiyo's corpse was left unguarded; this provided a humble matronrat opportunities to nibble at god flesh, a meal that transform..."
+description: "It's said that after his demise at the hands of jealous Fumeiyoshi, Tsukiyo's corpse was left unguarded; this provided a humble matron-rat opportunities to nibble at god flesh, a meal that transfor..."
 resource: "pf2e://spells/rituals/gnaw-at-the-moon"
 tags: []
 timestamp: 2026-06-26T00:00:00Z

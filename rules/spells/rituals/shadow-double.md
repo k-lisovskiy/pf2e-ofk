@@ -1,7 +1,7 @@
 ---
 type: Ritual
 title: "Shadow Double"
-description: "You create an illusory duplicate of the target creature by drawing shadowy material from the Netherworld and sculpting it into a semisolid form."
+description: "You create an illusory duplicate of the target creature by drawing shadowy material from the Netherworld and sculpting it into a semi-solid form."
 resource: "pf2e://spells/rituals/shadow-double"
 tags: ["illusion"]
 timestamp: 2026-06-26T00:00:00Z

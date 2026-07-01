@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Fashionista"
-description: "The target's clothes are transformed into ostentatious attire that epitomizes highend local fashion."
+description: "The target's clothes are transformed into ostentatious attire that epitomizes high-end local fashion."
 resource: "pf2e://spells/rank-1/fashionista"
 tags: ["concentrate", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

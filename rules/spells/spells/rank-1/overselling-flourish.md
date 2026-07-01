@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Overselling Flourish"
-description: "Trigger A creature damages you."
+description: "You make a grand spectacle out of getting hit."
 resource: "pf2e://spells/rank-1/overselling-flourish"
 tags: ["illusion", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

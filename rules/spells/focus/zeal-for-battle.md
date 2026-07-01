@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Zeal for Battle"
-description: "Trigger You and at least 1 ally are about to roll initiative."
+description: "You stoke the righteous anger within yourself and an ally."
 resource: "pf2e://spells/focus/zeal-for-battle"
 tags: ["cleric", "concentrate", "emotion", "fortune", "mental"]
 timestamp: 2026-06-26T00:00:00Z

@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Exploding Earth"
-description: "You throw a hardpacked ball of earth and stone at a creature, and the projectile explodes upon impact."
+description: "You throw a hard-packed ball of earth and stone at a creature, and the projectile explodes upon impact."
 resource: "pf2e://spells/rank-2/exploding-earth"
 tags: ["attack", "concentrate", "earth", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

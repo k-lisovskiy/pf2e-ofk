@@ -1,7 +1,7 @@
 ---
 type: Spell
 title: "Blazing Blade"
-description: "A scimitarshaped beam of fiery light springs from your free hand."
+description: "A scimitar-shaped beam of fiery light springs from your free hand."
 resource: "pf2e://spells/rank-2/blazing-blade"
 tags: ["attack", "concentrate", "fire", "holy", "manipulate"]
 timestamp: 2026-06-26T00:00:00Z

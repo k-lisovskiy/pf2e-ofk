@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Steal the Sky"
-description: "Trigger You make a successful unarmed Strike against a flying creature."
+description: "You deny a flying creature the support of the air."
 resource: "pf2e://spells/focus/steal-the-sky"
 tags: ["air", "concentrate"]
 timestamp: 2026-06-26T00:00:00Z

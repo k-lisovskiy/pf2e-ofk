@@ -1,7 +1,7 @@
 ---
 type: Focus Spell
 title: "Battlefield Persistence"
-description: "Trigger You are about to attempt a saving throw, but you haven't rolled yet."
+description: "You're difficult to deter in battle."
 resource: "pf2e://spells/focus/battlefield-persistence"
 tags: ["concentrate", "oracle"]
 timestamp: 2026-06-26T00:00:00Z
